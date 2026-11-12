@@ -2,6 +2,16 @@
 
 Site officiel de préparation du studio de contenu. Chaque fiche est une page HTML lisible sans JavaScript, par une personne ou par une IA.
 
+**Site en ligne : https://zoard-lf-mentor.github.io/plan-studio/**
+
+## Modifier le plan
+
+1. Ouvrir `src/plan.json` sur GitHub et cliquer sur le crayon.
+2. Modifier le texte, puis cliquer sur « Commit changes ».
+3. Le site se met à jour tout seul en une à deux minutes.
+
+Si la modification contient une erreur (un lien vers une fiche qui n’existe pas, une fiche sans direction), le site en ligne ne change pas. L’onglet « Actions » du dépôt indique alors ce qui est à corriger.
+
 ## Organisation
 
 - `src/plan.json` : tout le contenu du site. C’est le seul fichier à modifier pour changer le plan.
@@ -9,7 +19,8 @@ Site officiel de préparation du studio de contenu. Chaque fiche est une page HT
 - `build.mjs` : contrôle le plan, puis génère le site dans `dist/`.
 - `tests/` : cas à blanc des outils (comparateur de formats, dossier de lot, contrôle d’autonomie).
 - `brouillon.mjs` et `src/brouillon.json` : suivi du brouillon publié ailleurs.
-- `dist/` : le site généré. Ne pas le modifier à la main.
+- `.github/workflows/publier.yml` : à chaque envoi sur `main`, rejoue les cas à blanc, génère le site et le publie.
+- `dist/` : le site généré. Il n’est pas dans le dépôt : `build.mjs` le recrée.
 
 ## Commandes
 
@@ -20,7 +31,7 @@ node brouillon.mjs          liste ce qui a changé dans le brouillon depuis la d
 node brouillon.mjs --integre   à lancer une fois les nouveautés du brouillon reportées dans src/plan.json
 ```
 
-Node 20 ou plus récent suffit, sans dépendance. Pour voir le résultat, ouvrir `dist/index.html`. Pour publier, envoyer le contenu de `dist/`.
+Node 20 ou plus récent suffit, sans dépendance. Pour voir le résultat sur son ordinateur, lancer `node build.mjs` puis ouvrir `dist/index.html`. Pour publier, envoyer les modifications sur `main` : la publication est automatique.
 
 `brouillon.mjs` ne modifie jamais `src/plan.json` : il écrit le détail des écarts dans `brouillon-ecarts.json`, à reporter à la main.
 

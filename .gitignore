@@ -1,2 +1,5 @@
 # Détail des écarts du brouillon, recréé par brouillon.mjs
 brouillon-ecarts.json
+
+# Site généré : recréé par build.mjs, et publié automatiquement à chaque envoi
+dist/
