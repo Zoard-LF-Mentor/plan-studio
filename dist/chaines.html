@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#101712">
+<meta name="description" content="Chaque ligne de contenu possède sa chaîne et sa propre diffusion sur plusieurs réseaux. Les catégories rassemblent des chaînes apparentées; chaque fiche précise son périmètre, ses règles d’exploitation et ses adaptations.">
+<title>Chaînes · Plan du studio</title>
+<link rel="preload" href="assets/instrument-serif.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="studio.css">
+<link rel="icon" href="assets/studio-icon.png" type="image/png">
+<link rel="alternate" type="text/markdown" href="plan.md" title="Plan complet en Markdown">
+<script src="tools.js" defer></script>
+<script src="search-index.js" defer></script>
+<script src="studio.js" defer></script>
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" class="sprite" aria-hidden="true">
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+<symbol id="i-back" viewBox="0 0 24 24"><path d="M20 12H5m6 6-6-6 6-6"/></symbol>
+<symbol id="i-diagonal" viewBox="0 0 24 24"><path d="M6 18 18 6M7 6h11v11"/></symbol>
+<symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.2"/><path d="m15 15 4.3 4.3"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+<symbol id="i-chaines" viewBox="0 0 24 24"><rect x="3.5" y="4.5" width="9.5" height="7" rx="1.25"/><path d="M7.5 11.5v6a2 2 0 0 0 2 2H13"/><rect x="13" y="15.5" width="7.5" height="6" rx="1.25"/><path d="M13 8h7.5"/></symbol>
+<symbol id="i-argent" viewBox="0 0 24 24"><ellipse cx="11.5" cy="6.4" rx="7" ry="2.9"/><path d="M4.5 6.4v5.5c0 1.6 3.1 2.9 7 2.9s7-1.3 7-2.9V6.4M4.5 11.9v5.5c0 1.6 3.1 2.9 7 2.9s7-1.3 7-2.9v-5.5"/></symbol>
+<symbol id="i-preparation" viewBox="0 0 24 24"><rect x="5" y="3.5" width="14" height="17" rx="2"/><path d="m8 9 1.3 1.3L12 7.7M14 9h2m-8 6.5 1.3 1.3 2.7-2.6m2 1.3h2"/></symbol>
+<symbol id="i-automatisation" viewBox="0 0 24 24"><rect x="8.5" y="3" width="7" height="6" rx="1.3"/><rect x="3" y="15" width="7" height="6" rx="1.3"/><rect x="14" y="15" width="7" height="6" rx="1.3"/><path d="M12 9v3m-5.5 3v-3h11v3"/></symbol>
+<symbol id="i-atelier" viewBox="0 0 24 24"><path d="M8.5 3.5h7m-5.7 0v6l-5 7.6a2 2 0 0 0 1.7 3.1h11a2 2 0 0 0 1.7-3.1l-5-7.6v-6M7.5 14.5h9"/></symbol>
+<symbol id="i-file" viewBox="0 0 24 24"><path d="M7 3.5h7l4.5 4.5V19a1.5 1.5 0 0 1-1.5 1.5H7A1.5 1.5 0 0 1 5.5 19V5A1.5 1.5 0 0 1 7 3.5Z"/><path d="M14 3.5V8h4.5M9 12h6m-6 4h6"/></symbol>
+<symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="11.5" height="11.5" rx="2"/><path d="M15.5 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v7.5a2 2 0 0 0 2 2h2"/></symbol>
+<symbol id="i-direction" viewBox="0 0 24 24"><path d="M12 2.8v4.4m0 9.6v4.4M2.8 12h4.4m9.6 0h4.4"/><path d="m12 6.2 1.8 4 4 1.8-4 1.8-1.8 4-1.8-4-4-1.8 4-1.8z"/></symbol>
+</svg>
+<a class="skip" href="#contenu">Aller au contenu</a>
+<header class="top">
+<div class="shell top-in">
+<a class="brand" href="index.html" aria-label="Studio de contenu, accueil"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>Studio de contenu</span></a>
+<nav class="top-nav" aria-label="Navigation principale"><a href="index.html#carte">Carte</a><a href="decisions.html">Décisions</a><a href="sources.html">Sources</a><a href="guide.html">Guide</a></nav>
+<button class="search-btn" type="button" id="open-search" aria-label="Rechercher dans le plan" aria-keyshortcuts="Control+K Meta+K" hidden><svg class="icon" aria-hidden="true"><use href="#i-search"></use></svg><span>Rechercher</span><kbd>Ctrl K</kbd></button>
+</div>
+</header>
+<main id="contenu" tabindex="-1">
+<div class="shell frame">
+<nav class="tree" id="arborescence" aria-label="Arborescence du plan"><h2>Arborescence</h2><div class="branches"><ul><li><details open><summary><a href="chaines.html" aria-current="page">Chaînes</a></summary><ul><li><details><summary><a href="histoire.html">Histoire</a></summary><ul><li><a href="histoires-interactives.html">Histoires interactives</a></li><li><a href="histoires-completes.html">Histoires complètes</a></li><li><a href="animations-histoires.html">Animations d’histoires</a></li></ul></details></li><li><details><summary><a href="tutoriels.html">Tutoriels et explications</a></summary><ul><li><details><summary><a href="tutoriels-cadre.html">Cadre commun</a></summary><ul><li><a href="tutoriels-gabarit-version.html">Gabarit de version</a></li></ul></details></li><li><details><summary><a href="tutoriels-reseaux.html">Versions par réseau</a></summary><ul><li><a href="tutoriels-youtube.html">YouTube</a></li><li><a href="tutoriels-tiktok.html">TikTok</a></li><li><a href="tutoriels-instagram.html">Instagram Reels</a></li><li><a href="tutoriels-facebook.html">Facebook Reels</a></li></ul></details></li><li><a href="tutoriels-audience.html">Audience et recettes</a></li><li><a href="tutoriels-validation.html">Mesure et validation</a></li><li><details><summary><a href="tutoriels-familles.html">Familles de tutoriels</a></summary><ul><li><a href="tutoriels-jeux.html">Tutoriels de jeux vidéo</a></li><li><a href="tutoriels-sciences.html">Tutoriels scientifiques</a></li><li><a href="trucs-du-quotidien.html">Trucs du quotidien</a></li><li><a href="conseils-specialises.html">Conseils spécialisés</a></li><li><a href="faux-conseils.html">Faux conseils inoffensifs</a></li><li><a href="parents-et-enfants.html">Parents et apprentissage des enfants</a></li><li><a href="orientation-positive.html">Contenus d’orientation positive</a></li></ul></details></li><li><a href="tutoriels-recherche.html">Recherche et sources</a></li></ul></details></li><li><details><summary><a href="quiz.html">Quiz</a></summary><ul><li><a href="quiz-jeux.html">Quiz de jeux vidéo</a></li><li><a href="quiz-thematiques.html">Quiz thématiques</a></li><li><a href="quiz-cadre.html">Shell de chaîne</a></li><li><a href="quiz-versions.html">Formats par réseau</a></li><li><a href="quiz-pilote.html">Préparer le premier essai</a></li></ul></details></li><li><a href="tips.html">Tips</a></li><li><a href="poll.html">Poll</a></li><li><a href="song.html">Song</a></li><li><a href="gaming.html">Gaming</a></li></ul></details></li><li><details><summary><a href="argent.html">Argent</a></summary><ul><li><a href="couts.html">Coûts</a></li><li><details><summary><a href="recettes.html">Recettes</a></summary><ul><li><a href="recettes-sondage-x.html">Sondage X · revenu non retenu</a></li><li><a href="recettes-shorts.html">YouTube Shorts</a></li></ul></details></li><li><details><summary><a href="questions-argent.html">Questions ouvertes<i class="dot" aria-hidden="true"></i><span class="sr"> (décision ouverte)</span></a></summary><ul><li><a href="cout-reel.html">Coût réel par sortie<i class="dot" aria-hidden="true"></i><span class="sr"> (décision ouverte)</span></a></li></ul></details></li></ul></details></li><li><details><summary><a href="preparation.html">Préparation</a></summary><ul><li><a href="premier-chantier.html">Premier chantier<i class="dot" aria-hidden="true"></i><span class="sr"> (décision ouverte)</span></a></li><li><a href="public-et-langue.html">Public et langue</a></li><li><a href="formats-interactifs.html">Formats de vote et de quiz</a></li><li><a href="plus-tard.html">À reprendre plus tard</a></li></ul></details></li><li><details><summary><a href="automatisation.html">Automatisation</a></summary><ul><li><a href="dossier-de-lot.html">Dossier de lot</a></li><li><a href="provenance-actifs.html">Sources et droits des actifs</a></li><li><a href="outils.html">Outils</a></li><li><a href="controles-et-reprise.html">Contrôles et reprise</a></li></ul></details></li><li><details><summary><a href="atelier.html">Atelier</a></summary><ul><li><details><summary><a href="idees.html">Idées</a></summary><ul><li><a href="le-casier-17.html">Le casier 17</a></li></ul></details></li><li><details><summary><a href="essais.html">Essais</a></summary><ul><li><a href="cloture-vote.html">Clôture et décision de vote</a></li><li><a href="controle-export.html">Contrôle technique d’un export</a></li><li><a href="reprise-lot.html">Reprise locale d’un lot</a></li><li><a href="controle-dossier.html">Contrôle du dossier de lot</a></li><li><a href="controle-quiz.html">Essai des formats de quiz</a></li><li><a href="preuve-tutoriel.html">Preuve d’un résultat reproductible</a></li></ul></details></li><li><a href="a-classer.html">À classer</a></li></ul></details></li></ul></div><p class="tree-legend"><i class="dot" aria-hidden="true"></i> Décision ouverte dans la fiche</p></nav>
+<article class="sheet" data-domain="chaines">
+<header class="sheet-head">
+<img src="assets/architecture-du-plan.webp" alt="" width="1536" height="1024">
+<nav class="crumbs" aria-label="Fil d’Ariane"><a href="index.html">Accueil</a><svg class="icon" aria-hidden="true"><use href="#i-chevron"></use></svg><span aria-current="page">Chaînes</span><a class="to-tree" href="#arborescence">Arborescence</a></nav>
+<h1>Chaînes</h1>
+<p class="intro">Chaque ligne de contenu possède sa chaîne et sa propre diffusion sur plusieurs réseaux. Les catégories rassemblent des chaînes apparentées; chaque fiche précise son périmètre, ses règles d’exploitation et ses adaptations.</p>
+</header>
+<div class="sheet-body">
+<section class="direction" aria-labelledby="t-direction">
+<h2 id="t-direction"><svg class="icon" aria-hidden="true"><use href="#i-direction"></use></svg> Direction</h2>
+<p class="direction-text">Lire le contrat commun, puis ouvrir la catégorie ou la chaîne à préparer. Le Shell règle tout ce qui n’est pas créatif. Les sujets et les pièces n’apparaissent qu’en production.</p>
+<dl><div><dt>Il te reste à apporter</dt><dd>Le concept, le sujet précis, les exemples, le script, les actifs et les choix créatifs de chaque pièce.</dd></div><div><dt>Prêt quand</dt><dd>Chaque Shell atteint 85 sur 100 à la grille commune, sans échec sur un contrôle bloquant.</dd></div></dl>
+<p class="bilan"><span class="tag" data-f="etabli">1 point appuyé sur une source</span><span class="tag" data-f="methode">7 règles et méthodes du studio</span></p>
+
+</section>
+<section class="block"><h2>Catégories de contenu</h2><ul class="rows"><li><a href="histoire.html"><span><strong>Histoire</strong><small>Trois chaînes de récit séparées par leur contrat de sortie : suite décidée par le public, récit autonome, ou animation construite avec une provenance contrôlée.</small></span><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a></li><li><a href="tutoriels.html"><span><strong>Tutoriels et explications</strong><small>Une chaîne par famille de promesse pédagogique. Le Shell commun définit le contrat de démonstration; chaque famille ajoute son contrôle; les versions réseau adaptent la leçon sans supprimer les étapes qui rendent le résultat reproductible.</small></span><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a></li><li><a href="quiz.html"><span><strong>Quiz</strong><small>Chaînes de questions qui invitent à répondre et donnent un résultat ou une comparaison. Un quiz peut utiliser un vote natif; l’outil de sondage ne définit pas le sujet ni ne transforme une question d’opinion en bonne réponse.</small></span><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a></li><li><a href="tips.html"><span><strong>Tips</strong><small>Chaîne de format très court : une seule action, un effet immédiatement visible, aucune séquence d’étapes à mémoriser. Si la personne doit apprendre des prérequis ou plusieurs gestes, classer dans Tutoriels.</small></span><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a></li><li><a href="poll.html"><span><strong>Poll</strong><small>Chaîne de sondages destinés à recueillir préférences, avis ou choix sans bonne réponse. Les votes de branche sont dans Histoires interactives; les réponses vérifiables sont dans Quiz. Un sondage mesure ses répondants, pas l’opinion de toute l’audience.</small></span><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a></li><li><a href="song.html"><span><strong>Song</strong><small>Chaîne dédiée aux morceaux originaux du studio et à leurs extraits sociaux. Le master audio est la source; chaque usage doit être couvert pour composition, interprétation, enregistrement, visuels et distribution.</small></span><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a></li><li><a href="gaming.html"><span><strong>Gaming</strong><small>Chaîne de divertissement par gameplay commenté ou transformé, dont l’enjeu et l’apport du studio sont visibles. Tutoriel et quiz de jeu gardent leurs propres chaînes; les données propres au jeu sont traitées dans le dossier de pièce.</small></span><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a></li></ul></section>
+<section class="block"><h2>Comment naviguer</h2><dl class="facts"><div><dt>Catégorie</dt><dd>Regroupe des chaînes apparentées. Elle contient leurs règles communes, leur recherche et leurs modèles; elle ne mélange pas leurs sujets.</dd></div><div><dt>Chaîne</dt><dd>Un type de contenu avec une promesse, une unité de publication, des contrôles et des métriques propres. Une chaîne peut publier des versions adaptées sur plusieurs réseaux.</dd></div><div><dt>Dossier de pièce</dt><dd>Les sujets, exemples, scripts, réponses, jeux, références particulières, fichiers et décisions créatives sont créés seulement dans le travail de production. Ils ne remplissent pas le Shell.</dd></div><div><dt>Créer une nouvelle branche</dt><dd>Ouvrir une catégorie quand un nouveau périmètre exige ses propres règles ou contrôles. Créer une chaîne sous la catégorie quand la promesse et le protocole de sortie peuvent être décrits sans mélanger les lignes existantes.</dd></div><div><dt>Règle de diffusion</dt><dd>Un actif source propre, puis une version native par réseau retenu. Ne pas compter une republication comme une deuxième chaîne et ne pas fusionner les métriques entre réseaux.</dd></div><div><dt>Seuil de transfert à la production</dt><dd>Chaque Shell doit réussir la grille 100 points : périmètre/public 20; unité et promesse 20; formats et réseaux 20; preuves, droits et limites 20; automatisation et replis 10; mesure et révision 10. Minimum 85/100, sans échec sur un contrôle bloquant. L’innovation et les sujets concrets sont seuls laissés à la production.</dd></div></dl></section>
+<section class="block"><h2>Contrat minimal d’une chaîne</h2><dl class="facts"><div><dt>Identité</dt><dd>Nom · promesse au public · type de résultat · frontière avec les chaînes voisines</dd></div><div><dt>Public et langue</dt><dd>Public de départ · langue · statut général/enfants déterminé pour chaque pièce selon sa cible réelle</dd></div><div><dt>Unité de sortie</dt><dd>Pièce complète · format source · éléments requis pour qu’elle soit intelligible</dd></div><div><dt>Réseaux</dt><dd>Réseau ancre · adaptations retenues · fonctions natives · repli si indisponible</dd></div><div><dt>Automatisation</dt><dd>Entrées nécessaires · ce que l’IA peut générer/contrôler · arrêt et approbation</dd></div><div><dt>Contrôles</dt><dd>Faits · droits · sécurité · accessibilité · originalité; source liée quand externe</dd></div><div><dt>Mesure</dt><dd>Métrique · dénominateur · fenêtre · seuils de revue · recettes constatées</dd></div><div><dt>Prêt à transmettre</dt><dd>Score d’au moins 85/100 selon la grille de la page, sans contrôle bloquant. Sinon corriger le Shell, pas demander au créateur de redécouvrir les règles déjà connues.</dd></div></dl><div class="actions"><button type="button" class="btn" data-copy="gabarit-texte" data-done="Gabarit copié."><svg class="icon" aria-hidden="true"><use href="#i-copy"></use></svg> Copier le gabarit</button><span class="status" role="status"></span></div><textarea id="gabarit-texte" class="copy-src" hidden readonly aria-hidden="true">Contrat minimal d’une chaîne
+
+Identité
+Nom · promesse au public · type de résultat · frontière avec les chaînes voisines
+…
+
+Public et langue
+Public de départ · langue · statut général/enfants déterminé pour chaque pièce selon sa cible réelle
+…
+
+Unité de sortie
+Pièce complète · format source · éléments requis pour qu’elle soit intelligible
+…
+
+Réseaux
+Réseau ancre · adaptations retenues · fonctions natives · repli si indisponible
+…
+
+Automatisation
+Entrées nécessaires · ce que l’IA peut générer/contrôler · arrêt et approbation
+…
+
+Contrôles
+Faits · droits · sécurité · accessibilité · originalité; source liée quand externe
+…
+
+Mesure
+Métrique · dénominateur · fenêtre · seuils de revue · recettes constatées
+…
+
+Prêt à transmettre
+Score d’au moins 85/100 selon la grille de la page, sans contrôle bloquant. Sinon corriger le Shell, pas demander au créateur de redécouvrir les règles déjà connues.
+…</textarea></section>
+<section class="block"><h2><span class="num">1</span>Contrat commun hérité par chaque chaîne</h2><div class="point" id="b1-p1" data-f="methode"><h3>Ce que le Shell doit régler</h3> <span class="tag" data-f="methode" title="Règle de fonctionnement retenue par le studio. Elle s’applique sans nouvelle décision.">Règle fixée</span><p>Promesse et périmètre; public et langue par défaut; unité de publication; format maître; réseaux et adaptations; prérequis; droits et contrôles; automatisation; mesures; repli; critères d’ouverture et de suspension.</p></div><div class="point" id="b1-p2" data-f="methode"><h3>Ce qui relève de la production</h3> <span class="tag" data-f="methode" title="Règle de fonctionnement retenue par le studio. Elle s’applique sans nouvelle décision.">Règle fixée</span><p>Le concept, le sujet précis, les faits particuliers, les exemples, les réponses, le script, les actifs, les fichiers et les choix créatifs d’une pièce. Une chaîne décrit comment les traiter; elle ne les préremplit pas.</p></div><div class="point" id="b1-p3" data-f="methode"><h3>Règle de preuve</h3> <span class="tag" data-f="methode" title="Règle de fonctionnement retenue par le studio. Elle s’applique sans nouvelle décision.">Règle fixée</span><p>Une règle de plateforme ou un fait de méthode renvoie à sa source et à la portée de cette source. Une décision interne est marquée comme choix de fonctionnement. Une incertitude propre à une pièce est inscrite dans son dossier et ne bloque pas le Shell.</p></div><div class="point" id="b1-p4" data-f="methode"><h3>Cadence par défaut</h3> <span class="tag" data-f="methode" title="Règle de fonctionnement retenue par le studio. Elle s’applique sans nouvelle décision.">Règle fixée</span><p>Pas de quota quotidien ou de publication automatique à cadence fixe. Lancer d’abord un lot maîtrisable; fixer la cadence après mesure du temps réel, du coût et de la qualité de contrôle. La publication automatique exige une autorisation de compte et un calendrier explicite.</p></div><div class="point" id="b1-p5" data-f="methode"><h3>Accès et recettes</h3> <span class="tag" data-f="methode" title="Règle de fonctionnement retenue par le studio. Elle s’applique sans nouvelle décision.">Règle fixée</span><p>Aucune recette estimée avant admission et versement visible. Chaque compte est vérifié dans son tableau de bord; si une fonction, un accès ou une mesure manque, appliquer le repli indiqué et garder le revenu à 0 $.</p></div></section>
+<section class="block"><h2><span class="num">2</span>Automatisation commune</h2><div class="point" id="b2-p1" data-f="methode"><h3>Préparation que l’IA peut prendre en charge</h3> <span class="tag" data-f="methode" title="Règle de fonctionnement retenue par le studio. Elle s’applique sans nouvelle décision.">Règle fixée</span><p>Lire la fiche de chaîne et ses sources; produire un dossier de pièce seulement sur demande de production; assembler les versions de réseau; générer sous-titres et métadonnées; contrôler le format, la présence des pièces requises, les droits déclarés, les longueurs et les correspondances de versions; préparer un export et un rapport de mesure.</p></div><div class="point" id="b2-p2" data-f="methode"><h3>Arrêt automatique</h3> <span class="tag" data-f="methode" title="Règle de fonctionnement retenue par le studio. Elle s’applique sans nouvelle décision.">Règle fixée</span><p>Bloquer l’envoi si une permission manque, si un fait central n’a pas de source exigée, si une règle de sécurité échoue, si une fonction d’audience est inconnue ou si les fichiers divergent. Le rapport donne l’élément exact à obtenir; l’IA ne le devine pas.</p></div><div class="point" id="b2-p3" data-f="etabli"><h3>Anti-production en série vide</h3> <span class="tag" data-f="etabli" title="Règle appuyée sur une source liée.">Règle documentée</span><p>Les modèles accélèrent la préparation mais ne justifient pas la répétition de pièces interchangeables. Le système ne publie pas de variations automatiques destinées uniquement à gonfler vues, commentaires ou sondages.</p><p class="appuis"><span>Appuis</span><a href="https://support.google.com/youtube/answer/1311392?hl=en" target="_blank" rel="noopener">YouTube · politiques de monétisation des chaînes</a><a href="https://support.google.com/youtube/answer/2801973?hl=en" target="_blank" rel="noopener">YouTube · spam et engagement artificiel</a><a href="https://about.fb.com/news/2026/03/rewarding-original-creators-on-facebook/" target="_blank" rel="noopener">Meta · critères de contenu original sur Facebook</a></p></div></section>
+<section class="block tool" id="autonomie"><h2>Contrôle d’autonomie</h2>
+<p>Chaque Shell doit atteindre 85 sur 100, sans échec sur un contrôle bloquant. L’innovation et les sujets concrets sont seuls laissés à la production. Sous le seuil, corriger le Shell plutôt que demander au créateur de redécouvrir les règles déjà connues.</p>
+<form id="autonomie-form" class="autonomie">
+<label><span class="crit"><strong>Périmètre et public</strong><small>Nom, promesse au public, frontière avec les chaînes voisines, public de départ et langue.</small></span><span class="range"><input type="range" name="c0" min="0" max="20" step="1" value="0"><output>0 / 20</output></span></label>
+<label><span class="crit"><strong>Unité et promesse</strong><small>Pièce complète, format source et éléments requis pour qu’elle soit intelligible.</small></span><span class="range"><input type="range" name="c1" min="0" max="20" step="1" value="0"><output>0 / 20</output></span></label>
+<label><span class="crit"><strong>Formats et réseaux</strong><small>Réseau ancre, adaptations retenues, fonctions natives et repli si une fonction manque.</small></span><span class="range"><input type="range" name="c2" min="0" max="20" step="1" value="0"><output>0 / 20</output></span></label>
+<label><span class="crit"><strong>Preuves, droits et limites</strong><small>Faits, droits, sécurité, accessibilité et originalité. Source liée quand elle est externe.</small></span><span class="range"><input type="range" name="c3" min="0" max="20" step="1" value="0"><output>0 / 20</output></span></label>
+<label><span class="crit"><strong>Automatisation et replis</strong><small>Entrées nécessaires, ce que l’IA peut générer ou contrôler, arrêt et approbation.</small></span><span class="range"><input type="range" name="c4" min="0" max="10" step="1" value="0"><output>0 / 10</output></span></label>
+<label><span class="crit"><strong>Mesure et révision</strong><small>Métrique, dénominateur, fenêtre, seuils de revue et recettes constatées.</small></span><span class="range"><input type="range" name="c5" min="0" max="10" step="1" value="0"><output>0 / 10</output></span></label>
+<label class="check"><input type="checkbox" name="sans-echec"> Aucun contrôle bloquant n’est en échec</label>
+</form>
+<p class="verdict" id="autonomie-verdict" role="status" data-state="todo"><strong>0 / 100</strong> <span>Seuil de préparation : 85. Note chaque critère pour savoir si le Shell peut être transmis.</span></p>
+<p class="tool-help">La note est une auto-évaluation : elle aide à repérer ce qui manque au Shell avant de le transmettre.</p>
+<div class="actions"><button type="button" id="autonomie-copy" class="btn"><svg class="icon" aria-hidden="true"><use href="#i-copy"></use></svg> Copier le relevé</button><span class="status" role="status"></span></div>
+<script type="application/json" id="autonomie-data">{"origine":"chaines","seuil":85,"test":"Chaque Shell doit atteindre 85 sur 100, sans échec sur un contrôle bloquant. L’innovation et les sujets concrets sont seuls laissés à la production. Sous le seuil, corriger le Shell plutôt que demander au créateur de redécouvrir les règles déjà connues.","criteres":[["Périmètre et public",20,"Nom, promesse au public, frontière avec les chaînes voisines, public de départ et langue."],["Unité et promesse",20,"Pièce complète, format source et éléments requis pour qu’elle soit intelligible."],["Formats et réseaux",20,"Réseau ancre, adaptations retenues, fonctions natives et repli si une fonction manque."],["Preuves, droits et limites",20,"Faits, droits, sécurité, accessibilité et originalité. Source liée quand elle est externe."],["Automatisation et replis",10,"Entrées nécessaires, ce que l’IA peut générer ou contrôler, arrêt et approbation."],["Mesure et révision",10,"Métrique, dénominateur, fenêtre, seuils de revue et recettes constatées."]]}</script>
+</section>
+<section class="block"><h2>Ensuite</h2><ul class="rows"><li><a href="formats-interactifs.html"><span><strong>Outils natifs de vote et de quiz</strong><small>Préparation › Formats de vote et de quiz</small></span><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a></li><li><a href="dossier-de-lot.html"><span><strong>Transmettre un lot</strong><small>Automatisation › Dossier de lot</small></span><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a></li><li><a href="recettes.html"><span><strong>Argent · recettes et admissibilité</strong><small>Argent › Recettes</small></span><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a></li></ul></section>
+<section class="block"><details class="fold"><summary>Sources du dossier <small class="n">11</small></summary><ul class="rows"><li><a href="https://support.google.com/youtube/answer/1311392?hl=en" target="_blank" rel="noopener"><span><strong>YouTube · politiques de monétisation des chaînes</strong><small>Contenu réutilisé, production répétitive ou en série et valeur apportée par le créateur. La chaîne est évaluée dans son ensemble : contenu original, substantiellement distinct, non produit en masse à partir d’un modèle répétitif. Consultée le 12 novembre 2026.</small></span><svg class="icon" aria-hidden="true"><use href="#i-diagonal"></use></svg></a></li><li><a href="https://support.google.com/youtube/answer/2801973?hl=en" target="_blank" rel="noopener"><span><strong>YouTube · spam et engagement artificiel</strong><small>Interdit notamment la production automatisée répétitive en masse et les sondages répétitifs de faible valeur conçus pour forcer l’engagement. Consultée le 12 novembre 2026.</small></span><svg class="icon" aria-hidden="true"><use href="#i-diagonal"></use></svg></a></li><li><a href="https://about.fb.com/news/2026/03/rewarding-original-creators-on-facebook/" target="_blank" rel="noopener"><span><strong>Meta · critères de contenu original sur Facebook</strong><small>Meta distingue création originale, transformation substantielle et reprise à faible valeur; l’originalité influence recommandations et monétisation. Consultée le 12 novembre 2026.</small></span><svg class="icon" aria-hidden="true"><use href="#i-diagonal"></use></svg></a></li><li><a href="https://support.google.com/youtube/answer/9527654?hl=en" target="_blank" rel="noopener"><span><strong>YouTube · réglage de l’audience</strong><small>Fonctions et publicités des contenus désignés comme destinés aux enfants : la désignation affecte notamment les commentaires, les publications et la personnalisation publicitaire. Elle dépend de l’audience réelle de chaque pièce. Consultée le 12 novembre 2026.</small></span><svg class="icon" aria-hidden="true"><use href="#i-diagonal"></use></svg></a></li><li><a href="https://ised-isde.canada.ca/site/canadian-intellectual-property-office/en/copyright-infringement" target="_blank" rel="noopener"><span><strong>Office de la propriété intellectuelle du Canada · droit d’auteur</strong><small>Le droit d’auteur couvre notamment reproduction, adaptation, traduction et communication au public. Une licence ou permission doit couvrir l’usage prévu; la mention de la source ne remplace pas la permission. Consultée le 12 novembre 2026.</small></span><svg class="icon" aria-hidden="true"><use href="#i-diagonal"></use></svg></a></li><li><a href="https://creativecommons.org/cc-licenses/" target="_blank" rel="noopener"><span><strong>Creative Commons · conditions des licences</strong><small>Attribution, partage sous licence compatible et restrictions sur la diffusion d’adaptations ou l’usage commercial. Consultée le 12 novembre 2026.</small></span><svg class="icon" aria-hidden="true"><use href="#i-diagonal"></use></svg></a></li><li><a href="https://www.w3.org/WAI/media/av/planning/" target="_blank" rel="noopener"><span><strong>W3C WAI · accessibilité des médias</strong><small>Repères pour les sous-titres, la transcription et la description des informations visuelles. Les médias préenregistrés doivent rendre accessibles les paroles, les sons significatifs et les informations visuelles utiles. Consultée le 12 novembre 2026.</small></span><svg class="icon" aria-hidden="true"><use href="#i-diagonal"></use></svg></a></li><li><a href="https://support.google.com/youtube/answer/15424877?hl=fr-CA" target="_blank" rel="noopener"><span><strong>YouTube · Shorts de trois minutes</strong><small>Classement des vidéos verticales ou carrées et règles Content ID propres aux Shorts de plus d’une minute. Consultée le 12 novembre 2026.</small></span><svg class="icon" aria-hidden="true"><use href="#i-diagonal"></use></svg></a></li><li><a href="https://support.tiktok.com/en/business-and-creator/creator-rewards-program/how-is-the-creator-rewards-program-different-from-the-tiktok-creator-fund" target="_blank" rel="noopener"><span><strong>TikTok · conditions du Creator Rewards Program</strong><small>Les vidéos admissibles au programme doivent être originales, de haute qualité et durer plus d’une minute; l’accès dépend aussi des critères de compte et de région. Consultée le 12 novembre 2026.</small></span><svg class="icon" aria-hidden="true"><use href="#i-diagonal"></use></svg></a></li><li><a href="https://about.fb.com/news/2026/03/creator-fast-track-grow-your-audience-earn-money-on-facebook/" target="_blank" rel="noopener"><span><strong>Meta · monétisation de contenu Facebook</strong><small>Facebook Content Monetization paie selon la performance et reste sur invitation. L’intérêt peut être exprimé dans le tableau professionnel, qui présente les vues qualifiées et le taux de revenus. Consultée le 12 novembre 2026.</small></span><svg class="icon" aria-hidden="true"><use href="#i-diagonal"></use></svg></a></li><li><a href="https://help.x.com/fr/using-x/x-polls" target="_blank" rel="noopener"><span><strong>X · sondages natifs</strong><small>Deux à quatre choix, longueur des options, durée réglable du vote et confidentialité des votes individuels. Consultée le 12 novembre 2026.</small></span><svg class="icon" aria-hidden="true"><use href="#i-diagonal"></use></svg></a></li></ul></details></section>
+<section class="block handoff"><h2>Transmettre</h2>
+<p>Copie la fiche complète avec sa consigne, pour une IA ou pour une autre personne.</p>
+<div class="actions"><button type="button" class="btn primary" data-copy="brief" data-done="Fiche copiée."><svg class="icon" aria-hidden="true"><use href="#i-copy"></use></svg> Copier la fiche</button><a class="btn" href="plan.md"><svg class="icon" aria-hidden="true"><use href="#i-file"></use></svg> Plan complet</a><span class="status" role="status"></span></div>
+<textarea id="brief" class="copy-src" hidden readonly aria-hidden="true">Fiche du Plan du studio · phase Préparation. Plan complet : %BASE%plan.md
+
+Consigne. Travaille sur le cadre et les réglages de la catégorie. Distingue les règles, les hypothèses et les décisions ouvertes. Indique la source, la date et le périmètre. Garde les sujets, scripts et publications pour l’étape de production.
+
+# Chaînes
+
+- Chemin : Chaînes
+- Identifiant : chaines
+- Adresse : %BASE%chaines.html
+
+Chaque ligne de contenu possède sa chaîne et sa propre diffusion sur plusieurs réseaux. Les catégories rassemblent des chaînes apparentées; chaque fiche précise son périmètre, ses règles d’exploitation et ses adaptations.
+
+**Direction.** Lire le contrat commun, puis ouvrir la catégorie ou la chaîne à préparer. Le Shell règle tout ce qui n’est pas créatif. Les sujets et les pièces n’apparaissent qu’en production.
+
+**Il te reste à apporter.** Le concept, le sujet précis, les exemples, le script, les actifs et les choix créatifs de chaque pièce.
+
+**Prêt quand.** Chaque Shell atteint 85 sur 100 à la grille commune, sans échec sur un contrôle bloquant.
+
+## Catégories de contenu
+
+- [Histoire](%BASE%histoire.html) — Trois chaînes de récit séparées par leur contrat de sortie : suite décidée par le public, récit autonome, ou animation construite avec une provenance contrôlée.
+- [Tutoriels et explications](%BASE%tutoriels.html) — Une chaîne par famille de promesse pédagogique. Le Shell commun définit le contrat de démonstration; chaque famille ajoute son contrôle; les versions réseau adaptent la leçon sans supprimer les étapes qui rendent le résultat reproductible.
+- [Quiz](%BASE%quiz.html) — Chaînes de questions qui invitent à répondre et donnent un résultat ou une comparaison. Un quiz peut utiliser un vote natif; l’outil de sondage ne définit pas le sujet ni ne transforme une question d’opinion en bonne réponse.
+- [Tips](%BASE%tips.html) — Chaîne de format très court : une seule action, un effet immédiatement visible, aucune séquence d’étapes à mémoriser. Si la personne doit apprendre des prérequis ou plusieurs gestes, classer dans Tutoriels.
+- [Poll](%BASE%poll.html) — Chaîne de sondages destinés à recueillir préférences, avis ou choix sans bonne réponse. Les votes de branche sont dans Histoires interactives; les réponses vérifiables sont dans Quiz. Un sondage mesure ses répondants, pas l’opinion de toute l’audience.
+- [Song](%BASE%song.html) — Chaîne dédiée aux morceaux originaux du studio et à leurs extraits sociaux. Le master audio est la source; chaque usage doit être couvert pour composition, interprétation, enregistrement, visuels et distribution.
+- [Gaming](%BASE%gaming.html) — Chaîne de divertissement par gameplay commenté ou transformé, dont l’enjeu et l’apport du studio sont visibles. Tutoriel et quiz de jeu gardent leurs propres chaînes; les données propres au jeu sont traitées dans le dossier de pièce.
+
+## Comment naviguer
+
+- **Catégorie.** Regroupe des chaînes apparentées. Elle contient leurs règles communes, leur recherche et leurs modèles; elle ne mélange pas leurs sujets.
+- **Chaîne.** Un type de contenu avec une promesse, une unité de publication, des contrôles et des métriques propres. Une chaîne peut publier des versions adaptées sur plusieurs réseaux.
+- **Dossier de pièce.** Les sujets, exemples, scripts, réponses, jeux, références particulières, fichiers et décisions créatives sont créés seulement dans le travail de production. Ils ne remplissent pas le Shell.
+- **Créer une nouvelle branche.** Ouvrir une catégorie quand un nouveau périmètre exige ses propres règles ou contrôles. Créer une chaîne sous la catégorie quand la promesse et le protocole de sortie peuvent être décrits sans mélanger les lignes existantes.
+- **Règle de diffusion.** Un actif source propre, puis une version native par réseau retenu. Ne pas compter une republication comme une deuxième chaîne et ne pas fusionner les métriques entre réseaux.
+- **Seuil de transfert à la production.** Chaque Shell doit réussir la grille 100 points : périmètre/public 20; unité et promesse 20; formats et réseaux 20; preuves, droits et limites 20; automatisation et replis 10; mesure et révision 10. Minimum 85/100, sans échec sur un contrôle bloquant. L’innovation et les sujets concrets sont seuls laissés à la production.
+
+## Contrat minimal d’une chaîne
+
+- **Identité.** Nom · promesse au public · type de résultat · frontière avec les chaînes voisines
+- **Public et langue.** Public de départ · langue · statut général/enfants déterminé pour chaque pièce selon sa cible réelle
+- **Unité de sortie.** Pièce complète · format source · éléments requis pour qu’elle soit intelligible
+- **Réseaux.** Réseau ancre · adaptations retenues · fonctions natives · repli si indisponible
+- **Automatisation.** Entrées nécessaires · ce que l’IA peut générer/contrôler · arrêt et approbation
+- **Contrôles.** Faits · droits · sécurité · accessibilité · originalité; source liée quand externe
+- **Mesure.** Métrique · dénominateur · fenêtre · seuils de revue · recettes constatées
+- **Prêt à transmettre.** Score d’au moins 85/100 selon la grille de la page, sans contrôle bloquant. Sinon corriger le Shell, pas demander au créateur de redécouvrir les règles déjà connues.
+
+## Contrat commun hérité par chaque chaîne
+
+- **Ce que le Shell doit régler** [Règle fixée]. Promesse et périmètre; public et langue par défaut; unité de publication; format maître; réseaux et adaptations; prérequis; droits et contrôles; automatisation; mesures; repli; critères d’ouverture et de suspension.
+- **Ce qui relève de la production** [Règle fixée]. Le concept, le sujet précis, les faits particuliers, les exemples, les réponses, le script, les actifs, les fichiers et les choix créatifs d’une pièce. Une chaîne décrit comment les traiter; elle ne les préremplit pas.
+- **Règle de preuve** [Règle fixée]. Une règle de plateforme ou un fait de méthode renvoie à sa source et à la portée de cette source. Une décision interne est marquée comme choix de fonctionnement. Une incertitude propre à une pièce est inscrite dans son dossier et ne bloque pas le Shell.
+- **Cadence par défaut** [Règle fixée]. Pas de quota quotidien ou de publication automatique à cadence fixe. Lancer d’abord un lot maîtrisable; fixer la cadence après mesure du temps réel, du coût et de la qualité de contrôle. La publication automatique exige une autorisation de compte et un calendrier explicite.
+- **Accès et recettes** [Règle fixée]. Aucune recette estimée avant admission et versement visible. Chaque compte est vérifié dans son tableau de bord; si une fonction, un accès ou une mesure manque, appliquer le repli indiqué et garder le revenu à 0 $.
+
+## Automatisation commune
+
+- **Préparation que l’IA peut prendre en charge** [Règle fixée]. Lire la fiche de chaîne et ses sources; produire un dossier de pièce seulement sur demande de production; assembler les versions de réseau; générer sous-titres et métadonnées; contrôler le format, la présence des pièces requises, les droits déclarés, les longueurs et les correspondances de versions; préparer un export et un rapport de mesure.
+- **Arrêt automatique** [Règle fixée]. Bloquer l’envoi si une permission manque, si un fait central n’a pas de source exigée, si une règle de sécurité échoue, si une fonction d’audience est inconnue ou si les fichiers divergent. Le rapport donne l’élément exact à obtenir; l’IA ne le devine pas.
+- **Anti-production en série vide** [Règle documentée]. Les modèles accélèrent la préparation mais ne justifient pas la répétition de pièces interchangeables. Le système ne publie pas de variations automatiques destinées uniquement à gonfler vues, commentaires ou sondages.
+  - Appui : YouTube · politiques de monétisation des chaînes — https://support.google.com/youtube/answer/1311392?hl=en (consultée le 12 novembre 2026)
+  - Appui : YouTube · spam et engagement artificiel — https://support.google.com/youtube/answer/2801973?hl=en (consultée le 12 novembre 2026)
+  - Appui : Meta · critères de contenu original sur Facebook — https://about.fb.com/news/2026/03/rewarding-original-creators-on-facebook/ (consultée le 12 novembre 2026)
+
+## Contrôle d’autonomie (seuil : 85 sur 100)
+
+Chaque Shell doit atteindre 85 sur 100, sans échec sur un contrôle bloquant. L’innovation et les sujets concrets sont seuls laissés à la production. Sous le seuil, corriger le Shell plutôt que demander au créateur de redécouvrir les règles déjà connues.
+
+- **Périmètre et public** (20). Nom, promesse au public, frontière avec les chaînes voisines, public de départ et langue.
+- **Unité et promesse** (20). Pièce complète, format source et éléments requis pour qu’elle soit intelligible.
+- **Formats et réseaux** (20). Réseau ancre, adaptations retenues, fonctions natives et repli si une fonction manque.
+- **Preuves, droits et limites** (20). Faits, droits, sécurité, accessibilité et originalité. Source liée quand elle est externe.
+- **Automatisation et replis** (10). Entrées nécessaires, ce que l’IA peut générer ou contrôler, arrêt et approbation.
+- **Mesure et révision** (10). Métrique, dénominateur, fenêtre, seuils de revue et recettes constatées.
+
+## Ensuite
+
+- [Outils natifs de vote et de quiz](%BASE%formats-interactifs.html) — Préparation › Formats de vote et de quiz
+- [Transmettre un lot](%BASE%dossier-de-lot.html) — Automatisation › Dossier de lot
+- [Argent · recettes et admissibilité](%BASE%recettes.html) — Argent › Recettes
+</textarea>
+<p class="ident">Identifiant de fiche : <code>chaines</code></p>
+</section>
+<nav class="pager" aria-label="Fiche précédente et suivante"><span></span><a class="next" href="histoire.html" rel="next"><span><small>Suivante</small><strong>Histoire</strong></span><svg class="icon" aria-hidden="true"><use href="#i-arrow"></use></svg></a></nav>
+</div>
+</article>
+</div>
+</main>
+<footer class="shell foot">
+<p>Plan du studio · phase Préparation · généré le 12 novembre 2026</p>
+<nav aria-label="Ressources">
+<a href="plan.md"><svg class="icon" aria-hidden="true"><use href="#i-file"></use></svg> Plan complet (Markdown)</a>
+<a href="plan.json">Données (JSON)</a>
+<a href="https://chatgpt.com/library?file_id=libfile_3647671b78208191a03b2425cf2a5bb9&amp;account_id=personal" target="_blank" rel="noopener" title="Accès réservé au compte du studio.">Classeur de référence <svg class="icon" aria-hidden="true"><use href="#i-diagonal"></use></svg></a>
+</nav>
+</footer>
+<dialog id="search" aria-labelledby="search-title">
+<div class="dialog-head"><h2 id="search-title">Rechercher</h2><button class="icon-btn" id="close-search" type="button" aria-label="Fermer la recherche"><svg class="icon" aria-hidden="true"><use href="#i-close"></use></svg></button></div>
+<label class="search-box"><svg class="icon" aria-hidden="true"><use href="#i-search"></use></svg><input type="search" id="search-input" placeholder="Une fiche, un repère, un mot…" aria-label="Rechercher dans le plan" autocomplete="off" maxlength="150"></label>
+<p class="search-status" id="search-status" aria-live="polite"></p>
+<ul id="search-results" class="rows" aria-label="Résultats"></ul>
+</dialog>
+</body>
+</html>

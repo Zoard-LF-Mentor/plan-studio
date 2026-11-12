@@ -1,0 +1,3828 @@
+{
+  "titre": "Plan du studio",
+  "phase": "Préparation",
+  "source": {
+    "titre": "Classeur de référence",
+    "url": "https://chatgpt.com/library?file_id=libfile_3647671b78208191a03b2425cf2a5bb9&account_id=personal"
+  },
+  "reperes": [
+    [
+      "Partir du sujet",
+      "Ouvrir le domaine, puis la fiche concernée. Lire le statut, les conditions et les sources avant de reprendre le travail."
+    ],
+    [
+      "Garder une adresse principale",
+      "Ranger chaque constat dans son domaine et créer des liens depuis les autres fiches qui s’en servent."
+    ],
+    [
+      "Consigner les travaux dans l’Atelier",
+      "Rattacher chaque idée ou essai à sa fiche. Remonter dans le domaine le résultat qui change une décision."
+    ],
+    [
+      "Faire grandir la bonne branche",
+      "Promouvoir un sujet en catégorie quand il a besoin de ses propres sous-sujets. Chaque chaîne garde son Shell et ses réseaux."
+    ],
+    [
+      "Préparer la suite",
+      "Indiquer ce qui est établi, les données qui manquent et la preuve attendue. La phase actuelle porte sur la préparation."
+    ]
+  ],
+  "sources_documentaires": {
+    "BRAME": {
+      "titre": "Brame · conception pédagogique",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5132380/",
+      "portee": "Revue pédagogique publiée en 2016. Charge cognitive, signalisation, segmentation et apprentissage actif.",
+      "date": "12 novembre 2026"
+    },
+    "GUO": {
+      "titre": "Guo, Kim et Rubin · étude edX",
+      "url": "https://eddatax.fed.cuhk.edu.hk/wp-content/uploads/2016/06/How-Video-Production-Affects-Student-Engagement-An-Empirical-Study-of-MOOC-Videos.pdf",
+      "portee": "Étude de 2014 sur 6,9 millions de sessions dans quatre cours edX. L’issue étudiée est l’engagement dans ce contexte.",
+      "date": "12 novembre 2026"
+    },
+    "WAI": {
+      "titre": "W3C WAI · accessibilité des médias",
+      "url": "https://www.w3.org/WAI/media/av/planning/",
+      "portee": "Repères de conception pour sous-titres, transcription et informations visuelles utiles.",
+      "date": "12 novembre 2026"
+    },
+    "YT-FORMAT": {
+      "titre": "YouTube · Shorts de trois minutes",
+      "url": "https://support.google.com/youtube/answer/15424877?hl=fr-CA",
+      "portee": "Classement des vidéos verticales ou carrées et règles Content ID propres aux Shorts de plus d’une minute.",
+      "date": "12 novembre 2026"
+    },
+    "YT-MIDROLL": {
+      "titre": "YouTube · annonces intermédiaires",
+      "url": "https://support.google.com/youtube/answer/6175006?hl=fr-CA",
+      "portee": "Durée d’accès aux créneaux publicitaires des vidéos longues monétisées et conditions de diffusion.",
+      "date": "12 novembre 2026"
+    },
+    "YT-YPP": {
+      "titre": "YouTube · Programme Partenaire",
+      "url": "https://support.google.com/youtube/answer/72851?hl=fr-CA",
+      "portee": "Seuils et examen du compte pour l’admission au Programme Partenaire.",
+      "date": "12 novembre 2026"
+    },
+    "YT-SHORTS-REV": {
+      "titre": "YouTube · monétisation du flux Shorts",
+      "url": "https://support.google.com/youtube/answer/12504220?hl=en",
+      "portee": "Module Shorts, vues admissibles et annonce concernant le partage mensuel à compter du 1er février 2027.",
+      "date": "12 novembre 2026"
+    },
+    "YT-RPM": {
+      "titre": "YouTube · définition du RPM et du CPM",
+      "url": "https://support.google.com/youtube/answer/9314357?hl=en",
+      "portee": "Revenus côté créateur, impressions publicitaires côté annonceur et effet de la géographie sur le CPM.",
+      "date": "12 novembre 2026"
+    },
+    "YT-RETENTION": {
+      "titre": "YouTube · moments clés de rétention",
+      "url": "https://support.google.com/youtube/answer/9314415?hl=fr-CA",
+      "portee": "Indicateur d’introduction et comparaison avec des vidéos de durée comparable.",
+      "date": "12 novembre 2026"
+    },
+    "YT-TRENDS": {
+      "titre": "YouTube Studio · Tendances",
+      "url": "https://support.google.com/youtube/answer/11962757?hl=en",
+      "portee": "Recherches, lacunes et limites de disponibilité selon le pays, la langue et l’appareil.",
+      "date": "12 novembre 2026"
+    },
+    "YT-ENFANTS": {
+      "titre": "YouTube · réglage de l’audience",
+      "url": "https://support.google.com/youtube/answer/9527654?hl=en",
+      "portee": "Fonctionnalités et publicités sur les contenus désignés comme destinés aux enfants.",
+      "date": "12 novembre 2026"
+    },
+    "YT-ORIGINAL": {
+      "titre": "YouTube · politiques de monétisation des chaînes",
+      "url": "https://support.google.com/youtube/answer/1311392?hl=en",
+      "portee": "Contenu réutilisé, production répétitive ou en série et valeur apportée par le créateur.",
+      "date": "12 novembre 2026"
+    },
+    "TT-REWARDS": {
+      "titre": "TikTok · Programme de récompenses",
+      "url": "https://newsroom.tiktok.com/programme-de-recompenses-createurs?lang=fr",
+      "portee": "Les vidéos admissibles doivent être originales, de haute qualité et durer plus d’une minute; le programme dépend aussi du compte et de la région.",
+      "date": "12 novembre 2026"
+    },
+    "TT-SEARCH": {
+      "titre": "TikTok · Creator Search Insights",
+      "url": "https://newsroom.tiktok.com/creator-search-insights/?lang=en",
+      "portee": "Recherches et lacunes de contenu dans les régions où l’outil est disponible.",
+      "date": "12 novembre 2026"
+    },
+    "IG-STATS": {
+      "titre": "Meta · statistiques des Reels Instagram",
+      "url": "https://about.fb.com/news/2023/04/instagram-reels-trending-audio-and-gifts-updates/",
+      "portee": "Temps total et moyen de visionnement, repères de création et accès aux cadeaux.",
+      "date": "12 novembre 2026"
+    },
+    "IG-TRIAL": {
+      "titre": "Meta · Reels d’essai Instagram",
+      "url": "https://about.fb.com/news/2024/12/trial-reels-try-content-non-followers-first-see-what-perfoms-best",
+      "portee": "Diffusion initiale auprès de non-abonnés, statistiques et partage éventuel aux abonnés.",
+      "date": "12 novembre 2026"
+    },
+    "IG-GIFTS": {
+      "titre": "Meta · cadeaux Instagram",
+      "url": "https://about.fb.com/news/2023/11/giving-creators-more-ways-to-earn-money-on-facebook-and-instagram/",
+      "portee": "Les cadeaux sont envoyés par les spectateurs. Le billet décrit des déploiements et tests distincts.",
+      "date": "12 novembre 2026"
+    },
+    "IG-GUIDE": {
+      "titre": "Instagram · bonnes pratiques du tableau professionnel",
+      "url": "https://about.fb.com/news/2024/10/best-practices-education-hub-creators-instagram/",
+      "portee": "Conseils de création, de portée et de monétisation, avec repères personnalisés dans le tableau professionnel.",
+      "date": "12 novembre 2026"
+    },
+    "FB-REWARDS": {
+      "titre": "Meta · monétisation de contenu Facebook",
+      "url": "https://about.fb.com/news/2026/03/creator-fast-track-grow-your-audience-earn-money-on-facebook/amp/",
+      "portee": "Facebook Content Monetization paie selon la performance, reste sur invitation; le tableau de bord présente les vues qualifiées et le taux de revenus.",
+      "date": "12 novembre 2026"
+    },
+    "FB-FORMAT": {
+      "titre": "Meta · évolution des vidéos Facebook",
+      "url": "https://about.fb.com/news/2025/06/making-it-easier-create-videos-facebook/amp/",
+      "portee": "Annonce du rapprochement des vidéos courtes et longues sous Reels et du déploiement progressif.",
+      "date": "12 novembre 2026"
+    },
+    "TRENDS": {
+      "titre": "Google Trends · portée des indices",
+      "url": "https://support.google.com/trends/answer/4365533?hl=fr",
+      "portee": "Échantillon normalisé des recherches, échelle relative de 0 à 100 et limites des faibles volumes.",
+      "date": "12 novembre 2026"
+    },
+    "YT-PORTÉE": {
+      "titre": "YouTube · sources de trafic et termes de recherche",
+      "url": "https://support.google.com/youtube/answer/9314355?hl=en",
+      "portee": "Rapport Portée de YouTube Studio et termes recherchés à l’origine du trafic.",
+      "date": "12 novembre 2026"
+    },
+    "X-SONDAGES": {
+      "titre": "X · sondages natifs",
+      "url": "https://help.x.com/fr/using-x/x-polls",
+      "portee": "Nombre et longueur des options, durée du vote et confidentialité des votes individuels.",
+      "date": "12 novembre 2026"
+    },
+    "X-RECETTES": {
+      "titre": "X · Original Content Rewards",
+      "url": "https://help.x.com/en/using-x/original-content-rewards",
+      "portee": "Creator Revenue Sharing a pris fin le 7 septembre 2026. Original Content Rewards exige notamment un abonnement admissible et des seuils d’audience; les contenus créés ou publiés par automatisation sont exclus.",
+      "date": "12 novembre 2026"
+    },
+    "X-CONDITIONS": {
+      "titre": "X · conditions d’Original Content Rewards",
+      "url": "https://legal.x.com/en/original-content-rewards-terms.html",
+      "portee": "Conditions d’Original Content Rewards : admissibilité, contenu original, exclusion de la création ou publication automatisée.",
+      "date": "12 novembre 2026"
+    },
+    "YT-POSTS": {
+      "titre": "YouTube · créer un post",
+      "url": "https://support.google.com/youtube/answer/7124474?hl=fr",
+      "portee": "Création de posts, sondages jusqu’à quatre choix et quiz jusqu’à quatre réponses avec résultat et explication facultative.",
+      "date": "12 novembre 2026"
+    },
+    "YT-STICKERS": {
+      "titre": "YouTube · autocollants des Shorts",
+      "url": "https://support.google.com/youtube/answer/16215842?hl=fr",
+      "portee": "Autocollant Quiz Shorts à deux options, résultat après réponse; interaction désactivée pour Shorts privés, non répertoriés ou désignés Made for Kids.",
+      "date": "12 novembre 2026"
+    },
+    "IG-CANAUX": {
+      "titre": "Meta · sondages dans les canaux Instagram",
+      "url": "https://about.fb.com/news/2023/02/instagram-broadcast-channels-creators-deepen-connections-with-followers/",
+      "portee": "Présentation des sondages dans les canaux de diffusion, une surface distincte des Stories.",
+      "date": "12 novembre 2026"
+    },
+    "IG-CANAUX-MESURE": {
+      "titre": "Meta · statistiques des canaux Instagram",
+      "url": "https://about.fb.com/news/2024/12/get-closer-to-your-community-with-replies-prompts-and-insights/",
+      "portee": "Meta décrit les votes aux sondages parmi les statistiques des canaux de diffusion.",
+      "date": "12 novembre 2026"
+    },
+    "CA-ADAPTATION": {
+      "titre": "Canada · Loi sur le droit d’auteur, article 3",
+      "url": "https://laws-lois.justice.gc.ca/fra/lois/C-42/section-3.html",
+      "portee": "Droits exclusifs concernant notamment la traduction et l’adaptation cinématographique.",
+      "date": "12 novembre 2026"
+    },
+    "CC-LICENCES": {
+      "titre": "Creative Commons · conditions des licences",
+      "url": "https://creativecommons.org/cc-licenses/",
+      "portee": "Attribution, partage sous licence compatible et restrictions sur la diffusion d’adaptations ou l’usage commercial.",
+      "date": "12 novembre 2026"
+    },
+    "CMRRA-MUSIQUE": {
+      "titre": "CMRRA · droits musicaux",
+      "url": "https://cmrra.ca/fr/faq/",
+      "portee": "Composition, enregistrement, synchronisation et échantillonnage.",
+      "date": "12 novembre 2026"
+    },
+    "YT-AI": {
+      "titre": "YouTube · déclaration de l’usage de l’IA",
+      "url": "https://support.google.com/youtube/answer/14328491?hl=en",
+      "portee": "Musique générée qui est l’objet principal de la vidéo et scènes réalistes générées ou modifiées.",
+      "date": "12 novembre 2026"
+    },
+    "YT-GAMING": {
+      "titre": "YouTube · contenu de jeux et de logiciels",
+      "url": "https://support.google.com/youtube/answer/138161?hl=fr-CA",
+      "portee": "Conditions d’usage commercial selon l’éditeur et traitement des séquences de jeu prolongées.",
+      "date": "12 novembre 2026"
+    },
+    "YT-CONTENT-ID": {
+      "titre": "YouTube · accès à Content ID",
+      "url": "https://support.google.com/youtube/answer/1311402?hl=en",
+      "portee": "Exigence de droits exclusifs sur le matériel de référence pour l’accès à Content ID.",
+      "date": "12 novembre 2026"
+    },
+    "FFPROBE": {
+      "titre": "FFmpeg · ffprobe",
+      "url": "https://ffmpeg.org/ffprobe.html",
+      "portee": "Lecture structurée des caractéristiques d’un conteneur et de ses flux audio et vidéo.",
+      "date": "12 novembre 2026"
+    },
+    "YT-ANALYTIQUE-FORMATS": {
+      "titre": "YouTube · indicateurs par format",
+      "url": "https://support.google.com/youtube/answer/12220281?hl=en",
+      "portee": "Rapports de performance par type de contenu. Impressions de posts et engagement de lecture des Shorts.",
+      "date": "12 novembre 2026"
+    },
+    "IG-STORY-POLL": {
+      "titre": "Instagram · autocollants de sondage et Quiz des Stories",
+      "url": "https://help.instagram.com/608433622656862/?helpref=hc_fnav",
+      "portee": "Instagram documente des autocollants de sondage/Quiz dans les Stories. Le lancement ne dépend pas de leur présence : le commentaire est le repli.",
+      "date": "12 novembre 2026"
+    },
+    "YT-MONETIZATION": {
+      "titre": "YouTube · règles de monétisation et contenu original",
+      "url": "https://support.google.com/youtube/answer/1311392?hl=en",
+      "portee": "La chaîne est évaluée dans son ensemble : contenu original, substantiellement distinct, non produit en masse à partir d’un modèle répétitif.",
+      "date": "12 novembre 2026"
+    },
+    "YT-KIDS": {
+      "titre": "YouTube · audience destinée aux enfants",
+      "url": "https://support.google.com/youtube/answer/9527654?hl=en",
+      "portee": "La désignation affecte notamment commentaires, publications, personnalisation publicitaire et autres fonctions; elle dépend de l’audience réelle de chaque pièce.",
+      "date": "12 novembre 2026"
+    },
+    "YT-SPAM": {
+      "titre": "YouTube · spam et engagement artificiel",
+      "url": "https://support.google.com/youtube/answer/2801973?hl=en",
+      "portee": "Interdit notamment la production automatisée répétitive en masse et les sondages répétitifs de faible valeur conçus pour forcer l’engagement.",
+      "date": "12 novembre 2026"
+    },
+    "META-ORIGINAL": {
+      "titre": "Meta · critères de contenu original sur Facebook",
+      "url": "https://about.fb.com/news/2026/03/rewarding-original-creators-on-facebook/",
+      "portee": "Meta distingue création originale, transformation substantielle et reprise à faible valeur; l’originalité influence recommandations et monétisation.",
+      "date": "12 novembre 2026"
+    },
+    "CA-COPYRIGHT": {
+      "titre": "Office de la propriété intellectuelle du Canada · droit d’auteur",
+      "url": "https://ised-isde.canada.ca/site/canadian-intellectual-property-office/en/copyright-infringement",
+      "portee": "Le droit d’auteur couvre notamment reproduction, adaptation, traduction et communication au public. Une licence ou permission doit couvrir l’usage prévu; la mention de la source ne remplace pas la permission.",
+      "date": "12 novembre 2026"
+    },
+    "TT-REWARDS-HELP": {
+      "titre": "TikTok · conditions du Creator Rewards Program",
+      "url": "https://support.tiktok.com/en/business-and-creator/creator-rewards-program/how-is-the-creator-rewards-program-different-from-the-tiktok-creator-fund",
+      "portee": "Les vidéos admissibles au programme doivent être originales, de haute qualité et durer plus d’une minute; l’accès dépend aussi des critères de compte et de région.",
+      "date": "12 novembre 2026"
+    },
+    "FB-MONETIZATION": {
+      "titre": "Meta · programme Facebook Content Monetization",
+      "url": "https://about.fb.com/news/2026/03/creator-fast-track-grow-your-audience-earn-money-on-facebook/",
+      "portee": "L’accès au programme Content Monetization demeure sur invitation; l’intérêt peut être exprimé dans le tableau professionnel. Le plan ne suppose aucun revenu avant l’activation réelle.",
+      "date": "12 novembre 2026"
+    },
+    "X-POLLS": {
+      "titre": "X · créer un sondage",
+      "url": "https://help.x.com/fr/using-x/x-polls",
+      "portee": "Le sondage permet deux à quatre choix et une durée réglable; mesurer la réponse à une échéance déclarée plutôt que traiter le résultat comme un échantillon représentatif.",
+      "date": "12 novembre 2026"
+    },
+    "WAI-CAPTIONS": {
+      "titre": "W3C WAI · planifier les sous-titres et descriptions",
+      "url": "https://www.w3.org/WAI/media/av/planning/",
+      "portee": "Les médias préenregistrés doivent rendre accessibles paroles, sons significatifs et informations visuelles utiles; prévoir sous-titres et descriptions dans le gabarit de sortie.",
+      "date": "12 novembre 2026"
+    }
+  },
+  "quiz_formats": [
+    {
+      "id": "yt-post-quiz",
+      "titre": "YouTube Posts · quiz texte",
+      "maxChoix": 4,
+      "maxCaracteres": 80,
+      "revelation": "interaction",
+      "reponses": "native_quiz_result",
+      "detail": "Jusqu’à quatre choix; résultat après réponse et explication facultative. Format Quiz retenu pour les réponses complètes.",
+      "references": [
+        "YT-POSTS"
+      ]
+    },
+    {
+      "id": "yt-post-sondage",
+      "titre": "YouTube Posts · sondage texte",
+      "maxChoix": 4,
+      "maxCaracteres": 65,
+      "revelation": "libre",
+      "reponses": "aggregat",
+      "detail": "Jusqu’à quatre choix. Sondage d’opinion sans réponse correcte; figer le relevé à 24 h et publier le résultat dans une suite si utile.",
+      "references": [
+        "YT-POSTS"
+      ]
+    },
+    {
+      "id": "yt-short-quiz",
+      "titre": "YouTube Shorts · autocollant quiz",
+      "maxChoix": 2,
+      "maxCaracteres": null,
+      "revelation": "interaction",
+      "reponses": "native_immediate",
+      "detail": "Deux choix; résultat immédiat après réponse. Interactif seulement si le Short est public et non désigné Made for Kids; sinon utiliser une consigne non interactive.",
+      "references": [
+        "YT-STICKERS"
+      ]
+    },
+    {
+      "id": "capsule-video",
+      "titre": "Capsule vidéo · Shorts, Reels ou TikTok",
+      "maxChoix": null,
+      "maxCaracteres": null,
+      "revelation": "video",
+      "reponses": "comments",
+      "detail": "Master vertical 9:16 de 65–90 s; commentaire comme interaction quand le réseau n’offre pas de vote retenu. Les commentaires ne sont pas des votes.",
+      "references": []
+    },
+    {
+      "id": "x-sondage",
+      "titre": "X · sondage natif",
+      "maxChoix": 4,
+      "maxCaracteres": 25,
+      "revelation": "libre",
+      "reponses": "aggregate",
+      "detail": "Sondage d’engagement retenu : 2–4 options, durée standard d’un jour. Aucun revenu du programme X prévu pour le flux automatisé.",
+      "references": [
+        "X-SONDAGES"
+      ]
+    },
+    {
+      "id": "ig-sondage",
+      "titre": "Instagram · sondage",
+      "maxChoix": 2,
+      "maxCaracteres": null,
+      "revelation": "libre",
+      "reponses": "aggregate",
+      "detail": "Story Poll à deux choix, facultatif, avec commentaire comme repli si l’outil ou le relevé manque.",
+      "references": [
+        "IG-CANAUX",
+        "IG-CANAUX-MESURE"
+      ]
+    }
+  ],
+  "fiches": [
+    {
+      "id": "chaines",
+      "titre": "Chaînes",
+      "intro": "Chaque ligne de contenu possède sa chaîne et sa propre diffusion sur plusieurs réseaux. Les catégories rassemblent des chaînes apparentées; chaque fiche précise son périmètre, ses règles d’exploitation et ses adaptations.",
+      "titreEnfants": "Catégories de contenu",
+      "titreChamps": "Comment naviguer",
+      "champs": [
+        [
+          "Catégorie",
+          "Regroupe des chaînes apparentées. Elle contient leurs règles communes, leur recherche et leurs modèles; elle ne mélange pas leurs sujets."
+        ],
+        [
+          "Chaîne",
+          "Un type de contenu avec une promesse, une unité de publication, des contrôles et des métriques propres. Une chaîne peut publier des versions adaptées sur plusieurs réseaux."
+        ],
+        [
+          "Fiche de pièce",
+          "Les sujets, exemples, scripts, réponses, jeux, références particulières, fichiers et décisions créatives sont créés seulement dans le travail de production. Ils ne remplissent pas le Shell."
+        ],
+        [
+          "Créer une nouvelle branche",
+          "Ouvrir une catégorie quand un nouveau périmètre exige ses propres règles ou contrôles. Créer une chaîne sous la catégorie quand la promesse et le protocole de sortie peuvent être décrits sans mélanger les lignes existantes."
+        ],
+        [
+          "Règle de diffusion",
+          "Un actif source propre, puis une version native par réseau retenu. Ne pas compter une republication comme une deuxième chaîne et ne pas fusionner les métriques entre réseaux."
+        ],
+        [
+          "Seuil de transfert à la production",
+          "Chaque Shell doit réussir la grille 100 points : périmètre/public 20; unité et promesse 20; formats et réseaux 20; preuves, droits et limites 20; automatisation et replis 10; mesure et révision 10. Minimum 85/100, sans échec sur un contrôle bloquant. L’innovation et les sujets concrets sont seuls laissés à la production."
+        ]
+      ],
+      "blocs": [
+        {
+          "titre": "Contrat commun hérité par chaque chaîne",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Ce que le Shell doit régler",
+              "etat": "regle",
+              "texte": "Promesse et périmètre; public et langue par défaut; unité de publication; format maître; réseaux et adaptations; prérequis; droits et contrôles; automatisation; mesures; repli; critères d’ouverture et de suspension."
+            },
+            {
+              "titre": "Ce qui relève de la production",
+              "etat": "regle",
+              "texte": "Le concept, le sujet précis, les faits particuliers, les exemples, les réponses, le script, les actifs, les fichiers et les choix créatifs d’une pièce. Une chaîne décrit comment les traiter; elle ne les préremplit pas."
+            },
+            {
+              "titre": "Règle de preuve",
+              "etat": "regle",
+              "texte": "Une règle de plateforme ou un fait de méthode renvoie à sa source et à la portée de cette source. Une décision interne est marquée comme choix de fonctionnement. Une incertitude propre à une pièce est inscrite dans son dossier et ne bloque pas le Shell."
+            },
+            {
+              "titre": "Cadence par défaut",
+              "etat": "regle",
+              "texte": "Pas de quota quotidien ou de publication automatique à cadence fixe. Lancer d’abord un lot maîtrisable; fixer la cadence après mesure du temps réel, du coût et de la qualité de contrôle. La publication automatique exige une autorisation de compte et un calendrier explicite."
+            },
+            {
+              "titre": "Accès et recettes",
+              "etat": "regle",
+              "texte": "Aucune recette estimée avant admission et versement visible. Chaque compte est vérifié dans son tableau de bord; si une fonction, un accès ou une mesure manque, appliquer le repli indiqué et garder le revenu à 0 $."
+            }
+          ]
+        },
+        {
+          "titre": "Automatisation commune",
+          "ouvert": false,
+          "points": [
+            {
+              "titre": "Préparation que l’IA peut prendre en charge",
+              "etat": "regle",
+              "texte": "Lire la fiche de chaîne et ses sources; produire une fiche de pièce seulement sur demande de production; assembler les versions de réseau; générer sous-titres et métadonnées; contrôler le format, la présence des pièces requises, les droits déclarés, les longueurs et les correspondances de versions; préparer un export et un rapport de mesure."
+            },
+            {
+              "titre": "Arrêt automatique",
+              "etat": "regle",
+              "texte": "Bloquer l’envoi si une permission manque, si un fait central n’a pas de source exigée, si une règle de sécurité échoue, si une fonction d’audience est inconnue ou si les fichiers divergent. Le rapport donne l’élément exact à obtenir; l’IA ne le devine pas."
+            },
+            {
+              "titre": "Anti-production en série vide",
+              "etat": "regle",
+              "texte": "Les modèles accélèrent la préparation mais ne justifient pas la répétition de pièces interchangeables. Le système ne publie pas de variations automatiques destinées uniquement à gonfler vues, commentaires ou sondages.",
+              "references": [
+                "YT-MONETIZATION",
+                "YT-SPAM",
+                "META-ORIGINAL"
+              ]
+            }
+          ]
+        }
+      ],
+      "liens": [],
+      "bibliographie": [
+        "YT-MONETIZATION",
+        "YT-SPAM",
+        "META-ORIGINAL",
+        "YT-KIDS",
+        "CA-COPYRIGHT",
+        "CC-LICENCES",
+        "WAI-CAPTIONS",
+        "YT-FORMAT",
+        "TT-REWARDS-HELP",
+        "FB-MONETIZATION",
+        "X-POLLS"
+      ],
+      "gabarit": {
+        "titre": "Contrat minimal d’une chaîne",
+        "champs": [
+          [
+            "Identité",
+            "Nom · promesse au public · type de résultat · frontière avec les chaînes voisines"
+          ],
+          [
+            "Public et langue",
+            "Public de départ · langue · statut général/enfants déterminé pour chaque pièce selon sa cible réelle"
+          ],
+          [
+            "Unité de sortie",
+            "Pièce complète · format source · éléments requis pour qu’elle soit intelligible"
+          ],
+          [
+            "Réseaux",
+            "Réseau ancre · adaptations retenues · fonctions natives · repli si indisponible"
+          ],
+          [
+            "Automatisation",
+            "Entrées nécessaires · ce que l’IA peut générer/contrôler · arrêt et approbation"
+          ],
+          [
+            "Contrôles",
+            "Faits · droits · sécurité · accessibilité · originalité; source liée quand externe"
+          ],
+          [
+            "Mesure",
+            "Métrique · dénominateur · fenêtre · seuils de revue · recettes constatées"
+          ],
+          [
+            "Prêt à transmettre",
+            "Score d’au moins 85/100 selon la grille de la page, sans contrôle bloquant. Sinon corriger le Shell, pas demander au créateur de redécouvrir les règles déjà connues."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "histoire",
+      "parent": "chaines",
+      "repere": "CAT-HIST",
+      "titre": "Histoire",
+      "intro": "Trois chaînes de récit séparées par leur contrat de sortie : suite décidée par le public, récit autonome, ou animation construite avec une provenance contrôlée.",
+      "titreEnfants": "Chaînes d’histoire",
+      "titreChamps": "Frontières entre les chaînes",
+      "champs": [
+        [
+          "Interactif",
+          "Le vote modifie la branche narrative suivante; un seul relevé de référence décide de la suite."
+        ],
+        [
+          "Complet",
+          "Un récit de 3 à 15 minutes qui se comprend et se résout sans épisode préalable."
+        ],
+        [
+          "Animation",
+          "Le visuel animé est le mode de livraison. La source du récit doit être originale ou couverte par une permission d’adaptation."
+        ],
+        [
+          "Règle de classement",
+          "Classer selon le mécanisme principal. Une histoire animée à vote appartient à la chaîne interactive et reçoit une adaptation animée; ne pas dupliquer la même pièce dans deux chaînes."
+        ]
+      ],
+      "bibliographie": [
+        "CA-ADAPTATION",
+        "CC-LICENCES",
+        "YT-ORIGINAL",
+        "YT-MONETIZATION",
+        "YT-AI",
+        "WAI-CAPTIONS"
+      ]
+    },
+    {
+      "id": "histoires-interactives",
+      "parent": "histoire",
+      "repere": "HIST-01",
+      "titre": "Histoires interactives",
+      "intro": "Une histoire en épisodes dont la suite est déterminée par un vote public mesurable. Règle de départ : deux choix, une source de vote de référence, clôture 48 h après publication; deux jours restent le rythme visé, ajustable avant l’ouverture du vote.",
+      "copieIA": true,
+      "blocs": [
+        {
+          "titre": "Décision de l’épisode",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Un vote de référence",
+              "etat": "regle",
+              "texte": "Un seul sondage public fait foi par épisode. La fiche d’épisode porte son identifiant, ses deux options, le réseau choisi, l’heure de clôture et le relevé horodaté. Les autres réseaux renvoient vers ce vote; ne jamais additionner des votes multi-réseaux."
+            },
+            {
+              "titre": "Délai et durée ajustables",
+              "etat": "regle",
+              "texte": "Rythme initial : épisode suivant environ 48 h après le précédent; fermer le vote au moins 12 h avant livraison pour laisser le temps aux contrôles. La durée de chaque épisode suit la compréhension du récit. Si la suite ne passe pas les contrôles, annoncer un délai révisé avant publication."
+            }
+          ]
+        },
+        {
+          "titre": "Continuité et reprise",
+          "ouvert": false,
+          "points": [
+            {
+              "titre": "Fiche de passage",
+              "etat": "regle",
+              "texte": "Le dossier transmet le relevé clos, l’option retenue, la branche de repli préétablie, la version de l’épisode et les faits de continuité. Égalité ou absence de votes : appliquer le repli inscrit avant l’ouverture."
+            },
+            {
+              "titre": "Travail délégable",
+              "etat": "regle",
+              "texte": "L’IA peut contrôler les dates, calculer le résultat, préparer la fiche de passage et vérifier la cohérence entre option retenue et suite. La décision narrative créative et la publication restent des étapes distinctes."
+            }
+          ]
+        },
+        {
+          "titre": "Protocole de vote fixé",
+          "ouvert": false,
+          "points": [
+            {
+              "titre": "Vote de référence et branches",
+              "etat": "regle",
+              "texte": "Chaque épisode reçoit un identifiant et deux options cohérentes avec le récit. Le vote est ouvert sur une seule plateforme désignée dans la fiche d’épisode; les autres réseaux renvoient au même vote et ne sont pas agrégés. Le choix gagnant gouverne la suite."
+            },
+            {
+              "titre": "Échéance et absence de résultat",
+              "etat": "regle",
+              "texte": "Fenêtre initiale : 48 h après publication, annoncée avec fuseau. À égalité ou sans vote exploitable, appliquer l’option de continuité déjà identifiée comme « repli » avant d’ouvrir le vote. La branche de repli est inscrite dans le dossier de l’épisode, jamais improvisée après les résultats."
+            },
+            {
+              "titre": "Rythme de publication",
+              "etat": "regle",
+              "texte": "Cible de départ : publier la suite environ deux jours après l’épisode précédent. Fermer le vote au moins 12 h avant la livraison visée pour préparer et contrôler la suite. Si le contrôle n’est pas terminé, décaler et annoncer la nouvelle échéance; ne pas raccourcir le contrôle."
+            },
+            {
+              "titre": "Mesure",
+              "etat": "regle",
+              "texte": "Archiver le total et les votes par option à l’heure de clôture, le réseau, la durée réelle et la branche appliquée. Le résultat décrit les répondants du sondage, pas l’ensemble des spectateurs."
+            },
+            {
+              "titre": "Fiche de passage",
+              "etat": "regle",
+              "texte": "Le dossier transmet le relevé clos, l’option retenue, la branche de repli préétablie, la version de l’épisode et les faits de continuité. Égalité ou absence de votes : appliquer le repli inscrit avant l’ouverture."
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "formats-interactifs",
+          "titre": "Formats de vote par réseau"
+        },
+        {
+          "id": "cloture-vote",
+          "titre": "Atelier · essai de clôture du vote"
+        },
+        {
+          "id": "dossier-de-lot",
+          "titre": "Préparer le dossier d’un épisode"
+        },
+        {
+          "id": "chaines",
+          "titre": "Retour à la carte des chaînes"
+        }
+      ]
+    },
+    {
+      "id": "histoires-completes",
+      "parent": "histoire",
+      "repere": "HIST-02",
+      "titre": "Histoires complètes",
+      "intro": "Récit autonome de 3 à 15 minutes, avec un début compréhensible sans contexte, une progression causale et une résolution. La vidéo complète est la version de référence; les extraits sociaux sont des adaptations, jamais des remplacements.",
+      "copieIA": true,
+      "blocs": [
+        {
+          "titre": "Contrôler l’autonomie du récit",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Brief de récit",
+              "etat": "regle",
+              "texte": "Pour chaque pièce, le brief identifie le point de départ compréhensible sans contexte, le changement central, la résolution et le lien causal de chaque segment. La durée reste dans l’enveloppe 3–15 minutes; supprimer en premier les passages sans conséquence."
+            },
+            {
+              "titre": "Preuve de compréhension",
+              "etat": "regle",
+              "texte": "Avant diffusion, la revue sans contexte restitue le changement, sa cause et la résolution. L’IA relit le plan et signale le premier raccord où une donnée nécessaire manque."
+            }
+          ]
+        },
+        {
+          "titre": "Sortie par réseau",
+          "ouvert": false,
+          "points": [
+            {
+              "titre": "YouTube",
+              "etat": "regle",
+              "texte": "Publier le récit complet comme vidéo de référence; les extraits verticaux sont distincts et renvoient vers la version complète. Sous-titres préparés pour la version complète et ses adaptations.",
+              "references": [
+                "YT-FORMAT",
+                "WAI-CAPTIONS"
+              ]
+            },
+            {
+              "titre": "TikTok, Instagram et Facebook",
+              "etat": "regle",
+              "texte": "Publier une adaptation verticale par réseau. Un extrait doit rester intelligible seul; si le passage n’a de sens qu’avec la scène coupée, ne pas en faire une unité sociale autonome. Facebook/Instagram ne reçoivent pas le master complet recadré automatiquement.",
+              "references": [
+                "TT-REWARDS",
+                "FB-FORMAT",
+                "META-ORIGINAL"
+              ]
+            },
+            {
+              "titre": "Droits et originalité",
+              "etat": "regle",
+              "texte": "La chaîne privilégie les récits originaux. Toute œuvre tierce utilisée comme base d’adaptation doit être dans le domaine public confirmé pour l’usage prévu, couverte par une licence adéquate ou autorisée par écrit. Créditer ne remplace pas les droits; une adaptation ne se déduit pas du simple accès au texte en ligne.",
+              "references": [
+                "CA-COPYRIGHT",
+                "CC-LICENCES",
+                "YT-MONETIZATION"
+              ]
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "dossier-de-lot",
+          "titre": "Préparer le brief et les contrôles"
+        },
+        {
+          "id": "chaines",
+          "titre": "Retour à la carte des chaînes"
+        }
+      ],
+      "titreChamps": "Contrat de la chaîne",
+      "champs": [
+        [
+          "Durée de référence",
+          "3 à 15 minutes, conformément au périmètre donné par l’équipe. Prolonger seulement si la compréhension et la résolution l’exigent; couper un segment sans effet sur la causalité."
+        ],
+        [
+          "Version source",
+          "Vidéo complète sous-titrée, cadrage choisi pour servir le récit. YouTube reçoit la version intégrale de référence."
+        ],
+        [
+          "Adaptations sociales",
+          "Créer des extraits verticaux uniquement s’ils ont une entrée compréhensible, un fragment narratif cohérent et une fin qui ne promet pas faussement une résolution complète. Rejoindre la version intégrale par un lien ou une indication native."
+        ],
+        [
+          "Validation",
+          "La lecture sans contexte doit permettre de reconstruire le changement central, sa cause et ce que la fin résout. Une réponse absente identifie le raccord à réparer; aucune étude de contenu supplémentaire n’est requise pour appliquer ce contrôle."
+        ],
+        [
+          "Automatisation",
+          "L’IA peut vérifier les liens de causalité du plan fourni, proposer les segments à examiner, préparer sous-titres, découpage technique et métadonnées, puis contrôler que chaque adaptation pointe vers la bonne version."
+        ]
+      ],
+      "bibliographie": [
+        "CA-COPYRIGHT",
+        "CC-LICENCES",
+        "YT-MONETIZATION",
+        "YT-FORMAT",
+        "WAI-CAPTIONS"
+      ]
+    },
+    {
+      "id": "animations-histoires",
+      "parent": "histoire",
+      "repere": "HIST-03",
+      "titre": "Animations d’histoires",
+      "intro": "Chaîne d’animation narrative. L’animation est un format, pas une autorisation d’adapter : les notes originales internes sont la source par défaut; une œuvre trouvée en ligne sert à l’inspiration documentaire, jamais de matériau d’adaptation sans permission ou domaine public vérifié.",
+      "copieIA": true,
+      "blocs": [
+        {
+          "titre": "Définir les entrées réutilisables",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Référence externe",
+              "etat": "regle",
+              "texte": "Aucune adaptation d’une œuvre externe sans preuve d’autorisation ou statut public vérifié pour le territoire, la durée, le média et l’usage commercial. Vérifier aussi séparément traduction, illustration, musique et enregistrement.",
+              "references": [
+                "CA-ADAPTATION",
+                "CC-LICENCES",
+                "YT-ORIGINAL"
+              ]
+            },
+            {
+              "titre": "Banque interne de fragments",
+              "etat": "regle",
+              "texte": "Les fragments originaux sont conservés dans une banque versionnée; le dossier de pièce référence leur identifiant, auteur, emplacement et version. Le Shell fixe cette structure, sans remplir la banque de contenu."
+            }
+          ]
+        },
+        {
+          "titre": "Contrôler la continuité visuelle et sonore",
+          "ouvert": false,
+          "points": [
+            {
+              "titre": "Fiche de continuité",
+              "etat": "regle",
+              "texte": "Le dossier de production référence les personnages, voix, décors et accessoires nécessaires à la continuité et conserve le dernier état validé. Ces références apparaissent avec la première pièce, sans prédéfinir d’univers."
+            },
+            {
+              "titre": "Déclaration de l’usage de l’IA",
+              "etat": "condition",
+              "texte": "Vérifier la déclaration dans les réglages de la version cible. Sur YouTube, une scène réaliste générée ou modifiée peut déclencher cette exigence. Consigner le réglage et sa raison dans le lot.",
+              "references": [
+                "YT-AI"
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Règles de diffusion et de contrôle",
+          "ouvert": false,
+          "points": [
+            {
+              "titre": "Version de référence",
+              "etat": "regle",
+              "texte": "Version animée complète en format qui préserve la composition; adaptations verticales conçues comme des scènes compréhensibles, pas comme un recadrage aveugle."
+            },
+            {
+              "titre": "Contrôle avant diffusion",
+              "etat": "regle",
+              "texte": "Vérifier provenance des fragments, permission des actifs, cohérence des personnages et voix, sous-titres, artefacts visuels évidents, piste sonore, et divulgation IA si requise. Bloquer si la source narrative ou un actif ne peut pas être tracé.",
+              "references": [
+                "CA-COPYRIGHT",
+                "YT-AI",
+                "WAI-CAPTIONS"
+              ]
+            },
+            {
+              "titre": "Automatisation permise",
+              "etat": "regle",
+              "texte": "L’IA peut indexer les notes internes, proposer un assemblage de travail, maintenir la fiche de continuité, produire les adaptations et détecter les incohérences. L’IA ne valide pas les droits sur une œuvre dont le statut n’est pas documenté."
+            },
+            {
+              "titre": "Monétisation",
+              "etat": "regle",
+              "texte": "Prévision de recette de plateforme : 0 $ jusqu’à accès et versement visibles. Le style animé ou l’usage d’IA ne garantit pas l’originalité admise ni la monétisation; chaque pièce doit montrer une valeur narrative distincte.",
+              "references": [
+                "YT-MONETIZATION",
+                "META-ORIGINAL"
+              ]
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "provenance-actifs",
+          "titre": "Droits des actifs et apports originaux"
+        },
+        {
+          "id": "controles-et-reprise",
+          "titre": "Conserver une version et reprendre au bon état"
+        },
+        {
+          "id": "chaines",
+          "titre": "Retour à la carte des chaînes"
+        }
+      ],
+      "titreChamps": "Entrées et limites déjà fixées",
+      "champs": [
+        [
+          "Source narrative par défaut",
+          "Fragments originaux créés et versionnés dans la banque interne. L’IA peut les assembler en proposition narrative à partir d’un dossier de production autorisé; elle ne transforme pas automatiquement des histoires trouvées en ligne en scénario."
+        ],
+        [
+          "Sources externes",
+          "Usage comme référence de recherche seulement, sauf licence ou autorisation couvrant adaptation, traduction, diffusion commerciale et réseaux visés. L’expiration d’un droit dans un territoire n’implique pas automatiquement le même statut ailleurs."
+        ],
+        [
+          "Apport original",
+          "Chaque pièce doit porter un apport distinct de studio (narration, adaptation autorisée, interprétation visuelle ou structure narrative), documenté dans le dossier. Une chaîne de scènes IA génériques ou répétitives n’est pas le modèle d’exploitation retenu."
+        ],
+        [
+          "Continuité",
+          "Garder un guide de référence versionné pour apparence, voix, décor et éléments visuels nécessaires à la continuité; le guide est créé avec la première production, pas prérempli dans la préparation."
+        ],
+        [
+          "Déclaration IA",
+          "La publication vérifie la règle de divulgation du réseau. Sur YouTube, la divulgation vise le contenu altéré ou synthétique réaliste; les scènes fantastiques ou animées ne sont pas automatiquement assimilées à du réalisme."
+        ]
+      ],
+      "bibliographie": [
+        "CA-COPYRIGHT",
+        "CA-ADAPTATION",
+        "CC-LICENCES",
+        "YT-MONETIZATION",
+        "YT-AI",
+        "META-ORIGINAL",
+        "WAI-CAPTIONS"
+      ]
+    },
+    {
+      "id": "tutoriels",
+      "parent": "chaines",
+      "titre": "Tutoriels et explications",
+      "intro": "Une chaîne par famille de promesse pédagogique. Le Shell commun définit le contrat de démonstration; chaque famille ajoute son contrôle; les versions réseau adaptent la leçon sans supprimer les étapes qui rendent le résultat reproductible.",
+      "repere": "CAT-TUTOR",
+      "titreEnfants": "Dossier de préparation",
+      "titreChamps": "Décisions communes de la catégorie",
+      "champs": [
+        [
+          "Promesse",
+          "Une personne comprend une notion ou reproduit une tâche, avec un résultat observable. Une vidéo de simple opinion ou d’actualité ne devient pas tutoriel sans objectif d’apprentissage."
+        ],
+        [
+          "Audience",
+          "Français par défaut, audience générale sauf chaîne explicitement destinée aux enfants. Le public précis se choisit en production parmi les publics et niveaux; les revenus par démographie ne sont pas présumés."
+        ],
+        [
+          "Durée",
+          "Pas de durée universelle. Garder le temps nécessaire aux prérequis, aux étapes et à la preuve du résultat. Découper seulement si chaque partie apporte un résultat autonome; ne pas couper une étape essentielle pour satisfaire une limite de plateforme."
+        ],
+        [
+          "Version de référence",
+          "YouTube reçoit la démonstration complète, indexable et sous-titrée. Les autres réseaux reçoivent des adaptations qui restent complètes ou pointent clairement vers la version longue."
+        ],
+        [
+          "Mesure de réussite",
+          "Séparer réussite d’apprentissage (résultat observé dans l’essai de pièce), rétention/achèvement de la plateforme, commentaires et revenus. Une métrique de vues ne prouve pas qu’une personne a appris ou réussi."
+        ],
+        [
+          "Recherche d’audience et revenu",
+          "Utiliser les requêtes et outils de tendance pour repérer une demande, pas pour prétendre qu’un public rapportera plus. Le revenu par audience n’est déclaré que si le tableau de bord le ventile; sinon comparer la demande, le coût complet et les recettes disponibles séparément."
+        ]
+      ]
+    },
+    {
+      "id": "tutoriels-cadre",
+      "parent": "tutoriels",
+      "titre": "Cadre commun",
+      "intro": "Le Shell d’une chaîne de tutoriels, du résultat promis à la preuve à réunir.",
+      "repere": "DOS-08",
+      "copieIA": true,
+      "blocs": [
+        {
+          "titre": "Construire une démonstration vérifiable",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Ce que la personne saura faire",
+              "etat": "regle",
+              "texte": "Le dossier de pièce fixe une tâche ou notion, le niveau de départ, le résultat observable, les prérequis essentiels, les étapes et la vérification. Réduire le périmètre plutôt que laisser une étape implicite.",
+              "references": [
+                "BRAME"
+              ]
+            },
+            {
+              "titre": "Choisir la durée utile",
+              "etat": "regle",
+              "texte": "Aucune durée fixe commune. Inclure le résultat attendu, les seuls prérequis nécessaires, chaque étape et son contrôle. Retirer ce qui ne change ni l’exécution ni la compréhension. Si la plateforme est trop courte, utiliser une version plus longue; ne pas supprimer une étape nécessaire."
+            },
+            {
+              "titre": "Choisir la forme d’explication",
+              "etat": "regle",
+              "texte": "Défaut : démonstration ou explication directe. Employer une structure narrative seulement quand comprendre les causes ou les choix est l’objectif. Dans les deux formes, conserver le même résultat attendu et son contrôle."
+            }
+          ]
+        },
+        {
+          "titre": "Contrôles qui changent la décision",
+          "ouvert": false,
+          "points": [
+            {
+              "titre": "Lisibilité",
+              "etat": "regle",
+              "texte": "Le contrôle mobile vérifie que l’étape déterminante est lisible. Sous-titres vérifiés, unités/nombres/consignes visibles et description des informations visuelles nécessaires, y compris sans son.",
+              "references": [
+                "WAI"
+              ]
+            },
+            {
+              "titre": "Droits et mise à jour",
+              "etat": "regle",
+              "texte": "Chaque actif tiers est relié à une autorisation qui couvre chaque réseau et usage commercial retenus. Pour une méthode susceptible de changer, consigner la date de vérification et le signal qui déclenche une révision."
+            }
+          ]
+        },
+        {
+          "titre": "Préparation par une IA",
+          "ouvert": false,
+          "points": [
+            {
+              "titre": "Remettre une fiche exploitable",
+              "etat": "regle",
+              "texte": "L’IA peut produire le brief, retrouver les règles sourcées, structurer les prérequis, proposer une liste de contrôles et signaler les éléments manquants. Les sources publiques et autorisations restent rattachées à la pièce; les inconnues factuelles sont bloquantes seulement si elles portent le résultat ou la sécurité."
+            }
+          ]
+        },
+        {
+          "titre": "Règles de conception déjà retenues",
+          "ouvert": false,
+          "points": [
+            {
+              "titre": "Périmètre minimal",
+              "etat": "regle",
+              "texte": "Définir un résultat d’apprentissage unique. Préparer les prérequis indispensables, les étapes, le résultat attendu et le contrôle qui prouve que l’objectif est atteint. Réduire le périmètre plutôt que laisser une étape implicite."
+            },
+            {
+              "titre": "Explication directe ou récit",
+              "etat": "regle",
+              "texte": "L’explication directe est le défaut. Utiliser une structure narrative seulement si les choix ou les causes sont nécessaires à l’apprentissage; le récit ne remplace ni les étapes ni la vérification."
+            },
+            {
+              "titre": "Durée et découpage",
+              "etat": "regle",
+              "texte": "La durée dépend du nombre d’étapes requises pour réussir. La recherche sur les vidéos de MOOC informe l’attention dans son contexte et ne justifie pas une durée maximale universelle; le résultat d’apprentissage est mesuré séparément.",
+              "references": [
+                "GUO",
+                "BRAME"
+              ]
+            },
+            {
+              "titre": "Accessibilité de base",
+              "etat": "regle",
+              "texte": "Sous-titrer la parole; décrire les informations visuelles essentielles; garder unités, nombres et consignes accessibles sur petit écran et sans son. Contrôler l’exactitude des sous-titres produits automatiquement.",
+              "references": [
+                "WAI",
+                "WAI-CAPTIONS"
+              ]
+            },
+            {
+              "titre": "Faits et mise à jour",
+              "etat": "regle",
+              "texte": "Attacher une source à chaque affirmation centrale qui requiert une preuve. Si l’environnement ou la règle change fréquemment, inscrire date de vérification et condition de révision; ne pas recopier une date ou version de produit dans le Shell."
+            },
+            {
+              "titre": "Séparation préparation/production",
+              "etat": "regle",
+              "texte": "Le Shell ne choisit pas de jeu, de notion, d’application, d’outil ou de conseil concret. Ces données deviennent des entrées du dossier de pièce et sont vérifiées à ce moment-là."
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "tutoriels-familles",
+          "titre": "Contrôle propre à chaque famille"
+        },
+        {
+          "id": "tutoriels-validation",
+          "titre": "Préparer le relevé de résultat"
+        },
+        {
+          "id": "dossier-de-lot",
+          "titre": "Rattacher la fiche à un dossier de lot"
+        }
+      ]
+    },
+    {
+      "id": "tutoriels-gabarit-version",
+      "parent": "tutoriels-cadre",
+      "titre": "Gabarit de version",
+      "intro": "Copier cette fiche pour préparer un couple réseau et format. Pour une valeur inconnue, inscrire la vérification qui permet de la renseigner.",
+      "copieIA": true,
+      "titreChamps": "Fiche à compléter",
+      "champs": [
+        [
+          "Chaîne et version",
+          "Identifiant … · Réseau … · Format …"
+        ],
+        [
+          "Public",
+          "Tâche recherchée … · Niveau … · Langue et pays du public … · Signal de demande et date …"
+        ],
+        [
+          "Format choisi",
+          "Durée de la démonstration … · Réglage à comparer … · Limite du réseau et source …"
+        ],
+        [
+          "Contrôle",
+          "Conditions initiales … · Résultat attendu … · Preuve à relever … · Observation …"
+        ],
+        [
+          "Accès et coût",
+          "Pays et type de compte … · Programme affiché … · Droits par média … · Coût complet et plafond …"
+        ],
+        [
+          "Décision",
+          "Métrique, dénominateur et fenêtre … · Condition de poursuite … · Vérification restante …"
+        ]
+      ],
+      "liens": [
+        {
+          "id": "tutoriels-reseaux",
+          "titre": "Choisir la version"
+        },
+        {
+          "id": "tutoriels-familles",
+          "titre": "Trouver le contrôle de preuve"
+        },
+        {
+          "id": "tutoriels-audience",
+          "titre": "Évaluer le public et le coût"
+        }
+      ]
+    },
+    {
+      "id": "tutoriels-reseaux",
+      "parent": "tutoriels",
+      "titre": "Versions par réseau",
+      "intro": "Ouvrir la version qui permet de montrer la tâche et d’observer le signal recherché. Renseigner une fiche par format retenu.",
+      "titreEnfants": "Fiches par réseau",
+      "liens": [
+        {
+          "id": "tutoriels-gabarit-version",
+          "titre": "Copier le gabarit de version"
+        }
+      ],
+      "titreChamps": "Matrice de diffusion retenue",
+      "champs": [
+        [
+          "YouTube · référence",
+          "Vidéo complète quand la tâche exige plusieurs étapes; Short quand une tâche complète tient dans le format. Le Short peut aller jusqu’à trois minutes. Sous-titres et description du résultat dans les deux cas."
+        ],
+        [
+          "TikTok",
+          "Adaptation verticale. Si un dossier vise le Creator Rewards Program, la vidéo doit dépasser une minute et répondre aux autres conditions du programme; ne jamais allonger une pièce vide ni tronquer la démonstration pour entrer dans le programme."
+        ],
+        [
+          "Instagram",
+          "Reel vertical, avec la tâche entière si elle est courte ou une étape autonome qui renvoie à la version complète. Utiliser Story seulement quand un élément interactif est réellement utile; aucun poll n’est le format par défaut du tutoriel."
+        ],
+        [
+          "Facebook",
+          "Version vidéo/Reel native et lisible sans son. Conserver le master original et les droits d’utilisation audio pour chaque destination; les fonctions et la monétisation dépendent du compte."
+        ],
+        [
+          "Mesure",
+          "Comparer séparément chaque réseau, format, public et fenêtre. Vidéo : rétention/achèvement, vues engagées lorsque définies par le réseau, visites ou abonnements attribués, coût. Apprentissage : taux de réussite observé dans un essai de pièce, jamais inféré du nombre de vues."
+        ]
+      ],
+      "blocs": [
+        {
+          "titre": "Règle d’adaptation",
+          "ouvert": false,
+          "points": [
+            {
+              "titre": "Conserver le résultat",
+              "etat": "regle",
+              "texte": "Chaque adaptation conserve la promesse, les prérequis indispensables, les unités et l’étape de preuve. Si cela ne tient pas, publier la version complète ou une partie réellement autonome."
+            },
+            {
+              "titre": "Ne pas transférer l’interface de plateforme",
+              "etat": "regle",
+              "texte": "Retirer les autocollants, menus et appels propres au réseau du master. Reconstruire une interaction uniquement sur la plateforme où elle est disponible; sinon utiliser une consigne de commentaire ou un lien de renvoi."
+            },
+            {
+              "titre": "Revenu",
+              "etat": "regle",
+              "texte": "Inscrire 0 $ avant admission, activation et revenu visible au tableau de bord. TikTok exige une vidéo originale de plus d’une minute pour le programme de récompenses; Facebook Content Monetization est sur invitation; les outils Instagram varient par compte. Ces règles n’établissent pas quelle audience ou quel réseau sera le plus rentable.",
+              "references": [
+                "TT-REWARDS-HELP",
+                "FB-MONETIZATION",
+                "IG-GIFTS",
+                "YT-YPP"
+              ]
+            }
+          ]
+        }
+      ],
+      "bibliographie": [
+        "YT-FORMAT",
+        "YT-YPP",
+        "TT-REWARDS-HELP",
+        "FB-MONETIZATION",
+        "IG-STATS",
+        "WAI-CAPTIONS"
+      ]
+    },
+    {
+      "id": "tutoriels-youtube",
+      "parent": "tutoriels-reseaux",
+      "titre": "YouTube",
+      "intro": "Vidéo standard pour une méthode à retrouver par recherche. Short pour une action ou une notion autonome.",
+      "copieIA": true,
+      "blocs": [
+        {
+          "titre": "Choisir entre vidéo standard et Short",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Vidéo standard · où découper",
+              "etat": "hypothese",
+              "texte": "Si la méthode comporte plusieurs phases autonomes, comparer un déroulé continu et un découpage à leurs points de contrôle. L’étude edX donne un repère autour de six minutes pour examiner où découper. Le réglage se décide avec la rétention à l’étape clé et la réussite de la tâche.",
+              "references": [
+                "GUO",
+                "YT-RETENTION"
+              ]
+            },
+            {
+              "titre": "Short · où s’arrêter",
+              "etat": "regle",
+              "texte": "Les nouveaux téléversements carrés ou verticaux d’au plus trois minutes sont classés en Shorts. Au-delà d’une minute, une réclamation Content ID active bloque le Short. Choisir une action qui peut être montrée et vérifiée dans ce format.",
+              "references": [
+                "YT-FORMAT"
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Relevé dans YouTube Studio",
+          "ouvert": false,
+          "points": [
+            {
+              "titre": "Demande et étape clé",
+              "etat": "propose",
+              "texte": "Avant un essai, repérer dans Tendances les recherches associées à la tâche. Au relevé, vérifier les termes réels dans Portée et la rétention au moment de l’action décisive. Une chute à cet endroit justifie d’examiner l’étape avant de raccourcir toute la vidéo.",
+              "references": [
+                "YT-TRENDS",
+                "YT-PORTÉE",
+                "YT-RETENTION"
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Durée et accès aux recettes",
+          "ouvert": false,
+          "points": [
+            {
+              "titre": "Annonces intermédiaires",
+              "etat": "condition",
+              "texte": "Dès huit minutes, une vidéo longue monétisée peut proposer des créneaux publicitaires. Choisir la durée utile à la démonstration.",
+              "references": [
+                "YT-MIDROLL"
+              ]
+            },
+            {
+              "titre": "Contribution originale",
+              "etat": "regle",
+              "texte": "Pour une production automatisée, vérifier la contribution originale du studio au regard des règles de monétisation sur le contenu réutilisé ou produit en série.",
+              "references": [
+                "YT-ORIGINAL"
+              ]
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "recettes-shorts",
+          "titre": "Argent · admission et partage des recettes Shorts"
+        },
+        {
+          "id": "parents-et-enfants",
+          "titre": "Réglage des contenus destinés aux enfants"
+        },
+        {
+          "id": "tutoriels-validation",
+          "titre": "Critère de réussite et relevé"
+        }
+      ]
+    },
+    {
+      "id": "tutoriels-tiktok",
+      "parent": "tutoriels-reseaux",
+      "titre": "TikTok",
+      "intro": "Éprouver une demande visible dans Creator Search Insights. Évaluer une version plus longue quand la tâche ou le programme de récompenses le justifie.",
+      "copieIA": true,
+      "blocs": [
+        {
+          "titre": "Deux décisions avant de retenir la version",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Découverte par recherche",
+              "etat": "propose",
+              "texte": "Relever une requête, sa lacune de contenu si affichée, et la date du relevé dans Creator Search Insights. Vérifier que la démonstration répond à cette requête. Quand la source de trafic est disponible, suivre la recherche séparément du visionnement global.",
+              "references": [
+                "TT-SEARCH"
+              ]
+            },
+            {
+              "titre": "Creator Rewards",
+              "etat": "condition",
+              "texte": "L’annonce de TikTok cite les vidéos originales de plus d’une minute, un compte personnel en règle dans une région couverte, 18 ans ou plus, 10 000 abonnés et 100 000 vues en 30 jours. Vérifier l’accès et le minimum affichés dans le compte retenu. Si une version admissible est retenue, relever les vues qualifiées et le RPM dans Creator Rewards.",
+              "references": [
+                "TT-REWARDS"
+              ]
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "tutoriels-audience",
+          "titre": "Comparer le public et les recettes"
+        },
+        {
+          "id": "questions-argent",
+          "titre": "Argent · vérifications du compte commun"
+        }
+      ]
+    },
+    {
+      "id": "tutoriels-instagram",
+      "parent": "tutoriels-reseaux",
+      "titre": "Instagram Reels",
+      "intro": "Éprouver si une démonstration mérite d’être enregistrée pour être refaite plus tard.",
+      "copieIA": true,
+      "blocs": [
+        {
+          "titre": "Découverte et retour à la démonstration",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Reel d’essai",
+              "etat": "documente",
+              "texte": "Si l’option est disponible, utiliser le mode d’essai pour une diffusion initiale aux non-abonnés. Meta annonce un premier relevé vers 24 heures. Comparer les essais entre eux à âge égal et relever tout partage ultérieur aux abonnés.",
+              "references": [
+                "IG-TRIAL"
+              ]
+            },
+            {
+              "titre": "Durée et enregistrements",
+              "etat": "propose",
+              "texte": "Vérifier la limite dans l’éditeur. Garder le geste lisible et le contrôle visible. Sur des Reels en diffusion normale, relever les enregistrements rapportés à la portée si ces deux métriques sont disponibles. Ce rapport mesure un intérêt à revenir. La tâche reproduite donne la preuve d’apprentissage.",
+              "references": [
+                "IG-GUIDE",
+                "IG-STATS"
+              ]
+            },
+            {
+              "titre": "Recettes",
+              "etat": "condition",
+              "texte": "Les cadeaux sont des contributions du public. Relever la fonction active et les montants attribuables au compte avant d’en tenir compte.",
+              "references": [
+                "IG-GIFTS"
+              ]
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "tutoriels-validation",
+          "titre": "Préparer la vérification d’apprentissage"
+        }
+      ]
+    },
+    {
+      "id": "tutoriels-facebook",
+      "parent": "tutoriels-reseaux",
+      "titre": "Facebook Reels",
+      "intro": "Évaluer Facebook comme adaptation d’une version déjà vérifiable. Ouvrir la version si les droits, le surcoût et les mesures accessibles permettent d’en juger l’apport.",
+      "copieIA": true,
+      "blocs": [
+        {
+          "titre": "Vérifier la Page et le surcoût",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Adaptation",
+              "etat": "propose",
+              "texte": "Relever les minutes et frais supplémentaires, y compris toute reprise audio ou visuelle. Vérifier les formats de la Page dans l’éditeur. Retenir la durée de la démonstration déjà vérifiée si elle convient à la Page.",
+              "references": [
+                "FB-FORMAT"
+              ]
+            },
+            {
+              "titre": "Accès et mesure",
+              "etat": "condition",
+              "texte": "Meta décrit un accès sur invitation. Dans le tableau professionnel mobile, ouvrir Monétisation puis Content Monetization. Si le programme est actif, comparer le revenu et le surcoût de la version. Relever le rendement par mille vues qualifiées avec sa période.",
+              "references": [
+                "FB-REWARDS"
+              ]
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "couts",
+          "titre": "Argent · méthode du coût complet"
+        }
+      ]
+    },
+    {
+      "id": "tutoriels-audience",
+      "parent": "tutoriels",
+      "titre": "Audience et recettes",
+      "intro": "Choisir le public du premier essai à partir d’une demande vérifiable. Classer les publics par rentabilité lorsque le revenu et le coût sont attribuables.",
+      "copieIA": true,
+      "blocs": [
+        {
+          "titre": "Comparer la demande",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Définir ce qu’on compare",
+              "etat": "regle",
+              "texte": "Comparer le même besoin pédagogique entre niveaux et langues définis. Séparer pays du public, du compte et du paiement; les segments de revenu ne sont jamais déduits de la langue ou de la géographie."
+            },
+            {
+              "titre": "Décider avec les signaux accessibles",
+              "etat": "regle",
+              "texte": "Utiliser les requêtes, tendances et outils de chaque plateforme comme indicateurs relatifs de demande, pas comme revenus ou prévisions. Choisir l’hypothèse de lancement selon demande visible et capacité à servir le public.",
+              "references": [
+                "TRENDS",
+                "YT-TRENDS",
+                "TT-SEARCH"
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Déterminer si un public rapporte davantage",
+          "ouvert": false,
+          "points": [
+            {
+              "titre": "Comparer une marge attribuable",
+              "etat": "regle",
+              "texte": "Calculer la marge par public seulement quand recettes et dépenses sont directement attribuables à ce segment. À défaut, afficher « revenu par public non ventilé » et garder demande, coût et revenu séparés.",
+              "references": [
+                "YT-RPM"
+              ]
+            },
+            {
+              "titre": "Tester un seuil de rentabilité",
+              "etat": "regle",
+              "texte": "Scénario facultatif uniquement avec revenu créateur mesuré et pertinent : vues requises = coût complet × 1 000 ÷ recette nette par mille vues comparables. Afficher la définition de vue, la période et l’incertitude; le scénario ne devient pas une prévision.",
+              "references": [
+                "YT-RPM"
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Décision par défaut et limite de preuve",
+          "ouvert": false,
+          "points": [
+            {
+              "titre": "Public de départ",
+              "etat": "regle",
+              "texte": "Conserver une audience générale francophone par défaut. Choisir un niveau d’apprentissage explicite par pièce; ne pas cibler les enfants à moins que la chaîne et la pièce soient réellement conçues pour eux."
+            },
+            {
+              "titre": "Ce que les outils de demande prouvent",
+              "etat": "regle",
+              "texte": "Google Trends et les outils de recherche des plateformes donnent des signaux relatifs ou des requêtes, pas un classement de revenus ni une garantie de vues. Utiliser ces données pour prioriser une hypothèse de demande; ne pas présenter l’indice comme un volume de ventes.",
+              "references": [
+                "TRENDS",
+                "YT-TRENDS",
+                "TT-SEARCH"
+              ]
+            },
+            {
+              "titre": "Ce qui permet de parler de rentabilité",
+              "etat": "regle",
+              "texte": "Pour déclarer qu’un public rapporte davantage, il faut une attribution réelle du revenu et du coût sur ce public. Si la plateforme n’expose pas cette segmentation, la conclusion reste « non mesurable par audience »; aucun proxy externe ne la remplace.",
+              "references": [
+                "YT-RPM"
+              ]
+            },
+            {
+              "titre": "Décision de départ",
+              "etat": "regle",
+              "texte": "Tant que la segmentation des recettes n’existe pas, retenir le public dont la demande observable, le niveau requis et le coût de service sont les plus favorables; inscrire la décision comme hypothèse opérationnelle et la revoir avec les données propres au compte."
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "recettes",
+          "titre": "Argent · mécanismes de recettes"
+        },
+        {
+          "id": "couts",
+          "titre": "Argent · coût complet"
+        },
+        {
+          "id": "questions-argent",
+          "titre": "Argent · décisions du compte commun"
+        }
+      ]
+    },
+    {
+      "id": "tutoriels-validation",
+      "parent": "tutoriels",
+      "titre": "Mesure et validation",
+      "intro": "Préparer la vérification de la tâche, puis choisir ce que les données permettront de décider sur le format.",
+      "repere": "Q-CAT-TUTOR",
+      "copieIA": true,
+      "blocs": [
+        {
+          "titre": "Relever une preuve",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Attendu et observé",
+              "etat": "regle",
+              "texte": "L’essai définit le résultat sans aide, consigne réussite/échec, nombre de personnes et tentatives, puis premier blocage. Sans observation, ne pas affirmer que l’enseignement fonctionne.",
+              "references": [
+                "BRAME"
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Décider après comparaison",
+          "ouvert": false,
+          "points": [
+            {
+              "titre": "Avant l’essai",
+              "etat": "regle",
+              "texte": "Avant de publier un test comparatif, changer un seul réglage et pré-définir la métrique, le dénominateur, la fenêtre et les pièces comparables. Les tests de compréhension sont séparés des tests d’algorithme."
+            },
+            {
+              "titre": "Après l’essai",
+              "etat": "regle",
+              "texte": "Conserver une variante seulement si le signal choisi s’améliore dans des comparaisons cohérentes et sans dégrader le résultat pédagogique. En cas d’écart ou de données faibles, répéter ou réduire la portée de la conclusion."
+            }
+          ]
+        },
+        {
+          "titre": "Règle de validation",
+          "ouvert": false,
+          "points": [
+            {
+              "titre": "Résultat pédagogique",
+              "etat": "regle",
+              "texte": "Avant la pièce, définir une réussite observable sans aide ou une reformulation précise. Relever le nombre de personnes et le nombre d’essais; petit échantillon = diagnostic de blocage, pas preuve générale d’efficacité."
+            },
+            {
+              "titre": "Résultat de plateforme",
+              "etat": "regle",
+              "texte": "Utiliser les définitions natives, même si les noms se ressemblent. Chaque ligne de mesure porte réseau, format, période, dénominateur, date de collecte et coût attribué."
+            },
+            {
+              "titre": "Décision après lot",
+              "etat": "regle",
+              "texte": "Conserver, modifier ou suspendre un format seulement selon le signal prévu. Quand une mesure manque, noter le relevé nécessaire; ne pas remplir avec une supposition ou comparer des métriques incompatibles."
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "preuve-tutoriel",
+          "titre": "Atelier · ES-05, contrôle d’une preuve manquante"
+        },
+        {
+          "id": "tutoriels-gabarit-version",
+          "titre": "Gabarit · attendu, observé et décision"
+        },
+        {
+          "id": "tutoriels-audience",
+          "titre": "Comparer la demande et la rentabilité"
+        }
+      ]
+    },
+    {
+      "id": "tutoriels-familles",
+      "parent": "tutoriels",
+      "titre": "Familles de tutoriels",
+      "intro": "Choisir la famille selon la promesse au public. Appliquer son contrôle avant de décliner la chaîne par réseau.",
+      "titreEnfants": "Familles déjà inscrites au plan",
+      "titreChamps": "Règle de choix",
+      "champs": [
+        [
+          "Jeu vidéo",
+          "Une action ou mécanique à apprendre, avec résultat reproductible."
+        ],
+        [
+          "Sciences",
+          "Comprendre une notion, un phénomène, un modèle ou une preuve."
+        ],
+        [
+          "Trucs du quotidien",
+          "Méthode ordinaire dont les conditions et le résultat doivent être expliqués."
+        ],
+        [
+          "Conseils spécialisés",
+          "Procédure ou conseil qui dépend d’un domaine, d’une compétence ou d’un contexte précis."
+        ],
+        [
+          "Faux conseils inoffensifs",
+          "Satire explicitement fictive, réussissant le test d’innocuité si imitée."
+        ],
+        [
+          "Parents et apprentissage des enfants",
+          "Instruction transmise ou supervisée par l’adulte, avec audience correctement classée."
+        ],
+        [
+          "Orientation positive",
+          "Explication ou piste constructive avec une promesse limitée et mesurable."
+        ],
+        [
+          "Évolution",
+          "Une nouvelle chaîne est ouverte lorsque sa promesse exige des contrôles ou règles distincts. Un sous-sujet ne devient pas automatiquement une nouvelle chaîne."
+        ]
+      ]
+    },
+    {
+      "id": "tutoriels-jeux",
+      "parent": "tutoriels-familles",
+      "repere": "TUT-GAME",
+      "titre": "Tutoriels de jeux vidéo",
+      "intro": "Une chaîne de pédagogie appliquée au jeu : reproduire une action ou comprendre une mécanique. Elle n’absorbe ni les séquences de divertissement (Gaming) ni les tests de connaissances (Quiz).",
+      "blocs": [
+        {
+          "titre": "Contrôle propre à la famille",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Contrat de la famille",
+              "etat": "regle",
+              "texte": "Démontrer une tâche ou une mécanique de jeu avec une consigne, un état initial reproductible, les étapes nécessaires et un résultat vérifiable. La pièce de production précise le jeu et les données ponctuelles; elles ne sont pas fixées dans le Shell."
+            },
+            {
+              "titre": "Frontière avec Gaming et Quiz",
+              "etat": "regle",
+              "texte": "Gameplay destiné principalement au divertissement va dans Gaming; question à réponse ou vote va dans Quiz. Une pièce combinant les trois garde une chaîne principale et ne crée qu’une adaptation secondaire si elle a une promesse autonome."
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "tutoriels-cadre",
+          "titre": "Shell commun"
+        },
+        {
+          "id": "tutoriels-validation",
+          "titre": "Consigner le résultat"
+        },
+        {
+          "id": "tutoriels-reseaux",
+          "titre": "Versions et mesures par réseau"
+        },
+        {
+          "id": "chaines",
+          "titre": "Retour à la carte des chaînes"
+        }
+      ],
+      "bibliographie": [
+        "YT-GAMING"
+      ],
+      "copieIA": true
+    },
+    {
+      "id": "tutoriels-sciences",
+      "parent": "tutoriels-familles",
+      "repere": "TUT-SCI",
+      "titre": "Tutoriels scientifiques",
+      "intro": "Une chaîne d’explication de notions ou phénomènes. Faits, modèles, hypothèses et limites restent identifiés; chiffrer avec unités et conditions. Une expérience risquée n’est pas un démonstrateur par défaut; utiliser une explication sûre ou une simulation quand une manipulation peut causer un dommage.",
+      "blocs": [
+        {
+          "titre": "Contrôle propre à la famille",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Contrôle de preuve scientifique",
+              "etat": "regle",
+              "texte": "Pour l’affirmation centrale, l’IA prépare une fiche avec source, type de preuve, conditions, unités et limites. Si deux sources divergent, compare leurs définitions et contextes; ne moyenne pas des résultats incompatibles."
+            },
+            {
+              "titre": "Garde de sécurité",
+              "etat": "regle",
+              "texte": "Aucune expérience dangereuse ou recette de manipulation n’est présumée. Si la sécurité ne peut pas être établie avec une procédure fiable, remplacer par animation, données publiées ou explication sans manipulation."
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "tutoriels-cadre",
+          "titre": "Shell commun"
+        },
+        {
+          "id": "tutoriels-validation",
+          "titre": "Consigner le résultat"
+        },
+        {
+          "id": "tutoriels-reseaux",
+          "titre": "Versions et mesures par réseau"
+        },
+        {
+          "id": "chaines",
+          "titre": "Retour à la carte des chaînes"
+        }
+      ],
+      "bibliographie": [
+        "BRAME"
+      ],
+      "copieIA": true
+    },
+    {
+      "id": "trucs-du-quotidien",
+      "parent": "tutoriels-familles",
+      "repere": "TUT-DAILY",
+      "titre": "Trucs du quotidien",
+      "intro": "Une chaîne de méthodes simples et ordinaires avec un résultat observable. Si réussir exige plusieurs prérequis, étapes ou adaptations au contexte, utiliser le Shell tutoriel complet plutôt que Tips.",
+      "blocs": [
+        {
+          "titre": "Contrôle propre à la famille",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Frontière de taille",
+              "etat": "regle",
+              "texte": "Tips est réservé à une seule action courte dont l’effet se voit rapidement. La chaîne quotidienne explique la condition, les étapes, le résultat et le cas où la méthode ne s’applique pas."
+            },
+            {
+              "titre": "Contrôle du résultat",
+              "etat": "regle",
+              "texte": "Définir l’état avant, l’effet observable et la condition qui invalide le conseil. L’IA peut préparer un test de cohérence, mais ne transforme pas une anecdote en preuve générale."
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "tutoriels-cadre",
+          "titre": "Shell commun"
+        },
+        {
+          "id": "tutoriels-validation",
+          "titre": "Consigner le résultat"
+        },
+        {
+          "id": "a-classer",
+          "titre": "Atelier · frontière avec la chaîne Tips"
+        },
+        {
+          "id": "tutoriels-reseaux",
+          "titre": "Versions et mesures par réseau"
+        },
+        {
+          "id": "chaines",
+          "titre": "Retour à la carte des chaînes"
+        }
+      ],
+      "copieIA": true
+    },
+    {
+      "id": "conseils-specialises",
+      "parent": "tutoriels-familles",
+      "repere": "TUT-DOMAIN",
+      "titre": "Conseils spécialisés",
+      "intro": "Une chaîne pour une procédure liée à un domaine, un outil ou des permissions déterminés. La pièce indique limites de portée, conditions de réussite et source officielle ou compétente. Conseils médicaux, juridiques ou financiers exigent les contrôles propres à ce domaine et ne sont pas des recettes générales.",
+      "blocs": [
+        {
+          "titre": "Contrôle propre à la famille",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Contrôle de domaine",
+              "etat": "regle",
+              "texte": "Identifier le domaine et la compétence que la pièce prétend mobiliser; relier chaque instruction déterminante à une source institutionnelle, à une documentation officielle ou à une qualification vérifiable."
+            },
+            {
+              "titre": "Dépendances et limites",
+              "etat": "regle",
+              "texte": "Nommer les conditions, permissions, juridictions ou équipements qui font varier le résultat. Si une action est irréversible ou à conséquences importantes, mettre l’étape d’arrêt et le recours à une personne compétente dans le cadre; ne pas présenter le contenu comme universel."
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "tutoriels-cadre",
+          "titre": "Shell commun"
+        },
+        {
+          "id": "tutoriels-validation",
+          "titre": "Consigner le résultat"
+        },
+        {
+          "id": "tutoriels-reseaux",
+          "titre": "Versions et mesures par réseau"
+        },
+        {
+          "id": "chaines",
+          "titre": "Retour à la carte des chaînes"
+        }
+      ],
+      "copieIA": true
+    },
+    {
+      "id": "faux-conseils",
+      "parent": "tutoriels-familles",
+      "repere": "TUT-FAKE",
+      "titre": "Faux conseils inoffensifs",
+      "intro": "Satire dont le caractère fictif est visible dans la vidéo elle-même et dont l’imitation plausible reste sans danger. Aucun faux conseil médical, juridique, financier, de sécurité, de conduite, d’urgence ou pouvant exposer une personne à une blessure, perte, atteinte à la vie privée ou dommage matériel.",
+      "blocs": [
+        {
+          "titre": "Contrôle propre à la famille",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Test d’innocuité obligatoire",
+              "etat": "regle",
+              "texte": "Lister ce qu’une personne pourrait imiter, détourner ou prendre au sérieux. Exclure toute consigne plausible pouvant causer blessure, exposition, perte financière, atteinte à la vie privée, dommage matériel ou retard à obtenir de l’aide. Si l’innocuité n’est pas évidente, la pièce ne passe pas."
+            },
+            {
+              "titre": "Satire reconnaissable dans l’extrait",
+              "etat": "regle",
+              "texte": "Afficher clairement que c’est une fiction ou satire dès l’ouverture, dans la vidéo et non seulement dans la légende. Ne pas demander d’essayer le geste; aucune divulgation tardive ne répare une séquence dangereuse ou trompeuse."
+            },
+            {
+              "titre": "Interaction permise",
+              "etat": "regle",
+              "texte": "Les commentaires peuvent discuter de la blague, mais les fausses consignes ne doivent pas être formulées comme un conseil crédible pour provoquer une correction du public."
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "tutoriels-cadre",
+          "titre": "Shell commun"
+        },
+        {
+          "id": "tutoriels-validation",
+          "titre": "Consigner le résultat"
+        },
+        {
+          "id": "tutoriels-reseaux",
+          "titre": "Versions et mesures par réseau"
+        },
+        {
+          "id": "chaines",
+          "titre": "Retour à la carte des chaînes"
+        }
+      ],
+      "copieIA": true
+    },
+    {
+      "id": "parents-et-enfants",
+      "parent": "tutoriels-familles",
+      "repere": "TUT-PARENT",
+      "titre": "Parents et apprentissage des enfants",
+      "intro": "La personne adulte est le destinataire des consignes et décide de la supervision; l’enfant peut être apprenant sans être sollicité pour des données ou une action sociale. Le classement d’audience est décidé selon le public réel de chaque pièce.",
+      "blocs": [
+        {
+          "titre": "Contrôle propre à la famille",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Rôle et supervision",
+              "etat": "regle",
+              "texte": "S’adresser à l’adulte responsable pour la consigne, la préparation et le niveau de supervision. Décrire le résultat observable et les limites d’âge ou de compétence pertinentes dans la pièce de production."
+            },
+            {
+              "titre": "Audience et fonctions",
+              "etat": "regle",
+              "texte": "Évaluer chaque pièce au regard de son public réel et appliquer le réglage d’audience demandé par YouTube. Pour une pièce destinée aux enfants, ne compter ni sur les commentaires ni sur les fonctions personnalisées ou la publicité personnalisée pour l’interaction ou le revenu.",
+              "references": [
+                "YT-KIDS"
+              ]
+            },
+            {
+              "titre": "Vie privée",
+              "etat": "regle",
+              "texte": "Ne pas solliciter de noms, lieux, coordonnées, images ou récits identifiants d’enfants; le Shell ne prévoit aucun appel à poster de telles informations."
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "tutoriels-cadre",
+          "titre": "Shell commun"
+        },
+        {
+          "id": "tutoriels-validation",
+          "titre": "Consigner le résultat"
+        },
+        {
+          "id": "tutoriels-reseaux",
+          "titre": "Versions et mesures par réseau"
+        },
+        {
+          "id": "chaines",
+          "titre": "Retour à la carte des chaînes"
+        }
+      ],
+      "bibliographie": [
+        "YT-KIDS"
+      ],
+      "copieIA": true
+    },
+    {
+      "id": "orientation-positive",
+      "parent": "tutoriels-familles",
+      "repere": "TUT-POS",
+      "titre": "Contenus d’orientation positive",
+      "intro": "Une chaîne d’explications ou de pistes concrètes destinées à soutenir des décisions ou habitudes constructives. Promesse limitée à ce que la pièce peut montrer; ne garantit pas une transformation personnelle et ne remplace pas un conseil professionnel. Les affirmations de fait doivent être sourcées.",
+      "blocs": [
+        {
+          "titre": "Contrôle propre à la famille",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Promesse limitée",
+              "etat": "regle",
+              "texte": "Décrire le type de bénéfice visé comme un résultat compréhensible ou une piste d’action, sans promettre de résultat psychologique, social ou matériel garanti."
+            },
+            {
+              "titre": "Faits, conseils et limites",
+              "etat": "regle",
+              "texte": "Séparer opinion, expérience et fait vérifiable. Les affirmations factuelles ont une source; les recommandations à risque élevé sont exclues de cette chaîne et réorientées vers les contrôles spécialisés."
+            },
+            {
+              "titre": "Mesure",
+              "etat": "regle",
+              "texte": "Mesurer compréhension ou action explicitement observable si la pièce le permet; likes et commentaires ne prouvent pas qu’elle a amélioré la vie de l’audience."
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "tutoriels-cadre",
+          "titre": "Shell commun"
+        },
+        {
+          "id": "tutoriels-validation",
+          "titre": "Consigner le résultat"
+        },
+        {
+          "id": "tutoriels-reseaux",
+          "titre": "Versions et mesures par réseau"
+        },
+        {
+          "id": "chaines",
+          "titre": "Retour à la carte des chaînes"
+        }
+      ],
+      "copieIA": true
+    },
+    {
+      "id": "tutoriels-recherche",
+      "parent": "tutoriels",
+      "titre": "Recherche et sources",
+      "intro": "Retrouver l’appui d’un réglage et les limites de ce qu’il permet de conclure.",
+      "blocs": [
+        {
+          "titre": "Résultat de recherche appliqué au Shell",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Découper au bon endroit",
+              "etat": "observation",
+              "texte": "Dans quatre cours edX, Guo, Kim et Rubin ont analysé 6,9 millions de sessions. Sur les lectures à vitesse normale, le temps médian d’engagement plafonnait à environ six minutes selon les groupes de durée. Ce repère sert à examiner le découpage. La réussite d’une tâche se mesure séparément.",
+              "references": [
+                "GUO",
+                "BRAME"
+              ]
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "tutoriels-reseaux",
+          "titre": "Conditions et sources propres à chaque réseau"
+        },
+        {
+          "id": "preuve-tutoriel",
+          "titre": "Résultat interne et portée de l’essai ES-05"
+        },
+        {
+          "id": "tutoriels-audience",
+          "titre": "Données de demande et de rentabilité à réunir"
+        }
+      ],
+      "bibliographie": [
+        "BRAME",
+        "GUO",
+        "WAI",
+        "YT-FORMAT",
+        "YT-MIDROLL",
+        "YT-YPP",
+        "YT-SHORTS-REV",
+        "YT-RPM",
+        "YT-RETENTION",
+        "YT-TRENDS",
+        "YT-ENFANTS",
+        "YT-ORIGINAL",
+        "TT-REWARDS",
+        "TT-SEARCH",
+        "IG-STATS",
+        "IG-TRIAL",
+        "IG-GIFTS",
+        "IG-GUIDE",
+        "FB-REWARDS",
+        "FB-FORMAT",
+        "TRENDS",
+        "YT-PORTÉE"
+      ]
+    },
+    {
+      "id": "quiz",
+      "parent": "chaines",
+      "repere": "CAT-QUIZ",
+      "titre": "Quiz",
+      "intro": "Chaînes de questions qui invitent à répondre et donnent un résultat ou une comparaison. Un quiz peut utiliser un vote natif; l’outil de sondage ne définit pas le sujet ni ne transforme une question d’opinion en bonne réponse.",
+      "titreEnfants": "Préparer une chaîne de quiz",
+      "titreChamps": "Contrat commun de la catégorie",
+      "champs": [
+        [
+          "Unité",
+          "Une question ou courte série avec réponse attendue et résultat explicite; les questions d’opinion sans réponse correcte relèvent de la chaîne Poll."
+        ],
+        [
+          "Sujets",
+          "Les sujets sont ouverts à l’invention à la production. La catégorie prépare les formats, l’interaction, le contrôle de réponse, l’automatisation et la mesure sans préremplir de sujets."
+        ],
+        [
+          "Réponse",
+          "Chaque pièce de production contient la réponse, sa source ou règle de vérification, et une explication assez claire pour corriger une erreur. Les questions dépendant d’une date ou d’une version portent ce contexte dans la pièce, pas dans le Shell."
+        ],
+        [
+          "Interaction",
+          "Utiliser Quiz natif quand il existe et que la pièce répond aux critères d’accès; sinon demander une réponse en commentaire. Les votes, réponses et commentaires sont séparés dans les mesures."
+        ],
+        [
+          "Réseaux",
+          "YouTube ancre la vidéo et peut héberger Community Quiz ou autocollant Quiz Shorts; TikTok, Instagram et Facebook reçoivent des adaptations vidéo; Instagram Stories et X Poll peuvent être utilisés pour enregistrer une réponse."
+        ],
+        [
+          "Automatisation et contrôle",
+          "L’IA peut générer une proposition lorsqu’un mandat de production le demande, vérifier la structure et la correspondance des options, préparer variantes, sous-titres, programmation et mesures. La réponse n’est pas publiée avant le contrôle de source prévu dans le dossier de pièce."
+        ]
+      ],
+      "bibliographie": [
+        "YT-POSTS",
+        "YT-STICKERS",
+        "YT-KIDS",
+        "YT-MONETIZATION",
+        "YT-SPAM",
+        "TT-REWARDS-HELP",
+        "FB-MONETIZATION",
+        "X-POLLS",
+        "IG-STORY-POLL"
+      ]
+    },
+    {
+      "id": "quiz-jeux",
+      "parent": "quiz",
+      "repere": "QUIZ-GAME",
+      "titre": "Quiz de jeux vidéo",
+      "intro": "Chaîne de quiz dont le domaine est le jeu vidéo. La fiche fixe le format et le contrôle de réponse; le jeu et le sujet précis sont des choix de production, sans présélection ni recherche ici.",
+      "copieIA": true,
+      "consigneIA": "Appliquer cette fiche et le Shell Quiz commun. Préparation : ne créer ni sujet, ni question, ni réponse, ni liste de jeux. Production seulement : proposer un concept original quand un mandat le demande; vérifier la réponse selon les règles de production du quiz. Le jeu choisi, les faits particuliers et leur contexte appartiennent à la fiche de la pièce, jamais à l’environnement de la chaîne.",
+      "titreChamps": "Décisions retenues",
+      "champs": [
+        [
+          "Public et langue",
+          "Lancement en français canadien, pour les joueurs francophones partout où la chaîne est diffusée. Audience générale; la chaîne n’est pas conçue spécifiquement pour les enfants. La classification de chaque pièce suit son contenu réel."
+        ],
+        [
+          "Promesse et périmètre",
+          "Un défi de culture de jeu autonome et participatif par pièce. Le créateur choisit librement le sujet. Les tutoriels, actualités et guides de jeu restent dans leurs propres chaînes."
+        ],
+        [
+          "Format maître",
+          "Vidéo verticale 9:16 de départ, 65–90 secondes, choix de format fondé sur la complétude de la question et du résultat. La durée est une règle de lancement éditoriale, pas une promesse de portée ou de revenu. Audio autorisé sur chaque destination."
+        ],
+        [
+          "Interaction",
+          "Réponse native quand disponible; commentaire en repli. Le choix des outils natifs et les conditions d’accès sont dans la matrice Quiz par réseau. Les réponses/commentaires sont relevés séparément."
+        ],
+        [
+          "Réseaux retenus",
+          "YouTube est l’ancre vidéo, interaction et mesure. TikTok, Instagram Reels et Facebook Reels reçoivent une adaptation propre du master. Instagram Stories et X reçoivent un sondage natif lorsque retenu pour la pièce. Votes et commentaires sont des mesures distinctes."
+        ],
+        [
+          "Revenus",
+          "Prévision de revenus de plateforme fixée à 0 $ jusqu’à l’admission et à l’apparition de revenus réels dans le tableau de bord. YouTube est la voie publicitaire prioritaire à long terme; TikTok et Meta sont des possibilités conditionnelles. Aucun revenu X n’est retenu pour le flux automatisé."
+        ],
+        [
+          "Mesure",
+          "Vidéo : vues engagées, durée moyenne ou rétention, abonnements issus du contenu, partages et coût complet. Sondage : votes et impressions au relevé de 24 h. Commentaires séparés des votes. Comparaisons par réseau et par format seulement."
+        ],
+        [
+          "Revue de pilote",
+          "Revue après 28 jours et au moins 10 pièces comparables par format testé. Utiliser médianes, coût par interaction qualifiée et rétention; traiter le résultat comme un filtre de décision, pas comme une preuve causale. Aucun achat média prévu au pilote."
+        ]
+      ],
+      "blocs": [
+        {
+          "titre": "Décisions d’exploitation",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Public et langue",
+              "etat": "regle",
+              "texte": "Lancement en français canadien pour des joueurs francophones, avec diffusion internationale. Audience générale, non spécifiquement conçue pour les enfants. Classer chaque pièce selon son contenu réel; si elle est destinée aux enfants, l’interaction Quiz Shorts est désactivée et la variante doit fonctionner sans vote natif.",
+              "references": [
+                "YT-ENFANTS",
+                "YT-STICKERS"
+              ]
+            },
+            {
+              "titre": "Réseaux retenus",
+              "etat": "regle",
+              "texte": "YouTube ancre vidéo et résultat natif; TikTok, Instagram Reels et Facebook Reels reçoivent une adaptation verticale; Instagram Story Poll et X Poll peuvent enregistrer une réponse quand la pièce s’y prête. Une plateforme native n’est jamais supposée disponible avant vérification de ses règles publiques.",
+              "references": [
+                "YT-POSTS",
+                "YT-STICKERS",
+                "TT-REWARDS",
+                "IG-STORY-POLL",
+                "FB-REWARDS",
+                "X-SONDAGES",
+                "X-RECETTES"
+              ]
+            },
+            {
+              "titre": "Durée et fichier maître",
+              "etat": "regle",
+              "texte": "Master vertical 9:16, 65–90 s, comme choix initial de format pour la chaîne. Cette plage convient au seuil de plus d’une minute du programme TikTok sous réserve des autres critères, et reste dans la limite Short de trois minutes. Le format n’impose aucun sujet ou jeu précis.",
+              "references": [
+                "TT-REWARDS",
+                "YT-FORMAT"
+              ]
+            },
+            {
+              "titre": "Mesure et fenêtre",
+              "etat": "regle",
+              "texte": "Mesurer les sondages à 24 h. Mesurer chaque vidéo par les indicateurs natifs du réseau : vues engagées, rétention, abonnements issus du contenu, partages et coût. Les commentaires, votes et vues restent distincts; une métrique YouTube ne sert pas de dénominateur aux autres réseaux.",
+              "references": [
+                "YT-ANALYTIQUE-FORMATS",
+                "IG-STATS",
+                "X-SONDAGES"
+              ]
+            },
+            {
+              "titre": "Recettes et limites connues",
+              "etat": "regle",
+              "texte": "Inscrire 0 $ de revenus prévus jusqu’à l’admission réelle et au versement visible. YouTube est la voie publicitaire prioritaire, mais ses seuils complets sont 1 000 abonnés et 4 000 heures publiques admissibles sur 12 mois ou 10 millions de vues Shorts qualifiées sur 90 jours. TikTok dépend de l’accès régional et de vidéos originales de plus d’une minute; Facebook Content Monetization est sur invitation; les outils Instagram dépendent du compte. X ne rapporte rien dans le flux automatisé.",
+              "references": [
+                "YT-YPP",
+                "YT-SHORTS-REV",
+                "TT-REWARDS",
+                "FB-REWARDS",
+                "IG-GIFTS",
+                "X-RECETTES"
+              ]
+            },
+            {
+              "titre": "Format de repli",
+              "etat": "regle",
+              "texte": "Si un outil natif de vote n’est pas disponible, publier la vidéo avec une consigne de commentaire. Cette variante ne bloque aucune création et ses commentaires ne sont jamais comptés comme des votes. Aucun accès privé au compte n’est requis pour préparer une pièce.",
+              "references": [
+                "YT-STICKERS",
+                "IG-STORY-POLL"
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Autonomie de la Shell",
+          "ouvert": false,
+          "points": [
+            {
+              "titre": "Ce qui reste ouvert",
+              "etat": "regle",
+              "texte": "Seuls le concept original, le sujet précis, le jeu choisi et la forme créative de chaque pièce restent à inventer pendant la production. Les choix de public, de langue, de réseau, de durée par défaut, d’interaction, de mesure, de monétisation et de repli sont déjà fixés."
+            },
+            {
+              "titre": "Seuil de transmission",
+              "etat": "regle",
+              "texte": "Le barème d’autonomie vaut 100 points : cadre/public 20, unité et paquet de sortie 25, interaction et réseaux 25, automatisation/dépendances 15, repli/transmission 15. La Shell ne se déclare prête qu’à 85 points ou plus. Les décisions fixes et replis de cette fiche ferment les choix non créatifs."
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "quiz-cadre",
+          "titre": "Shell, pipeline et sorties"
+        },
+        {
+          "id": "quiz-versions",
+          "titre": "Matrice réseau et interactions"
+        },
+        {
+          "id": "quiz-pilote",
+          "titre": "Mesures et règle de décision"
+        },
+        {
+          "id": "recettes",
+          "titre": "Argent · recettes et admissibilité"
+        },
+        {
+          "id": "couts",
+          "titre": "Argent · coût complet"
+        },
+        {
+          "id": "chaines",
+          "titre": "Retour à la carte des chaînes"
+        }
+      ]
+    },
+    {
+      "id": "quiz-thematiques",
+      "parent": "quiz",
+      "repere": "QUIZ-THEME",
+      "titre": "Quiz thématiques",
+      "intro": "Préparer des chaînes de quiz thématiques avec un public, des formats et des conditions d’exploitation propres à chacune.",
+      "copieIA": true,
+      "titreChamps": "Gabarit d’ouverture",
+      "champs": [
+        [
+          "Créer une sous-chaîne quand",
+          "Un public, une promesse de résultat, des règles de validation, une interaction ou des coûts/réseaux différents exigent une fiche distincte. Le simple fait qu’il existe beaucoup de sujets ne justifie pas d’ouvrir des dizaines de chaînes."
+        ],
+        [
+          "Defaults hérités",
+          "Français; audience générale; question à réponse vérifiable; vidéo verticale de départ 65–90 s; YouTube ancre; adaptations vidéo sur TikTok, Instagram et Facebook; interaction native seulement si disponible; commentaire comme repli; revenus prévus à 0 $."
+        ],
+        [
+          "À renseigner à l’ouverture",
+          "La catégorie du savoir, le niveau visé, le protocole de preuve adapté et les exclusions. Les idées/questions ne sont inscrites qu’à la production."
+        ],
+        [
+          "Règle de séparation",
+          "Préférence ou opinion sans réponse correcte : Poll. Choix qui détermine un récit : Histoires interactives. Démarche qui enseigne comment faire : Tutoriels."
+        ]
+      ],
+      "liens": [
+        {
+          "id": "quiz-cadre",
+          "titre": "Gabarit d’ouverture de chaîne"
+        },
+        {
+          "id": "quiz-versions",
+          "titre": "Formats par réseau"
+        },
+        {
+          "id": "chaines",
+          "titre": "Retour à la carte des chaînes"
+        }
+      ]
+    },
+    {
+      "id": "quiz-cadre",
+      "parent": "quiz",
+      "titre": "Shell de chaîne",
+      "intro": "Règles communes déjà tranchées pour transmettre une chaîne Quiz à un créateur humain ou IA. Les paramètres propres à une catégorie peuvent préciser ces choix, mais aucune idée n’est nécessaire pour démarrer.",
+      "copieIA": true,
+      "consigneIA": "Applique les décisions communes sans demander à l’équipe de rechercher les paramètres connus. Défaut : français; master 9:16 de 65–90 secondes; YouTube comme ancre; TikTok/Instagram/Facebook comme adaptations; Instagram Story Poll et X Poll comme interactions facultatives; commentaire comme repli; revenu prévu à 0 $ jusqu’à activation. X peut recevoir un sondage d’engagement, mais aucun revenu X n’est prévu pour un flux automatisé. La production peut inventer un concept original; la préparation ne crée pas de pièce. Recherche seulement si une règle de plateforme change après la date de la source liée.",
+      "titreChamps": "Règles d’ouverture déjà décidées",
+      "champs": [
+        [
+          "Langue et public",
+          "Français par défaut; le public précis de chaque chaîne est inscrit dans sa fiche. Audience générale; appliquer la classification jeunesse à chaque pièce selon son contenu réel."
+        ],
+        [
+          "Unité Quiz",
+          "Une pièce autonome, avec une consigne, une modalité de réponse et un résultat lorsque le format en comporte. Le créateur invente le sujet; la Shell ne contient pas de sujets."
+        ],
+        [
+          "Format maître",
+          "Vidéo verticale 9:16 de 65–90 secondes. Garder un master propre sans autocollant propre à une plateforme; reconstruire les interactions natives sur chaque réseau. Audio original ou autorisé pour tous les réseaux."
+        ],
+        [
+          "Réseaux par défaut",
+          "YouTube ancre la chaîne; TikTok, Instagram Reels et Facebook Reels reçoivent des adaptations. Instagram Story Poll et X Poll peuvent être ajoutés comme interactions de sondage; X n’a aucun revenu prévu pour le contenu automatisé."
+        ],
+        [
+          "Interaction par défaut",
+          "YouTube Community Quiz pour une réponse et un résultat; YouTube Poll pour une préférence; autocollant Quiz Shorts à deux options si le contenu n’est pas destiné aux enfants. Story Poll Instagram et X Poll sont facultatifs. Sur les vidéos sans vote natif retenu, utiliser les commentaires et les compter séparément."
+        ],
+        [
+          "Automatisation",
+          "L’IA peut générer le concept, le script, les sous-titres, la légende, les variantes et le calendrier. Les contrôles automatiques vérifient durée, ratio, limites d’options, statut du format, audio autorisé et correspondance des fichiers. Les comptes non connectés utilisent un export prêt à publier."
+        ],
+        [
+          "Recettes et accès",
+          "Revenus prévus à 0 $ jusqu’à l’éligibilité, l’activation et un versement visible. Une fonction de vote manquante bascule vers les commentaires ou l’export; elle ne bloque pas la création."
+        ],
+        [
+          "Revue",
+          "Mesurer les votes sur 24 h; mesurer les vidéos selon les indicateurs propres à chaque réseau. Comparer 10 pièces par format après au moins 28 jours, par médiane et coût par interaction qualifiée."
+        ]
+      ],
+      "gabarit": {
+        "titre": "Contrat prêt à transmettre",
+        "champs": [
+          [
+            "Cadre",
+            "Nom de chaîne · promesse · périmètre · public · langue · exclusions"
+          ],
+          [
+            "Unité Quiz",
+            "Une pièce autonome · consigne · modalité de réponse · résultat si requis · action publique"
+          ],
+          [
+            "Format maître",
+            "Vidéo 9:16 · 65–90 s · audio original ou autorisé · fichier propre sans autocollant de réseau"
+          ],
+          [
+            "YouTube",
+            "Short vidéo · Quiz Shorts à deux options · Community Quiz jusqu’à quatre options · Poll pour préférence"
+          ],
+          [
+            "Adaptations",
+            "TikTok · Instagram Reels · Facebook Reels; commentaire comme interaction par défaut; aucune transposition d’un autocollant non natif"
+          ],
+          [
+            "Automatisation",
+            "Concept · script · sous-titres · légende · variantes · contrôles techniques · export/calendrier"
+          ],
+          [
+            "Mesure",
+            "Vues engagées · rétention · votes/impressions à 24 h · coût · recette réelle seulement"
+          ],
+          [
+            "Replis",
+            "Fonction native absente : commentaire ou export manuel. Compte non admissible : recette prévue 0 $. Réseau X : hors flux automatisé."
+          ]
+        ]
+      },
+      "blocs": [
+        {
+          "titre": "Pipeline et replis déjà décidés",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Ordre de création",
+              "etat": "regle",
+              "texte": "1. Charger la fiche de chaîne et ses règles. 2. Inventer un concept original lorsque la production le demande. 3. Construire une pièce selon l’unité Quiz. 4. Créer un master propre 9:16 de 65–90 secondes. 5. Générer les variantes YouTube, TikTok, Instagram et Facebook; ajouter les interactions natives séparément. 6. Contrôler ratio, durée, audio autorisé et fichiers. 7. Exporter ou programmer; X Poll reste une interaction sans revenu prévu."
+            },
+            {
+              "titre": "Originalité et monétisation",
+              "etat": "regle",
+              "texte": "Automatiser le gabarit, les sous-titres, les légendes, les adaptations et les contrôles techniques. Les pièces publiées doivent apporter un contenu original distinct; éviter les séries produites en masse qui ne changent que quelques mots ou éléments. C’est une condition d’admissibilité aux programmes, pas une évaluation de qualité éditoriale.",
+              "references": [
+                "YT-ORIGINAL",
+                "TT-REWARDS",
+                "FB-REWARDS"
+              ]
+            },
+            {
+              "titre": "Ce qui bloque et ce qui ne bloque pas",
+              "etat": "regle",
+              "texte": "Une règle de plateforme connue s’applique à partir des sources liées. Une fonction native absente bascule vers le commentaire ou l’export. Une admissibilité de monétisation inconnue vaut 0 $ dans les prévisions. Seules une nouvelle dépense, une autorisation de compte ou une modification de périmètre exigent une décision séparée."
+            },
+            {
+              "titre": "Mesure de départ",
+              "etat": "regle",
+              "texte": "Le premier bilan est fixé à 28 jours et au moins 10 pièces comparables par format. Comparer les médianes et les coûts dans chaque réseau; ne jamais assimiler vote, commentaire et vue. Ce bilan sert à choisir quoi poursuivre, pas à prétendre démontrer une causalité."
+            }
+          ]
+        },
+        {
+          "titre": "Contrat de réponse et de diffusion",
+          "ouvert": false,
+          "points": [
+            {
+              "titre": "Une seule question à la fois",
+              "etat": "regle",
+              "texte": "Par défaut une question avec options distinctes et une réponse attendue. Pour une série, chaque question conserve son identifiant et son résultat; ne pas cacher une deuxième consigne dans le même sondage."
+            },
+            {
+              "titre": "Correction et preuve",
+              "etat": "regle",
+              "texte": "La production rattache la réponse à une source ou à une règle vérifiable. Le Shell ne contient aucun corrigé particulier. Si la preuve est absente ou contradictoire, la question reste bloquée avant publication."
+            },
+            {
+              "titre": "Choisir la fonction, pas confondre Quiz et Poll",
+              "etat": "regle",
+              "texte": "Quiz natif ou sondage utilisé pour enregistrer la réponse, selon les options de la plateforme. Une question de préférence sans vérité attendue appartient à Poll. Un vote de branche narrative appartient à Histoires interactives."
+            },
+            {
+              "titre": "Originalité",
+              "etat": "regle",
+              "texte": "Les gabarits servent à varier la structure et à contrôler la qualité; ne pas publier des variations quasi identiques en série ni multiplier des sondages de faible valeur pour forcer l’engagement.",
+              "references": [
+                "YT-MONETIZATION",
+                "YT-SPAM",
+                "META-ORIGINAL"
+              ]
+            },
+            {
+              "titre": "Revenus",
+              "etat": "regle",
+              "texte": "Revenus de plateforme à 0 $ jusqu’à accès et versement visible. Les fonctions d’interaction améliorent la mesure mais ne constituent pas, à elles seules, un modèle de revenu."
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "quiz-jeux",
+          "titre": "Application · Quiz de jeux vidéo"
+        },
+        {
+          "id": "quiz-versions",
+          "titre": "Formats réseau et interactions"
+        },
+        {
+          "id": "quiz-pilote",
+          "titre": "Méthode de mesure"
+        },
+        {
+          "id": "couts",
+          "titre": "Argent · coût complet"
+        },
+        {
+          "id": "recettes",
+          "titre": "Argent · recettes"
+        }
+      ]
+    },
+    {
+      "id": "quiz-versions",
+      "parent": "quiz",
+      "titre": "Formats par réseau",
+      "intro": "Matrice décidée pour le lancement : un master vidéo, quatre réseaux de diffusion et des interactions natives sélectionnées séparément.",
+      "comparateurQuiz": true,
+      "copieIA": true,
+      "blocs": [
+        {
+          "titre": "Règles réseau retenues",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "YouTube · ancre",
+              "etat": "regle",
+              "texte": "Vidéo verticale de 65–90 secondes publiée comme Short. Ajouter un autocollant Quiz à deux options si la pièce est publique et non désignée Made for Kids; le résultat apparaît après la réponse et les réponses individuelles sont anonymes. Pour une interaction à quatre options, publier un Community Quiz distinct, jusqu’à quatre choix avec résultat et explication facultative. Pour un simple avis, utiliser un sondage sans réponse correcte. Si l’option native manque, conserver la vidéo et utiliser une consigne de commentaire.",
+              "references": [
+                "YT-FORMAT",
+                "YT-STICKERS",
+                "YT-POSTS"
+              ]
+            },
+            {
+              "titre": "TikTok · portée et éventuel programme de récompenses",
+              "etat": "regle",
+              "texte": "Adapter le master de 65–90 secondes et demander une réponse en commentaire; ne pas dépendre d’un sondage natif. Cette durée dépasse le minimum d’une minute du Creator Rewards Program, mais les vidéos doivent aussi être originales et le compte doit être dans une région admissible. Les recettes restent à 0 $ dans le plan jusqu’à ce que le programme soit actif dans le compte.",
+              "references": [
+                "TT-REWARDS"
+              ]
+            },
+            {
+              "titre": "Instagram et Facebook · portée",
+              "etat": "regle",
+              "texte": "Publier une adaptation propre en Reels sur Instagram et Facebook avec commentaire comme interaction vidéo. Une Story Poll Instagram à deux choix est facultative; si le sticker ou le relevé manque, utiliser le commentaire. TikTok reste en vidéo/commentaires. Aucune recette n’est prévue avant activation d’un programme admissible.",
+              "references": [
+                "IG-STATS",
+                "IG-TRIAL",
+                "IG-GIFTS",
+                "FB-REWARDS"
+              ]
+            },
+            {
+              "titre": "X · sondage d’engagement seulement",
+              "etat": "regle",
+              "texte": "X Poll est conservé comme adaptation de participation : deux à quatre choix, durée standard d’un jour. Original Content Rewards exclut les contenus créés ou publiés par automatisation; le revenu X reste donc fixé à 0 $ pour cette chaîne. Aucune recherche d’admissibilité supplémentaire n’est requise.",
+              "references": [
+                "X-SONDAGES",
+                "X-RECETTES",
+                "X-CONDITIONS"
+              ]
+            },
+            {
+              "titre": "Règle de comparaison",
+              "etat": "regle",
+              "texte": "Comparer votes/impressions pour les sondages et rétention/interactions par vue pour les vidéos, dans des fenêtres et surfaces équivalentes. Votes, commentaires, vues et recettes restent des colonnes distinctes. Le relevé poll est figé à 24 h; les posts YouTube peuvent rester ouverts, mais la fenêtre mesurée reste la même.",
+              "references": [
+                "YT-ANALYTIQUE-FORMATS",
+                "X-SONDAGES"
+              ]
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "quiz-pilote",
+          "titre": "Protocole de revue"
+        },
+        {
+          "id": "formats-interactifs",
+          "titre": "Règles communes aux sondages"
+        },
+        {
+          "id": "recettes-shorts",
+          "titre": "Argent · partage Shorts"
+        },
+        {
+          "id": "recettes-sondage-x",
+          "titre": "Argent · décision de retrait de X"
+        }
+      ]
+    },
+    {
+      "id": "quiz-pilote",
+      "parent": "quiz",
+      "titre": "Préparer le premier essai",
+      "intro": "Protocole fixé pour le premier bilan de formats. Il sera appliqué quand la production commencera; aucun contenu n’est créé par cette fiche.",
+      "copieIA": true,
+      "sources": [
+        {
+          "titre": "Classeur de référence · comparatif Quiz Posts et Short",
+          "url": "https://chatgpt.com/library?file_id=libfile_3647671b78208191a03b2425cf2a5bb9&account_id=personal",
+          "date": "Formules"
+        }
+      ],
+      "titreChamps": "Protocole décidé",
+      "champs": [
+        [
+          "Fenêtre",
+          "28 jours minimum et 10 pièces comparables par format testé; prolonger jusqu’à atteindre les deux conditions."
+        ],
+        [
+          "Comparabilité",
+          "Même langue et même périmètre de public. Comparer une vidéo à des vidéos et un sondage à des sondages; ne pas opposer leurs nombres bruts."
+        ],
+        [
+          "Indicateurs",
+          "Vidéo : vues engagées, rétention, abonnements issus du contenu, interactions et coût. Sondage : impressions, votes à 24 h et coût. Revenu : versement constaté seulement."
+        ],
+        [
+          "Décision",
+          "Utiliser les médianes et le coût complet par interaction qualifiée. Continuer les formats qui donnent un signal d’audience avec un coût acceptable; suspendre un format dominé dans deux bilans consécutifs. Le seuil de 10 est un filtre opérationnel, pas une preuve statistique."
+        ]
+      ],
+      "blocs": [
+        {
+          "titre": "Application du protocole",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "YouTube d’abord",
+              "etat": "regle",
+              "texte": "Le premier bilan compare séparément le Community Quiz et le Short Quiz. Le Community Quiz mesure les votes et impressions; le Short mesure les vues engagées, la rétention et les abonnements issus de la vidéo. Une variante TikTok, Instagram ou Facebook est comparée uniquement à la même surface, avec ses définitions natives.",
+              "references": [
+                "YT-ANALYTIQUE-FORMATS",
+                "YT-POSTS",
+                "YT-STICKERS"
+              ]
+            },
+            {
+              "titre": "Fenêtre identique",
+              "etat": "regle",
+              "texte": "Les sondages sont relevés à 24 heures. Les vidéos sont relevées à 7 jours pour capter leur démarrage et leur première distribution; les revenus sont lus dans la période de versement affichée par la plateforme. Conserver les dates, les définitions de métrique et le coût complet.",
+              "references": [
+                "YT-ANALYTIQUE-FORMATS",
+                "X-SONDAGES"
+              ]
+            },
+            {
+              "titre": "Aucun revenu supposé",
+              "etat": "regle",
+              "texte": "Avant admission au programme et premier revenu visible, inscrire 0 $ de revenu de plateforme. Les accès privés ne modifient pas le protocole et ne demandent aucune recherche à l’équipe; ils changent uniquement le moment où le revenu réel peut être ajouté.",
+              "references": [
+                "YT-YPP",
+                "TT-REWARDS",
+                "FB-REWARDS",
+                "X-RECETTES"
+              ]
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "quiz-versions",
+          "titre": "Formats réseau fixés"
+        },
+        {
+          "id": "couts",
+          "titre": "Argent · coût complet"
+        },
+        {
+          "id": "recettes",
+          "titre": "Argent · recettes réelles"
+        },
+        {
+          "id": "controle-quiz",
+          "titre": "Atelier · essai du comparateur"
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "parent": "chaines",
+      "repere": "TIP",
+      "titre": "Tips",
+      "intro": "Chaîne de format très court : une seule action, un effet immédiatement visible, aucune séquence d’étapes à mémoriser. Si la personne doit apprendre des prérequis ou plusieurs gestes, classer dans Tutoriels.",
+      "copieIA": true,
+      "blocs": [
+        {
+          "titre": "Vérifier que le format court suffit",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Point de départ et preuve d’effet",
+              "etat": "regle",
+              "texte": "La pièce montre un état initial, une action unique et l’effet visible, puis nomme brièvement la condition où le truc marche. Si l’explication demande plusieurs gestes ou prérequis, la déplacer vers Tutoriels."
+            }
+          ]
+        },
+        {
+          "titre": "Frontières et automation",
+          "ouvert": false,
+          "points": [
+            {
+              "titre": "Passage vers Tutoriels",
+              "etat": "regle",
+              "texte": "Si reproduire l’action demande plus d’une étape, un prérequis, un réglage variable ou une explication des limites, utiliser la chaîne Tutoriels la plus adaptée."
+            },
+            {
+              "titre": "IA",
+              "etat": "regle",
+              "texte": "Peut structurer un brief avant/après, vérifier que la preuve visuelle est présente, générer sous-titres et adaptations, et repérer les déclarations sans source. Ne pas inventer un bénéfice ou présenter un cas isolé comme règle."
+            },
+            {
+              "titre": "Sécurité et droits",
+              "etat": "regle",
+              "texte": "Toute instruction ayant un risque de dommage suit les contrôles spécialisés ou est exclue de Tips; actifs tiers autorisés par destination."
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "trucs-du-quotidien",
+          "titre": "Tutoriels · méthodes du quotidien"
+        },
+        {
+          "id": "chaines",
+          "titre": "Retour à la carte des chaînes"
+        }
+      ],
+      "titreChamps": "Contrat de publication",
+      "champs": [
+        [
+          "Unité",
+          "Une action et un seul effet vérifiable dans une vidéo verticale. Aucun sujet n’est prérempli."
+        ],
+        [
+          "Durée de départ",
+          "Choix éditorial initial : 15–45 secondes, avec priorité à la compréhension et à la preuve visuelle. Si l’action demande plus, elle change de chaîne ou devient une démonstration complète; ne pas la couper artificiellement."
+        ],
+        [
+          "Réseaux",
+          "Un master vertical propre; adaptations natives pour YouTube Shorts, TikTok, Instagram Reels et Facebook Reels. Aucun poll par défaut; interaction en commentaire seulement si elle apporte une réponse utile."
+        ],
+        [
+          "Preuve",
+          "Comparer l’état avant/après et nommer la condition d’application. Une seule observation dans un cas ne suffit pas à promettre un effet général."
+        ],
+        [
+          "Mesure",
+          "Vues engagées et complétion selon la définition du réseau; partages/enregistrements et coût. Les vues ne prouvent pas que l’action est sûre ou efficace."
+        ],
+        [
+          "Recette",
+          "0 $ de recette prévue jusqu’à l’admission et au versement visible. La plage courte sert la forme; elle n’est pas choisie pour maximiser un programme de rémunération."
+        ]
+      ],
+      "bibliographie": [
+        "YT-FORMAT",
+        "YT-MONETIZATION",
+        "YT-SPAM",
+        "WAI-CAPTIONS"
+      ]
+    },
+    {
+      "id": "poll",
+      "parent": "chaines",
+      "repere": "POLL",
+      "titre": "Poll",
+      "intro": "Chaîne de sondages destinés à recueillir préférences, avis ou choix sans bonne réponse. Les votes de branche sont dans Histoires interactives; les réponses vérifiables sont dans Quiz. Un poll mesure ses répondants, pas l’opinion de toute l’audience.",
+      "copieIA": true,
+      "blocs": [
+        {
+          "titre": "Décision et interprétation",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Question et options",
+              "etat": "regle",
+              "texte": "Chaque poll porte une décision/apprentissage précis, une audience exposée, des options distinctes, un responsable de lecture et une échéance fixée avant publication. Ajouter « autre/aucun » quand l’ensemble d’options ne peut pas être complet."
+            },
+            {
+              "titre": "Relevé",
+              "etat": "regle",
+              "texte": "À l’échéance, enregistrer le total et les votes par option, l’heure et les impressions disponibles; calculer les parts parmi répondants. Le résultat représente les personnes qui ont répondu, pas toute l’audience."
+            }
+          ]
+        },
+        {
+          "titre": "Automation et limites",
+          "ouvert": false,
+          "points": [
+            {
+              "titre": "IA",
+              "etat": "regle",
+              "texte": "Peut contrôler la neutralité de la formulation, les doublons d’options, le calcul du résultat, les horodatages et la préparation d’un résumé. Elle ne peut pas transformer un échantillon volontaire en preuve représentative."
+            },
+            {
+              "titre": "Vie privée",
+              "etat": "regle",
+              "texte": "Aucune donnée personnelle ou sensible n’est demandée pour participer. Ne pas collecter ou inférer des informations de santé, d’âge précis, de finances ou de situation familiale via le sondage."
+            },
+            {
+              "titre": "Limite de répétition",
+              "etat": "regle",
+              "texte": "Ne pas publier des sondages répétitifs ou pauvres uniquement pour provoquer des clics; chaque poll doit servir une décision ou un apprentissage identifiable.",
+              "references": [
+                "YT-SPAM"
+              ]
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "formats-interactifs",
+          "titre": "Formats et mesures par réseau"
+        },
+        {
+          "id": "histoires-interactives",
+          "titre": "Histoire · vote qui engage la suite"
+        },
+        {
+          "id": "recettes-sondage-x",
+          "titre": "Argent · admissibilité et conditions sur X"
+        },
+        {
+          "id": "chaines",
+          "titre": "Retour à la carte des chaînes"
+        }
+      ],
+      "titreChamps": "Protocole de sondage",
+      "champs": [
+        [
+          "Question décisionnelle",
+          "Chaque sondage indique ce qu’il éclaire, qui peut répondre, les choix possibles, l’option « autre/aucun » si nécessaire et ce qui sera décidé après. Ne pas publier de sondage sans décision ou apprentissage attendu."
+        ],
+        [
+          "Canal canonique",
+          "Un seul réseau est désigné pour le relevé. Les autres comptes peuvent pointer vers ce poll, mais leurs résultats ne sont pas additionnés."
+        ],
+        [
+          "Durée de référence",
+          "24 h, annoncée avec fuseau; utiliser l’échéance du réseau quand réglable, sinon figer une capture horodatée à 24 h. Les sondages plus longs sont exceptionnels et leur durée est déclarée avant la collecte."
+        ],
+        [
+          "Choix et biais",
+          "Options mutuellement compréhensibles, sans formulation orientée. Relever votes par option, impressions/exposition si disponibles et fenêtre; résultat = répartition parmi les répondants. Ne pas présenter comme sondage représentatif ou prédiction de marché."
+        ],
+        [
+          "Réseaux",
+          "YouTube Community Poll, Instagram Story Poll et X Poll lorsqu’ils sont disponibles; les réseaux sans poll natif reçoivent un lien ou une consigne de commentaire et ne produisent pas le même indicateur. X permet 2–4 choix; mesure standard 24 h."
+        ],
+        [
+          "Revenu",
+          "Les polls servent à l’interaction ou à l’information produit, pas à une estimation directe de recette. Prévision plateforme 0 $ sauf revenu distinct réellement attribué."
+        ]
+      ],
+      "bibliographie": [
+        "YT-POSTS",
+        "YT-SPAM",
+        "X-POLLS",
+        "IG-STORY-POLL",
+        "YT-MONETIZATION"
+      ]
+    },
+    {
+      "id": "song",
+      "parent": "chaines",
+      "repere": "SONG",
+      "titre": "Song",
+      "intro": "Chaîne dédiée aux morceaux originaux du studio et à leurs extraits sociaux. Le master audio est la source; chaque usage doit être couvert pour composition, interprétation, enregistrement, visuels et distribution.",
+      "copieIA": true,
+      "blocs": [
+        {
+          "titre": "Vérifier les éléments utilisés",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Composition, interprétation et master",
+              "etat": "regle",
+              "texte": "Documenter séparément paroles/composition, interprètes, master, samples, boucles, visuels et conditions de service IA. L’autorisation doit couvrir l’usage commercial, les réseaux, territoires et transformations prévus; sinon retirer l’élément ou bloquer la publication.",
+              "references": [
+                "CMRRA-MUSIQUE"
+              ]
+            },
+            {
+              "titre": "Destination et déclaration",
+              "etat": "condition",
+              "texte": "Sur YouTube, vérifier la déclaration si la musique générée par IA est l’objet principal de la vidéo. Si le studio envisage Content ID, vérifier les droits exclusifs sur le matériel de référence.",
+              "references": [
+                "YT-AI",
+                "YT-CONTENT-ID"
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Préparer l’écoute de contrôle",
+          "ouvert": false,
+          "points": [
+            {
+              "titre": "Master et extrait",
+              "etat": "regle",
+              "texte": "Chaque extrait pointe vers un master versionné et conserve une phrase musicale cohérente. Contrôle d’écoute au casque et sur téléphone pour intelligibilité, niveaux, saturation et raccord. Aucun extrait ne s’exporte avant le gate de droits."
+            }
+          ]
+        },
+        {
+          "titre": "Automatisation et gate de publication",
+          "ouvert": false,
+          "points": [
+            {
+              "titre": "IA",
+              "etat": "regle",
+              "texte": "Peut organiser les versions et crédits, générer les extraits à partir d’un point de coupe choisi, détecter les métadonnées manquantes, préparer sous-titres, visuels alternatifs et rapports. Elle ne déclare pas un droit acquis ni une exclusivité."
+            },
+            {
+              "titre": "Autorisation",
+              "etat": "regle",
+              "texte": "Si l’un des éléments audibles ou visibles n’a pas de portée commerciale et sociale documentée, publication commerciale bloquée jusqu’à résolution; remplacer ou retirer l’élément au lieu de supposer qu’il est libre.",
+              "references": [
+                "CMRRA-MUSIQUE",
+                "CA-COPYRIGHT",
+                "CC-LICENCES"
+              ]
+            },
+            {
+              "titre": "IA et déclaration",
+              "etat": "regle",
+              "texte": "Appliquer les règles de divulgation de chaque réseau au rendu final. Sur YouTube, l’IA réaliste ou altération significative peut exiger une divulgation; une œuvre musicale ne reçoit pas automatiquement la même étiquette qu’une scène photoréaliste.",
+              "references": [
+                "YT-AI"
+              ]
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "provenance-actifs",
+          "titre": "Registre des actifs et usages par destination"
+        },
+        {
+          "id": "controles-et-reprise",
+          "titre": "Contrôle technique et écoute de validation"
+        },
+        {
+          "id": "chaines",
+          "titre": "Retour à la carte des chaînes"
+        }
+      ],
+      "titreChamps": "Contrat de chaîne",
+      "champs": [
+        [
+          "Source",
+          "Un master de référence versionné et une fiche séparant composition/paroles, enregistrements, interprètes, échantillons, boucles, générateurs et visuels."
+        ],
+        [
+          "Versions sociales",
+          "YouTube reçoit la pièce complète en présentation audio-visuelle. TikTok, Instagram et Facebook reçoivent des extraits vidéo adaptés et rattachés au master. Les extraits et pistes sont exportés sans éléments de plateforme incorporés."
+        ],
+        [
+          "Durée",
+          "Le master complet suit le morceau. L’extrait est coupé à une phrase musicale ou section cohérente et vérifié à l’écoute; aucun nombre de secondes fixe ne s’applique à toutes les œuvres."
+        ],
+        [
+          "Droits",
+          "Le dossier doit couvrir séparément composition, paroles, interprétation, master, samples/boucles, visuels et usages commerciaux/plateformes. Les conditions commerciales d’un service IA sont archivées pour le plan actif à la date de génération."
+        ],
+        [
+          "Content ID",
+          "Ne pas livrer à Content ID un actif si le studio ne peut prouver les droits exclusifs nécessaires sur chaque élément revendiqué. Si l’exclusivité est incertaine, utiliser publication ordinaire et ne pas revendiquer l’asset."
+        ],
+        [
+          "Mesure et recettes",
+          "Comparer lecture engagée, achèvement, sauvegardes/partages, réutilisations audio et revenus effectivement visibles, séparés par réseau. Aucune recette présumée pour une écoute ou un usage audio."
+        ]
+      ],
+      "bibliographie": [
+        "CMRRA-MUSIQUE",
+        "CA-COPYRIGHT",
+        "CC-LICENCES",
+        "YT-AI",
+        "YT-CONTENT-ID",
+        "YT-MONETIZATION"
+      ]
+    },
+    {
+      "id": "gaming",
+      "parent": "chaines",
+      "repere": "GAME",
+      "titre": "Gaming",
+      "intro": "Chaîne de divertissement par gameplay commenté ou transformé, dont l’enjeu et l’apport du studio sont visibles. Tutoriel et quiz de jeu gardent leurs propres chaînes; les données propres au jeu sont traitées dans le dossier de production.",
+      "copieIA": true,
+      "blocs": [
+        {
+          "titre": "Capturer et vérifier l’usage",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Éditeur, titulaire et droits",
+              "etat": "condition",
+              "texte": "À la production, identifier le titulaire des droits du jeu retenu et vérifier ses règles d’usage commercial pour le titulaire de la chaîne et les réseaux visés. Vérifier aussi les pistes musicales et autres éléments tiers. Si la permission commerciale n’est pas claire, exclure l’actif ou bloquer la monétisation; aucun choix de jeu ni de version n’est fait dans le Shell.",
+              "references": [
+                "YT-GAMING"
+              ]
+            },
+            {
+              "titre": "Ce que le montage doit préserver",
+              "etat": "regle",
+              "texte": "Conserver l’enjeu, l’action décisive et son issue; vérifier que le recadrage garde les éléments essentiels. Ajouter un commentaire, une narration ou un montage interprétatif identifiable; de longues séquences brutes ne constituent pas le modèle de monétisation.",
+              "references": [
+                "YT-GAMING"
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Contrôles de publication",
+          "ouvert": false,
+          "points": [
+            {
+              "titre": "Apport original",
+              "etat": "regle",
+              "texte": "La pièce ajoute un commentaire, un point de vue ou une structure identifiable. Une longue suite de jeu seule ne sert pas de modèle de monétisation; les règles éditeur et celles du réseau doivent toutes deux être satisfaites.",
+              "references": [
+                "YT-GAMING",
+                "YT-MONETIZATION",
+                "META-ORIGINAL"
+              ]
+            },
+            {
+              "titre": "IA",
+              "etat": "regle",
+              "texte": "Peut repérer moments d’action dans les captures fournies, générer une proposition de découpage, préparer sous-titres et versions, et contrôler la présence du commentaire demandé. Elle ne choisit pas un jeu ni n’infère ses droits d’exploitation."
+            },
+            {
+              "titre": "Son",
+              "etat": "regle",
+              "texte": "Contrôler si la bande-son du jeu est autorisée sur chaque plateforme; couper les pistes protégées lorsque le titulaire ne donne pas de permission explicite."
+            },
+            {
+              "titre": "Recettes",
+              "etat": "regle",
+              "texte": "Inscrire 0 $ avant admission et versement visible; vérifier les licences de l’éditeur et l’originalité requise du réseau."
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "provenance-actifs",
+          "titre": "Vérifier les droits de capture et de diffusion"
+        },
+        {
+          "id": "tutoriels-jeux",
+          "titre": "Shell d’une démonstration reproductible"
+        },
+        {
+          "id": "chaines",
+          "titre": "Retour à la carte des chaînes"
+        }
+      ],
+      "titreChamps": "Contrat de chaîne",
+      "champs": [
+        [
+          "Promesse",
+          "Séquence de jeu destinée au divertissement et dotée d’un apport original perceptible : commentaire, narration, montage interprétatif ou décision de jeu expliquée. Gameplay brut sans apport n’est pas le format de référence."
+        ],
+        [
+          "Formats",
+          "YouTube reçoit la séquence complète quand l’expérience exige sa durée; les autres réseaux reçoivent des extraits verticaux qui conservent l’enjeu et l’issue. Les adaptations sont dérivées d’un master propre."
+        ],
+        [
+          "Frontières",
+          "Une démonstration pour apprendre une méthode va dans Tutoriels de jeux; une question à réponse va dans Quiz de jeux; une séquence divertissante va ici. Choisir une seule chaîne principale par pièce."
+        ],
+        [
+          "Droits et musique",
+          "Avant chaque production, vérifier les règles commerciales du titulaire du jeu et les éléments tiers, notamment la musique intégrée. Si la permission n’est pas claire, retirer ou couper l’élément, remplacer par un jeu autorisé ou suspendre la diffusion commerciale."
+        ],
+        [
+          "Données de pièce, pas Shell",
+          "Jeu, mode, plateforme, état, mise à jour et séquence capturée sont des métadonnées propres à une pièce et ne sont pas préremplis dans cette fiche."
+        ],
+        [
+          "Mesure",
+          "Vidéo complète : durée regardée et rétention; extraits : vues engagées, achèvement, partages et abonnements attribués. Comparer séparément les formats; recette seulement si le compte et la licence sont admissibles."
+        ]
+      ],
+      "bibliographie": [
+        "YT-GAMING",
+        "YT-MONETIZATION",
+        "META-ORIGINAL",
+        "CA-COPYRIGHT",
+        "CC-LICENCES"
+      ]
+    },
+    {
+      "id": "argent",
+      "titre": "Argent",
+      "intro": "Décider combien une version peut coûter et à quelles conditions ses recettes peuvent entrer dans un calcul.",
+      "titreEnfants": "Coûts, recettes et décisions ouvertes"
+    },
+    {
+      "id": "couts",
+      "parent": "argent",
+      "titre": "Coûts",
+      "intro": "Comparer deux méthodes sur le même livrable prêt, la même devise et la même période.",
+      "copieIA": true,
+      "blocs": [
+        {
+          "titre": "Calculer le coût d’un lot",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Débours et temps",
+              "etat": "propose",
+              "texte": "Additionner dépenses directes et part imputée des outils. Ajouter le temps de préparation, de contrôle et de reprise valorisé au taux retenu pour obtenir le coût complet. Affecter les frais partagés une seule fois, avec une base d’imputation explicite."
+            },
+            {
+              "titre": "Coût par sortie prête",
+              "etat": "propose",
+              "texte": "Diviser le coût complet par le nombre de sorties qui satisfont le même contrôle. Imputer au lot les essais et reprises rejetés. Si aucune sortie n’est prête, garder le coût total et signaler que le coût unitaire reste indéterminé."
+            },
+            {
+              "titre": "Coût d’une déclinaison",
+              "etat": "propose",
+              "texte": "Quand la version principale existe, chiffrer séparément l’adaptation à un réseau, le contrôle des droits et les reprises. Comparer cet ajout à l’apport mesurable attendu sur cette version."
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "cout-reel",
+          "titre": "Relevé des coûts réels"
+        },
+        {
+          "id": "questions-argent",
+          "titre": "Enveloppe et règles d’imputation à préciser"
+        }
+      ]
+    },
+    {
+      "id": "recettes",
+      "parent": "argent",
+      "titre": "Recettes",
+      "intro": "Rattacher une recette au programme, au compte, au format, à la métrique admissible et à la période de calcul.",
+      "titreEnfants": "Mécanismes documentés",
+      "blocs": [
+        {
+          "titre": "Relevé commun",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Du mécanisme au versement",
+              "etat": "propose",
+              "texte": "Distinguer programme documenté, accès du compte, estimation de la plateforme et montant versé. Conserver devise, période, identifiant du justificatif et clé d’attribution au lot. Quand l’accès ou l’attribution manque, laisser la recette ouverte."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recettes-sondage-x",
+      "parent": "recettes",
+      "titre": "Sondage X · revenu non retenu",
+      "intro": "Décision close pour cette chaîne : un sondage X peut servir à recueillir des réponses, mais aucun revenu du programme X n’est prévu pour un flux de création automatisé.",
+      "statut": "Résolu · 0 $ prévu pour X automatisé",
+      "etat": "closed",
+      "blocs": [
+        {
+          "titre": "Décision et motif",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Automatisation exclut le programme de revenu",
+              "etat": "regle",
+              "texte": "Creator Revenue Sharing a pris fin le 7 septembre 2026 et a été remplacé par Original Content Rewards. Ce programme exige notamment un abonnement admissible, 500 000 impressions vérifiées sur 90 jours et 500 abonnés vérifiés. Il exclut les contenus créés ou publiés par automatisation. Le sondage X est conservé pour l’interaction seulement; aucun revenu X n’est prévu.",
+              "references": [
+                "X-RECETTES",
+                "X-CONDITIONS"
+              ]
+            },
+            {
+              "titre": "Sondage retenu pour l’engagement",
+              "etat": "documente",
+              "texte": "Le sondage natif accepte deux à quatre choix, commence à un jour et peut être réglé de cinq minutes à sept jours. Pour cette chaîne, garder un jour comme fenêtre standard. La preuve d’admissibilité au programme n’est pas requise puisque aucun revenu X n’est retenu.",
+              "references": [
+                "X-SONDAGES"
+              ]
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "admissibilite-sondage-x",
+          "titre": "Dossier clos · revenu X automatisé"
+        }
+      ]
+    },
+    {
+      "id": "recettes-shorts",
+      "parent": "recettes",
+      "titre": "YouTube Shorts",
+      "intro": "Suivre séparément l’accès au Programme Partenaire, l’activation du module et l’admissibilité au partage.",
+      "blocs": [
+        {
+          "titre": "Accès au partage des recettes",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Admission publicitaire au Programme Partenaire",
+              "etat": "condition",
+              "texte": "Deux voies documentées. 1 000 abonnés et 4 000 heures publiques admissibles sur douze mois, ou 1 000 abonnés et 10 millions de vues Shorts publiques admissibles sur 90 jours. Les heures du flux Shorts sont exclues du premier calcul. Vérifier l’examen du compte et le module dans Gagner.",
+              "references": [
+                "YT-YPP",
+                "YT-SHORTS-REV"
+              ]
+            },
+            {
+              "titre": "Seuil mensuel annoncé pour février 2027",
+              "etat": "annonce",
+              "texte": "À compter du 1er février 2027, YouTube annonce 10 millions de vues Shorts qualifiées sur 90 jours pour le partage mensuel du fonds commun Shorts et de YouTube Premium. La fenêtre se termine le 15 du mois précédent. Revalider cette règle avant un scénario de recettes.",
+              "references": [
+                "YT-SHORTS-REV"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "questions-argent",
+      "parent": "argent",
+      "titre": "Questions ouvertes",
+      "intro": "Les décisions du compte commun qui changent le budget d’un essai ou l’attribution d’un versement.",
+      "blocs": [
+        {
+          "titre": "Données à établir",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Enveloppe et imputation",
+              "etat": "ouvert",
+              "texte": "Fixer le plafond avant essai, la devise, le traitement du temps et la part des abonnements affectée aux lots. Indiquer la donnée à utiliser lorsque la dépense ou le temps réel diffère de l’estimation."
+            },
+            {
+              "titre": "Bénéficiaire et justificatif",
+              "etat": "ouvert",
+              "texte": "Pour chaque programme retenu, établir quel compte est titulaire, qui reçoit le versement et quel relevé permet de le rattacher au format et au lot."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "admissibilite-sondage-x",
+      "parent": "questions-argent",
+      "repere": "Q-FORM-X-POLL",
+      "titre": "Revenus d’un sondage X automatisé",
+      "intro": "Recherche close : le sondage X reste un format d’interaction, sans recette du programme X dans la chaîne automatisée.",
+      "statut": "Résolu · revenu non retenu pour X automatisé",
+      "etat": "closed",
+      "titreChamps": "Décision retenue",
+      "champs": [
+        [
+          "Conclusion",
+          "Conclusion : garder le sondage X comme interaction facultative, mais inscrire 0 $ de revenu Original Content Rewards pour un contenu créé ou publié par automatisation."
+        ],
+        [
+          "Motif",
+          "Original Content Rewards exclut le contenu créé ou publié par automatisation; Creator Revenue Sharing est terminé depuis le 7 septembre 2026."
+        ]
+      ],
+      "liens": [
+        {
+          "id": "recettes-sondage-x",
+          "titre": "Voir la règle de revenu X"
+        }
+      ],
+      "sources": [
+        {
+          "titre": "X · Original Content Rewards",
+          "url": "https://help.x.com/en/using-x/original-content-rewards",
+          "date": "12 novembre 2026"
+        },
+        {
+          "titre": "X · sondages natifs",
+          "url": "https://help.x.com/en/using-x/x-polls",
+          "date": "12 novembre 2026"
+        }
+      ]
+    },
+    {
+      "id": "cout-reel",
+      "parent": "questions-argent",
+      "repere": "AR-03",
+      "titre": "Coût réel par sortie",
+      "intro": "Consigner les données observées d’un lot pour que deux formules puissent être comparées.",
+      "statut": "À renseigner",
+      "etat": "open",
+      "titreChamps": "Champs du relevé",
+      "champs": [
+        [
+          "Périmètre",
+          "Lot, méthode, période et définition de la sortie prête."
+        ],
+        [
+          "Données",
+          "Minutes de préparation, contrôle et reprises · Dépenses et devise · Part des outils et clé d’imputation · Sorties prêtes."
+        ],
+        [
+          "État",
+          "Hypothèse ou valeur observée, avec pièce ou relevé associé. Marquer « à relever » si la valeur manque."
+        ]
+      ],
+      "liens": [
+        {
+          "id": "couts",
+          "titre": "Calculer le coût complet"
+        }
+      ]
+    },
+    {
+      "id": "preparation",
+      "titre": "Préparation",
+      "intro": "Cadrer une première branche, choisir le public et les formats envisageables, puis réunir les preuves nécessaires à un essai.",
+      "titreEnfants": "Décisions de préparation"
+    },
+    {
+      "id": "premier-chantier",
+      "parent": "preparation",
+      "repere": "AR-01",
+      "titre": "Premier chantier",
+      "intro": "Choisir une formule que le studio peut comparer à coût connu et sur un résultat vérifiable.",
+      "statut": "À préciser",
+      "etat": "open",
+      "copieIA": true,
+      "blocs": [
+        {
+          "titre": "Avant de retenir une formule",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Cadrer la sortie et son contrôle",
+              "etat": "propose",
+              "texte": "Pour chaque formule candidate, indiquer la chaîne, la promesse au public, la version, ce qui rend la sortie prête et l’observation qui permet de décider. Relever ensuite les droits, la mesure disponible et le coût que l’essai peut engager."
+            },
+            {
+              "titre": "Comparaison déjà cadrée",
+              "etat": "projet",
+              "texte": "Le classeur a préparé une comparaison entre un quiz natif en post et une capsule Shorts. Le coût complet par sortie prête et la participation se relèvent séparément. La branche à lancer, l’accès du compte et l’enveloppe restent à établir."
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "titre": "Classeur de référence · Formules",
+          "url": "https://chatgpt.com/library?file_id=libfile_3647671b78208191a03b2425cf2a5bb9&account_id=personal",
+          "date": "Comparatif Quiz Posts et Short"
+        }
+      ],
+      "liens": [
+        {
+          "id": "public-et-langue",
+          "titre": "Définir le public et la langue"
+        },
+        {
+          "id": "dossier-de-lot",
+          "titre": "Préparer et vérifier le dossier"
+        },
+        {
+          "id": "questions-argent",
+          "titre": "Établir les données financières"
+        },
+        {
+          "id": "quiz-pilote",
+          "titre": "Quiz · protocole du premier essai"
+        }
+      ]
+    },
+    {
+      "id": "public-et-langue",
+      "parent": "preparation",
+      "repere": "AR-09",
+      "titre": "Public et langue",
+      "intro": "Décrire le public par ce qu’il cherche, comprend ou choisit, dans une langue et un contexte d’usage précis.",
+      "statut": "À préciser",
+      "etat": "open",
+      "copieIA": true,
+      "blocs": [
+        {
+          "titre": "Justifier le public retenu",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Usage et signal",
+              "etat": "propose",
+              "texte": "Décrire ce qui amène la personne vers la chaîne et ce qu’elle doit pouvoir faire après. Pour une méthode, relever la recherche qui exprime le besoin. Pour un quiz ou un récit interactif, vérifier que le public peut comprendre les options et répondre dans la langue choisie."
+            },
+            {
+              "titre": "Déclinaison de langue",
+              "etat": "propose",
+              "texte": "Vérifier les unités, termes locaux, noms propres et libellés d’interface qui changent le sens. Conserver le pays visé et celui du compte séparément. Relever une nouvelle preuve si l’adaptation change la question, la réponse ou la consigne."
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "tutoriels-audience",
+          "titre": "Tutoriels · comparer la demande et les recettes par public"
+        }
+      ]
+    },
+    {
+      "id": "formats-interactifs",
+      "parent": "preparation",
+      "titre": "Formats de vote et de quiz",
+      "intro": "Matrice commune d’outils natifs. Le format éditorial reste dans sa chaîne; cette page ne transforme pas un sondage en chaîne de contenu et ne contient aucune question de quiz.",
+      "copieIA": true,
+      "blocs": [
+        {
+          "titre": "YouTube · interactions retenues",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Community Quiz",
+              "etat": "regle",
+              "texte": "YouTube Community Quiz : jusqu’à quatre réponses et résultat; fenêtre de mesure par défaut à 24 h, même si le post reste actif. Utiliser pour une réponse vérifiable.",
+              "references": [
+                "YT-POSTS"
+              ]
+            },
+            {
+              "titre": "Shorts Quiz",
+              "etat": "regle",
+              "texte": "Autocollant Quiz Shorts : deux choix; vérifier qu’il est interactif pour le statut de publication/audience de la pièce. Sur une pièce destinée aux enfants ou non publique, ne pas compter sur le vote natif; repli selon l’objectif et les fonctions permises.",
+              "references": [
+                "YT-STICKERS",
+                "YT-ENFANTS"
+              ]
+            },
+            {
+              "titre": "Sondage d’opinion",
+              "etat": "regle",
+              "texte": "Un sondage sans réponse correcte reste une préférence ou un avis, relève de la chaîne Poll, et n’est pas un quiz de connaissances. Mesurer votes et impressions séparément à 24 h.",
+              "references": [
+                "YT-POSTS"
+              ]
+            }
+          ]
+        },
+        {
+          "titre": "Autres réseaux et replis",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Instagram, TikTok et Facebook",
+              "etat": "regle",
+              "texte": "TikTok, Instagram Reels et Facebook Reels : adaptation vidéo et commentaire en repli. Instagram Story Poll peut être ajouté à une chaîne Quiz ou Poll si l’outil apparaît au compte; fixer une fenêtre identique. Chaque réseau conserve ses propres réponses et mesures.",
+              "references": [
+                "IG-STORY-POLL",
+                "IG-STATS",
+                "TT-REWARDS",
+                "FB-REWARDS"
+              ]
+            },
+            {
+              "titre": "X",
+              "etat": "regle",
+              "texte": "X Poll est une option de participation à deux à quatre choix, réglée à un jour. Garder les votes séparés des vues et commentaires. Le revenu du programme Original Content Rewards est fixé à 0 $ pour les contenus automatisés, car le programme exclut les contenus créés ou publiés par automatisation.",
+              "references": [
+                "X-SONDAGES",
+                "X-RECETTES"
+              ]
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "quiz-jeux",
+          "titre": "Application à la chaîne Quiz de jeux vidéo"
+        },
+        {
+          "id": "quiz-versions",
+          "titre": "Quiz · formats réseau"
+        },
+        {
+          "id": "recettes-sondage-x",
+          "titre": "Décision de lancement pour X"
+        }
+      ]
+    },
+    {
+      "id": "plus-tard",
+      "parent": "preparation",
+      "titre": "À reprendre plus tard",
+      "intro": "Équipe. Chaque personne rédige sa fiche quand le projet est prêt à aborder la répartition du travail."
+    },
+    {
+      "id": "automatisation",
+      "titre": "Automatisation",
+      "intro": "Rendre un lot reprenable par une autre instance, avec une sortie attendue, les droits qui s’y appliquent et des preuves de contrôle.",
+      "titreEnfants": "Dossier, outils et contrôles"
+    },
+    {
+      "id": "dossier-de-lot",
+      "parent": "automatisation",
+      "titre": "Dossier de lot",
+      "intro": "Transmettre une version de travail à une autre personne ou à une IA, avec les entrées et les contrôles qu’elle doit pouvoir retrouver.",
+      "repere": "DOS-01",
+      "controleLot": true,
+      "copieIA": true,
+      "blocs": [
+        {
+          "titre": "Constituer le dossier",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Cible et résultat",
+              "etat": "propose",
+              "texte": "Relever l’identifiant du lot et de la fiche Chaînes, la révision du Shell, le réseau, le format, la langue, le public et le résultat attendu. L’identifiant de fiche se trouve après le dièse dans son adresse. Garder les réglages précis dans la fiche de version."
+            },
+            {
+              "titre": "Contrôles à transmettre",
+              "etat": "propose",
+              "texte": "Pour chaque contrôle, préciser le résultat qui compte comme conforme et la pièce à examiner. Après vérification, conserver l’observation et l’état. Utiliser une liste de sources vide pour un dossier sans actif de référence. Une autre instance doit pouvoir retrouver le contexte et les pièces à partir du dossier seul."
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "provenance-actifs",
+          "titre": "Préparer les références d’actifs"
+        },
+        {
+          "id": "controles-et-reprise",
+          "titre": "Vérifier l’export et la reprise"
+        },
+        {
+          "id": "controle-dossier",
+          "titre": "Atelier · résultats de l’essai du gabarit"
+        }
+      ]
+    },
+    {
+      "id": "provenance-actifs",
+      "parent": "automatisation",
+      "titre": "Sources et droits des actifs",
+      "intro": "Pour chaque actif réutilisé, relier la version exacte à la permission qui couvre l’usage prévu.",
+      "repere": "DOS-03",
+      "copieIA": true,
+      "blocs": [
+        {
+          "titre": "Consigner la preuve",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Fiche d’actif",
+              "etat": "propose",
+              "texte": "Garder identifiant, auteur ou titulaire, origine, emplacement et version. Relier la preuve d’autorisation à la destination et aux usages concernés, dont adaptation, diffusion commerciale, crédit ou territoire selon le cas. Si la portée manque, indiquer la pièce à obtenir.",
+              "references": [
+                "CC-LICENCES"
+              ]
+            },
+            {
+              "titre": "Apport du studio",
+              "etat": "propose",
+              "texte": "Indiquer à quel endroit le lot apporte une démonstration, une interprétation, une narration ou un traitement original. Conserver ce relevé pour les plateformes qui examinent le contenu réutilisé, y compris lorsqu’une permission a été obtenue.",
+              "references": [
+                "YT-ORIGINAL"
+              ]
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "animations-histoires",
+          "titre": "Application aux récits et fragments"
+        },
+        {
+          "id": "song",
+          "titre": "Application aux éléments musicaux"
+        },
+        {
+          "id": "gaming",
+          "titre": "Application aux captures de jeu"
+        }
+      ],
+      "sources": [
+        {
+          "titre": "Classeur de référence · traçabilité d’un actif",
+          "url": "https://chatgpt.com/library?file_id=libfile_3647671b78208191a03b2425cf2a5bb9&account_id=personal",
+          "date": "DOS-03 · essai à blanc ES-03"
+        }
+      ]
+    },
+    {
+      "id": "outils",
+      "parent": "automatisation",
+      "titre": "Outils",
+      "intro": "Choisir un outil sur sa capacité à produire la même sortie vérifiable et à rendre la reprise possible.",
+      "copieIA": true,
+      "blocs": [
+        {
+          "titre": "Comparer sur un lot à blanc",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Même entrée et même sortie",
+              "etat": "propose",
+              "texte": "Pour chaque outil, fixer la version, le modèle ou le plan utilisé et les contraintes identiques du test. Relever le format d’export, la limite qui change le résultat et les étapes à reprendre ailleurs si l’outil s’arrête."
+            },
+            {
+              "titre": "Coût et preuve de comparaison",
+              "etat": "propose",
+              "texte": "Relever l’unité facturée, le coût des reprises, le temps total et le résultat du même contrôle. Vérifier si les fichiers, paramètres et autorisations peuvent être retrouvés sans ouvrir le projet dans l’outil initial."
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "couts",
+          "titre": "Argent · imputer les dépenses et le temps"
+        },
+        {
+          "id": "controles-et-reprise",
+          "titre": "Conserver les paramètres et les pièces de reprise"
+        }
+      ]
+    },
+    {
+      "id": "controles-et-reprise",
+      "parent": "automatisation",
+      "titre": "Contrôles et reprise",
+      "intro": "Préparer les contrôles de sortie et reprendre un lot à partir de la dernière étape dont le résultat est vérifiable.",
+      "repere": "DOS-12",
+      "copieIA": true,
+      "blocs": [
+        {
+          "titre": "Contrôler une sortie",
+          "ouvert": true,
+          "points": [
+            {
+              "titre": "Fichier et rendu perçu",
+              "etat": "propose",
+              "texte": "Fixer les dimensions, pistes, codec ou durée selon la destination. Utiliser ffprobe pour les caractéristiques mesurables. Examiner ensuite le passage critique sur l’appareil visé pour la compréhension, le raccord ou l’intelligibilité. Rattacher la preuve à la version contrôlée.",
+              "references": [
+                "FFPROBE"
+              ]
+            },
+            {
+              "titre": "Écart et nouveau contrôle",
+              "etat": "propose",
+              "texte": "Documenter l’écart et l’étape qui peut le corriger. Refaire le contrôle qui a échoué ainsi que ceux qui dépendent de la pièce modifiée."
+            }
+          ]
+        },
+        {
+          "titre": "Reprendre après une interruption",
+          "ouvert": false,
+          "points": [
+            {
+              "titre": "Clé de reprise",
+              "etat": "propose",
+              "texte": "Utiliser zone, lot, révision, étape et destination pour retrouver le résultat et son reçu. Si la sortie correspond, compléter le journal. Si elle diffère, conserver les deux repères et instruire le conflit. Pour un envoi dont l’état est incertain, vérifier le reçu ou l’état à destination avant de relancer."
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "controle-export",
+          "titre": "Atelier · essai de contrôle technique"
+        },
+        {
+          "id": "reprise-lot",
+          "titre": "Atelier · essai de reprise locale"
+        },
+        {
+          "id": "dossier-de-lot",
+          "titre": "Rattacher chaque preuve au dossier"
+        }
+      ]
+    },
+    {
+      "id": "atelier",
+      "titre": "Atelier",
+      "intro": "Chaque proposition et chaque essai conserve son lien avec la fiche à laquelle il sert.",
+      "titreEnfants": "Registres de travail"
+    },
+    {
+      "id": "idees",
+      "parent": "atelier",
+      "titre": "Idées",
+      "intro": "Propositions de travail rattachées à une chaîne ou à un domaine.",
+      "titreEnfants": "Propositions"
+    },
+    {
+      "id": "le-casier-17",
+      "parent": "idees",
+      "repere": "I-H01-01",
+      "titre": "Le casier 17",
+      "intro": "Proposition existante pour éprouver le choix du public et la continuité entre deux épisodes.",
+      "statut": "Proposition",
+      "liens": [
+        {
+          "id": "histoires-interactives",
+          "titre": "Shell de la chaîne"
+        }
+      ]
+    },
+    {
+      "id": "essais",
+      "parent": "atelier",
+      "titre": "Essais",
+      "intro": "Résultats observés des essais, avec leur périmètre et la décision qu’ils éclairent.",
+      "titreEnfants": "Essais documentés"
+    },
+    {
+      "id": "cloture-vote",
+      "parent": "essais",
+      "repere": "ES-04",
+      "titre": "Clôture et décision de vote",
+      "intro": "L’essai à blanc a distingué trois états : vote ouvert, égalité à la clôture et option gagnante unique.",
+      "statut": "Vérifié à blanc",
+      "titreChamps": "Résultat et portée",
+      "champs": [
+        [
+          "Observé",
+          "Le vote ouvert est resté à compléter. L’égalité sans règle est restée à décider. L’option gagnante unique a été reconnue à partir du relevé fictif."
+        ],
+        [
+          "Suite",
+          "Fixer le compte, le vote qui fait foi, l’heure et la règle de départage avant un essai de la chaîne."
+        ]
+      ],
+      "liens": [
+        {
+          "id": "histoires-interactives",
+          "titre": "Shell de la chaîne"
+        },
+        {
+          "id": "formats-interactifs",
+          "titre": "Contraintes des formats de vote"
+        }
+      ],
+      "sources": [
+        {
+          "titre": "Classeur de référence · Essais",
+          "url": "https://chatgpt.com/library?file_id=libfile_3647671b78208191a03b2425cf2a5bb9&account_id=personal",
+          "date": "ES-04 · DOS-07"
+        }
+      ]
+    },
+    {
+      "id": "controle-export",
+      "parent": "essais",
+      "repere": "ES-06",
+      "titre": "Contrôle technique d’un export",
+      "intro": "Le contrôle local a reconnu l’export vertical attendu et signalé les écarts de dimensions et de piste audio.",
+      "statut": "Vérifié à blanc",
+      "titreChamps": "Résultat et portée",
+      "champs": [
+        [
+          "Observé",
+          "Sur trois fichiers artificiels, le 720 × 1280 H.264 à 30 images/s avec AAC a satisfait le cas prévu. Le 1280 × 720 et le fichier sans piste audio ont été signalés."
+        ],
+        [
+          "Portée",
+          "Contrôle local avec ffprobe 7.1.5. Les dimensions et pistes étaient fixées pour cet essai."
+        ]
+      ],
+      "liens": [
+        {
+          "id": "controles-et-reprise",
+          "titre": "Préparer les contrôles d’une destination"
+        }
+      ],
+      "sources": [
+        {
+          "titre": "Classeur de référence · Essais",
+          "url": "https://chatgpt.com/library?file_id=libfile_3647671b78208191a03b2425cf2a5bb9&account_id=personal",
+          "date": "ES-06"
+        }
+      ]
+    },
+    {
+      "id": "reprise-lot",
+      "parent": "essais",
+      "titre": "Reprise locale d’un lot",
+      "intro": "L’essai à blanc a retrouvé une sortie déjà écrite après l’arrêt et a reconnu un conflit de version.",
+      "repere": "ES-02",
+      "statut": "Vérifié à blanc",
+      "titreChamps": "Résultat et portée",
+      "champs": [
+        [
+          "Observé",
+          "Après un arrêt simulé avant la journalisation, la relance a retrouvé une sortie et un reçu pour v1. Une sortie différente a déclenché un conflit. La v2 a été rangée à part."
+        ],
+        [
+          "Portée",
+          "Cas local isolé. L’état d’un envoi et la reprise en environnement partagé se vérifient dans leur environnement."
+        ]
+      ],
+      "liens": [
+        {
+          "id": "controles-et-reprise",
+          "titre": "Méthode de reprise par clé"
+        }
+      ],
+      "sources": [
+        {
+          "titre": "Classeur de référence · Essais",
+          "url": "https://chatgpt.com/library?file_id=libfile_3647671b78208191a03b2425cf2a5bb9&account_id=personal",
+          "date": "ES-02 · DOS-12"
+        }
+      ]
+    },
+    {
+      "id": "controle-dossier",
+      "parent": "essais",
+      "titre": "Contrôle du dossier de lot",
+      "intro": "Essai à blanc du contrôle local du dossier. Le résultat indique quelles entrées sont renseignées, quelles pièces restent à relever et quels écarts ont été signalés.",
+      "repere": "ES-07",
+      "statut": "Vérifié à blanc",
+      "titreChamps": "Résultat et portée",
+      "champs": [
+        [
+          "Observé",
+          "Treize cas à blanc ont donné les résultats attendus. Les cas couvraient notamment une fiche inconnue, une autorisation déclarée sans pièce, une conformité sans observation, un contrôle en écart et des identifiants en double."
+        ],
+        [
+          "Portée",
+          "Contrôle de structure et de cohérence des déclarations. Les pièces, les droits et le résultat se vérifient séparément sur le lot."
+        ]
+      ],
+      "liens": [
+        {
+          "id": "dossier-de-lot",
+          "titre": "Ouvrir le gabarit et le contrôle local"
+        }
+      ]
+    },
+    {
+      "id": "controle-quiz",
+      "parent": "essais",
+      "titre": "Essai des formats de quiz",
+      "intro": "Vérification à blanc du comparateur à partir de paramètres de format.",
+      "repere": "ES-08",
+      "statut": "Vérifié à blanc",
+      "titreChamps": "Résultat et portée",
+      "champs": [
+        [
+          "Résultat",
+          "Dix-neuf cas ont donné les résultats attendus. Ils couvrent le nombre de choix, la longueur prévue, le mode de révélation, la collecte et les entrées invalides."
+        ],
+        [
+          "Portée",
+          "La fiche teste les règles publiées du comparateur. La chaîne ne dépend d’aucun contrôle de compte pour préparer une pièce : YouTube est le format natif de référence; les réseaux secondaires utilisent le repli commentaire et les recettes restent à 0 $ tant qu’un programme n’est pas activé."
+        ]
+      ],
+      "liens": [
+        {
+          "id": "quiz-versions",
+          "titre": "Formats et replis retenus"
+        }
+      ]
+    },
+    {
+      "id": "preuve-tutoriel",
+      "parent": "essais",
+      "titre": "Preuve d’un résultat reproductible",
+      "intro": "L’essai à blanc a vérifié que la grille signale une observation manquante, même lorsqu’un résultat attendu est renseigné.",
+      "repere": "ES-05",
+      "statut": "Vérifié à blanc",
+      "titreChamps": "Résultat et portée",
+      "champs": [
+        [
+          "Périmètre",
+          "Fiche fictive avec précondition, version, étape et résultat attendu. Le champ d’observation a été laissé vide puis renseigné."
+        ],
+        [
+          "Suite",
+          "La grille peut servir à la relecture. La reproduction d’un vrai tutoriel se mesurera lors d’un essai de la catégorie."
+        ]
+      ],
+      "liens": [
+        {
+          "id": "tutoriels-cadre",
+          "titre": "Cadre commun des tutoriels"
+        },
+        {
+          "id": "tutoriels-validation",
+          "titre": "Vérifications de la catégorie"
+        }
+      ],
+      "sources": [
+        {
+          "titre": "Classeur de référence · Essais",
+          "url": "https://chatgpt.com/library?file_id=libfile_3647671b78208191a03b2425cf2a5bb9&account_id=personal",
+          "date": "ES-05 · Dossier DOS-08"
+        }
+      ]
+    },
+    {
+      "id": "a-classer",
+      "parent": "atelier",
+      "titre": "À classer",
+      "intro": "Pense-bêtes et notes dont la destination reste à décider.",
+      "liens": [
+        {
+          "id": "tips",
+          "titre": "Critère de passage entre Tips et Tutoriels"
+        }
+      ]
+    }
+  ]
+}
