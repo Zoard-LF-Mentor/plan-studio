@@ -1,5 +1,5 @@
 {
-  "titre": "Plan du studio",
+  "titre": "Production Evolve",
   "phase": "Préparation",
   "accroche": "Une chaîne par ligne de contenu, déclinable sur plusieurs réseaux.",
   "promesse": "Chaque fiche donne la direction à prendre, les contrôles et la preuve attendue. Il reste à apporter les idées et à créer.",
@@ -3419,6 +3419,43 @@
       ]
     },
     {
+      "id": "nom-et-logo",
+      "parent": "preparation",
+      "titre": "Nom et logo",
+      "statut": "Retenu · Production Evolve, V doré",
+      "etat": "closed",
+      "intro": "Décision close : le studio s’appelle Production Evolve et son logo est le V doré.",
+      "direction": "Décision close. Employer le nom Production Evolve et le jeu de logos du V doré là où le studio se présente.",
+      "blocs": [
+        {
+          "titre": "Décision",
+          "points": [
+            {
+              "titre": "Nom du studio",
+              "etat": "projet",
+              "texte": "Production Evolve est le nom officiel du studio. Le titre « Plan du studio » ne s’emploie plus."
+            },
+            {
+              "titre": "Logo officiel",
+              "etat": "projet",
+              "texte": "Le V doré, accompagné du mot Evolve. Le jeu compte cinq fichiers : l’icône d’application, la version horizontale sur fond transparent et sur fond noir, la version empilée sur fond transparent et sur fond noir. Il a été déposé le 14 novembre 2026 dans le salon name-brand-logo du serveur Discord Studio Evolve."
+            },
+            {
+              "titre": "Autres pistes",
+              "etat": "projet",
+              "texte": "Le mot Evolve en relief doré, le signe VE et l’icône en forme de puce, déposés le même jour dans le même salon, restent des explorations."
+            }
+          ]
+        }
+      ],
+      "liens": [
+        {
+          "id": "bibliotheque-actifs",
+          "titre": "Atelier · les autres actifs du studio"
+        }
+      ]
+    },
+    {
       "id": "plus-tard",
       "parent": "preparation",
       "titre": "À reprendre plus tard",
@@ -3430,7 +3467,7 @@
       "titre": "Automatisation",
       "intro": "Rendre un lot reprenable par une autre instance, avec une sortie attendue, les droits qui s’y appliquent et des preuves de contrôle.",
       "direction": "Constituer d’abord le dossier de lot, y rattacher les droits de chaque actif, choisir les outils sur un lot à blanc, puis préparer les contrôles de sortie et la reprise.",
-      "titreEnfants": "Dossier, outils et contrôles"
+      "titreEnfants": "Dossier, outils, contrôles et bot Discord"
     },
     {
       "id": "dossier-de-lot",
@@ -3611,6 +3648,52 @@
         {
           "id": "dossier-de-lot",
           "titre": "Rattacher chaque preuve au dossier"
+        }
+      ]
+    },
+    {
+      "id": "bot-discord",
+      "parent": "automatisation",
+      "titre": "Bot Discord",
+      "statut": "Annonce à brancher",
+      "intro": "Relier les échanges de l’équipe sur Discord au plan : relever les messages à retenir, les reporter dans les fiches, puis annoncer ce qui est publié.",
+      "direction": "Brancher l’annonce des publications sur un salon Discord. Décider ensuite de l’hébergement du bot.",
+      "pret": "Un message signalé au bot sur Discord se retrouve dans une fiche publiée, et la publication est annoncée sur Discord.",
+      "blocs": [
+        {
+          "titre": "Ce qui existe",
+          "points": [
+            {
+              "titre": "Programme du bot",
+              "etat": "projet",
+              "texte": "Le bot appartient au studio et s’appelle Evolve. Il est installé sur le serveur Studio Evolve et répond à la commande ping. Son programme est dans le dossier bot-discord, à côté de celui du plan. Son jeton reste hors de tout dépôt. Il n’est en ligne que lorsque son programme tourne."
+            }
+          ]
+        },
+        {
+          "titre": "Circuit proposé",
+          "points": [
+            {
+              "titre": "Relever un message",
+              "etat": "propose",
+              "texte": "Sur Discord, répondre au message à retenir en mentionnant le bot. Le bot enregistre le message visé avec son auteur, sa date, son lien, ses pièces jointes et la note écrite après la mention, puis le marque d’une coche. Sans coche ni réponse du bot, le message n’est pas relevé. Éprouvé le 17 novembre 2026 sur cinq messages."
+            },
+            {
+              "titre": "Reporter dans le plan",
+              "etat": "propose",
+              "texte": "Reprendre les messages relevés dans les fiches concernées, relire, puis publier. Un message reporté sort de la liste d’attente. Une note jointe au relevé dit ce qui a été décidé : sans elle, une image seule ne suffit pas. Première reprise le 17 novembre 2026 : le nom, le logo et la bibliothèque d’actifs."
+            },
+            {
+              "titre": "Annoncer une publication",
+              "etat": "propose",
+              "texte": "Relier le dépôt du plan à un salon Discord par un webhook : chaque publication y est annoncée, sans programme à écrire."
+            },
+            {
+              "titre": "Hébergement",
+              "etat": "ouvert",
+              "texte": "Tant que le bot tourne sur un ordinateur du studio, il ne relève rien quand cet ordinateur est éteint. Décider d’un hébergement permanent après quelques semaines d’usage."
+            }
+          ]
         }
       ]
     },
@@ -3842,6 +3925,35 @@
           "titre": "Classeur de référence · Essais",
           "url": "https://chatgpt.com/library?file_id=libfile_3647671b78208191a03b2425cf2a5bb9&account_id=personal",
           "date": "ES-05 · Dossier DOS-08"
+        }
+      ]
+    },
+    {
+      "id": "bibliotheque-actifs",
+      "parent": "atelier",
+      "titre": "Bibliothèque d’actifs",
+      "statut": "En constitution",
+      "intro": "Le studio constitue d’avance une réserve d’actifs variés. Aucun n’a encore de destination fixée.",
+      "direction": "Consigner ici chaque série d’actifs créée d’avance, avec sa date et l’endroit où la retrouver. Avant d’en employer un dans un lot, relier l’actif à ses droits.",
+      "titreChamps": "Séries en réserve",
+      "champs": [
+        [
+          "Images de profil Steam · 16 novembre 2026",
+          "Deux planches de six concepts chacune. Première planche : Polar Hex, 櫻, Umbra, Vacant, Karasu, Abyssal. Seconde planche : Polar Hex, The Binding, Crimson Bloom, Event Horizon, The Omen, Gray Pledge. Déposées dans le salon name-brand-logo du serveur Discord Studio Evolve. Usage à décider."
+        ]
+      ],
+      "liens": [
+        {
+          "id": "provenance-actifs",
+          "titre": "Avant usage · relier l’actif à ses droits"
+        },
+        {
+          "id": "nom-et-logo",
+          "titre": "Le jeu de logos du studio"
+        },
+        {
+          "id": "bot-discord",
+          "titre": "Faire entrer une série depuis Discord"
         }
       ]
     },

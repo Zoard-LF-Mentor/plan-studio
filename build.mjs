@@ -221,7 +221,7 @@ function layout({ title, description, main, navKey = "", head = "" }) {
 <title>${esc(title)}</title>
 <link rel="preload" href="assets/instrument-serif.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="studio.css">
-<link rel="icon" href="assets/studio-icon.png" type="image/png">
+<link rel="icon" href="assets/evolve-icon.png" type="image/png">
 <link rel="alternate" type="text/markdown" href="plan.md" title="Plan complet en Markdown">
 ${head}<script src="tools.js" defer></script>
 <script src="search-index.js" defer></script>
@@ -232,7 +232,7 @@ ${SPRITE}
 <a class="skip" href="#contenu">Aller au contenu</a>
 <header class="top">
 <div class="shell top-in">
-<a class="brand" href="index.html" aria-label="Studio de contenu, accueil"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>Studio de contenu</span></a>
+<a class="brand" href="index.html" aria-label="${esc(plan.titre)}, accueil"><img class="brand-mark" src="assets/evolve-icon.png" width="34" height="34" alt=""><span>${esc(plan.titre)}</span></a>
 <nav class="top-nav" aria-label="Navigation principale">${NAV.map(([key, url, label]) =>
     `<a href="${url}"${key === navKey ? ' aria-current="page"' : ""}>${label}</a>`).join("")}</nav>
 <button class="search-btn" type="button" id="open-search" aria-label="Rechercher dans le plan" aria-keyshortcuts="Control+K Meta+K" hidden>${icon("search")}<span>Rechercher</span><kbd>Ctrl K</kbd></button>
@@ -463,7 +463,7 @@ function fichePage(f) {
   }
 
   const consigne = f.consigneIA ?? plan.consigne_defaut;
-  const brief = `Fiche du ${plan.titre} · phase ${plan.phase}. Plan complet : %BASE%plan.md\n\nConsigne. ${consigne}\n\n`
+  const brief = `Fiche de ${plan.titre} · phase ${plan.phase}. Plan complet : %BASE%plan.md\n\nConsigne. ${consigne}\n\n`
     + ficheMd(f, { h: "#", base: "%BASE%" }) + "\n";
   parts.push(`<section class="block handoff"><h2>Transmettre</h2>
 <p>Copie la fiche complète avec sa consigne, pour une IA ou pour une autre personne.</p>
@@ -592,7 +592,7 @@ function homePage() {
 <img src="assets/architecture-du-plan.webp" width="1536" height="1024" alt="" fetchpriority="high">
 <div class="hero-in">
 ${phaseFiche ? `<a class="phase" href="${href(phaseFiche.id)}"><i aria-hidden="true"></i> Phase · ${esc(plan.phase)}</a>` : `<span class="phase"><i aria-hidden="true"></i> Phase · ${esc(plan.phase)}</span>`}
-<h1 id="home-title">Plan du <em>studio</em></h1>
+<h1 id="home-title">Production <em>Evolve</em></h1>
 <p class="accroche">${esc(plan.accroche)}</p>
 <p class="promesse">${esc(plan.promesse)}</p>
 <p class="cta"><a class="btn primary" href="#parcours">Commencer ici ${icon("arrow")}</a><a class="btn ghost" href="#carte">Voir la carte</a></p>

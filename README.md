@@ -1,6 +1,6 @@
-# Plan du studio
+# Production Evolve
 
-Site officiel de préparation du studio de contenu. Chaque fiche est une page HTML lisible sans JavaScript, par une personne ou par une IA.
+Site officiel de préparation du studio de contenu Production Evolve. Chaque fiche est une page HTML lisible sans JavaScript, par une personne ou par une IA.
 
 **Site en ligne : https://zoard-lf-mentor.github.io/plan-studio/**
 
