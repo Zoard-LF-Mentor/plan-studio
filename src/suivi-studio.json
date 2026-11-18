@@ -1,0 +1,27 @@
+{
+  "objectif": "Préparer un premier essai Quiz sur YouTube que l’équipe pourra mesurer et comparer, sans fixer de mise en ligne avant les contrôles.",
+  "avancement": "Le format du quiz de jeux vidéo, les deux variantes YouTube et le protocole de mesure sont déjà définis. Le choix du premier lot et l’enveloppe restent à confirmer.",
+  "actions": [
+    {
+      "fiche": "premier-chantier",
+      "titre": "Choisir le premier lot à éprouver",
+      "action": "Ouvre le dossier de lot et compare le Community Quiz et le Quiz Shorts côte à côte : promesse, version à préparer, condition de sortie et mesure de décision. Note la formule que l’équipe veut préparer en premier.",
+      "pret": "Un lot identifié, une formule retenue et une observation qui permettra de décider après l’essai.",
+      "sources": ["dossier-de-lot", "quiz-versions", "quiz-jeux"]
+    },
+    {
+      "fiche": "questions-argent",
+      "titre": "Fixer le plafond avant l’essai",
+      "action": "Inscris le plafond et la devise dans le dossier. Décide comment imputer les minutes de travail et la part des abonnements; note les chiffres manquants « à relever ».",
+      "pret": "Un plafond écrit et une règle d’imputation que les deux formats utilisent de la même façon.",
+      "sources": ["cout-reel", "dossier-de-lot"]
+    },
+    {
+      "fiche": "quiz-pilote",
+      "titre": "Préparer le relevé du pilote",
+      "action": "Crée deux vues de mesure : votes et impressions à 24 h pour les Community Quiz; vues engagées et rétention à 7 jours pour les Shorts. Garde des colonnes distinctes pour le coût complet et les interactions.",
+      "pret": "Une grille prête pour au moins 28 jours et 10 pièces comparables par format. Aucune date de diffusion n’est présumée.",
+      "sources": ["quiz-versions", "cout-reel"]
+    }
+  ]
+}

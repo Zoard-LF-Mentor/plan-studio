@@ -8,6 +8,7 @@ const src = (...parts) => path.join(root, "src", ...parts);
 const out = (...parts) => path.join(root, "dist", ...parts);
 
 const plan = JSON.parse(await readFile(src("plan.json"), "utf8"));
+const suiviStudio = JSON.parse(await readFile(src("suivi-studio.json"), "utf8"));
 const genereLe = new Intl.DateTimeFormat("fr-CA", { dateStyle: "long" }).format(new Date());
 await import("./src/tools.js");
 const T = globalThis.StudioTools;
@@ -17,6 +18,11 @@ const { esc, norm } = T;
 
 const fiches = plan.fiches;
 const byId = new Map(fiches.map((f) => [f.id, f]));
+for (const action of suiviStudio.actions) {
+  for (const id of [action.fiche, ...action.sources]) {
+    if (!byId.has(id)) throw new Error(`Suivi du studio : fiche inconnue « ${id} »`);
+  }
+}
 const childMap = new Map();
 for (const f of fiches) {
   const key = f.parent ?? "";
@@ -595,8 +601,19 @@ ${phaseFiche ? `<a class="phase" href="${href(phaseFiche.id)}"><i aria-hidden="t
 <h1 id="home-title">Production <em>Evolve</em></h1>
 <p class="accroche">${esc(plan.accroche)}</p>
 <p class="promesse">${esc(plan.promesse)}</p>
-<p class="cta"><a class="btn primary" href="#parcours">Commencer ici ${icon("arrow")}</a><a class="btn ghost" href="#carte">Voir la carte</a></p>
+<p class="cta"><a class="btn primary" href="#suivi-studio">Voir les prochaines tâches ${icon("arrow")}</a><a class="btn ghost" href="#carte">Voir la carte</a></p>
 </div>
+</section>
+
+<section class="band" id="suivi-studio" aria-labelledby="t-suivi-studio" tabindex="-1">
+<header class="band-head"><h2 id="t-suivi-studio">Objectif, avancement et prochaines tâches</h2><p>${esc(suiviStudio.objectif)}</p></header>
+<p><strong>Déjà établi :</strong> ${esc(suiviStudio.avancement)}</p>
+<ol class="rows numbered">${suiviStudio.actions.map((action) => `<li>
+<h3><a href="${href(action.fiche)}">${esc(action.titre)}</a></h3>
+<p>${esc(action.action)}</p><p><strong>Résultat attendu :</strong> ${esc(action.pret)}</p>
+<p>Fiches de travail : ${action.sources.map((id) => `<a href="${href(id)}">${esc(byId.get(id).titre)}</a>`).join(" · ")}</p>
+</li>`).join("")}</ol>
+<p><strong>Rendez-vous et sorties :</strong> les dates confirmées par l’équipe se suivent dans <strong>#suivi-production-evolve</strong> avec <code>/studio tableau</code>. Le plan ne fixe pas de date de sortie pour le pilote.</p>
 </section>
 
 <section class="band" id="parcours" aria-labelledby="t-parcours" tabindex="-1">
@@ -712,6 +729,7 @@ await mkdir(out(), { recursive: true });
 await cp(src("assets"), out("assets"), { recursive: true });
 for (const file of ["studio.css", "studio.js", "tools.js"]) await cp(src(file), out(file));
 await cp(src("plan.json"), out("plan.json"));
+await cp(src("suivi-studio.json"), out("suivi-studio.json"));
 
 const pages = new Map([
   ["index.html", homePage()],
@@ -725,4 +743,4 @@ const pages = new Map([
 ]);
 for (const [file, content] of pages) await writeFile(out(file), content, "utf8");
 
-console.log(`Site généré : ${fiches.length} fiches, ${pages.size + 1} fichiers dans dist/`);
+console.log(`Site généré : ${fiches.length} fiches, ${pages.size + 2} fichiers dans dist/`);
