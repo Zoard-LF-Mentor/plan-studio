@@ -12,6 +12,14 @@ Site officiel de préparation du studio de contenu Production Evolve. Chaque fic
 
 Si la modification contient une erreur (un lien vers une fiche qui n’existe pas, une fiche sans direction), le site en ligne ne change pas. L’onglet « Actions » du dépôt indique alors ce qui est à corriger.
 
+## Annoncer les publications sur Discord
+
+1. Dans Discord, ouvrir les paramètres du salon choisi, puis **Intégrations → Webhooks**. Créer un webhook nommé « Production Evolve » et copier son URL.
+2. Dans GitHub, ouvrir **Settings → Secrets and variables → Actions**. Créer le secret `DISCORD_PUBLICATION_WEBHOOK` et y coller l’URL. Ne jamais coller cette URL dans le code ou dans un message.
+3. La prochaine publication réussie sur GitHub Pages annonce le lien dans le salon. Pour essayer sans modifier le plan, lancer manuellement **Publier le site** depuis l’onglet **Actions**.
+
+Sans secret, le site se publie sans annonce. Si Discord refuse l’annonce, GitHub Actions affiche un avertissement sans annuler la publication. Le bot local n’a pas besoin de tourner.
+
 ## Organisation
 
 - `src/plan.json` : tout le contenu du site. C’est le seul fichier à modifier pour changer le plan.

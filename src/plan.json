@@ -3686,7 +3686,7 @@
             {
               "titre": "Annoncer une publication",
               "etat": "propose",
-              "texte": "Relier le dépôt du plan à un salon Discord par un webhook : chaque publication y est annoncée, sans programme à écrire."
+              "texte": "Après un déploiement réussi sur GitHub Pages, GitHub Actions peut annoncer le lien dans le salon Discord choisi, même si le bot local est éteint. Il reste à créer le webhook du salon, enregistrer son adresse comme secret GitHub et vérifier la première annonce."
             },
             {
               "titre": "Hébergement",

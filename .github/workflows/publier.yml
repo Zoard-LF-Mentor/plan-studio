@@ -36,3 +36,9 @@ jobs:
           path: dist
       - id: publication
         uses: actions/deploy-pages@v5
+      - name: Annoncer la publication sur Discord
+        continue-on-error: true
+        env:
+          DISCORD_PUBLICATION_WEBHOOK: ${{ secrets.DISCORD_PUBLICATION_WEBHOOK }}
+          SITE_PUBLIE: ${{ steps.publication.outputs.page_url }}
+        run: node annoncer-publication.mjs
